@@ -1,0 +1,110 @@
+[
+	{
+		"Name": "Metre",
+		"Actual": 1,
+		"id": "m",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "3.5_foot",
+		"Actual": 1.067,
+		"id": "35f",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "Glasgow",
+		"Actual": 1.219,
+		"id": "gla",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "Standard",
+		"Actual": 1.435,
+		"id": "std",
+		"CostMultiplier": 1
+	},
+	{
+		"Name": "Rubber",
+		"Actual": 1.435,
+		"id": "rub",
+		"CostMultiplier": 0.5
+	},
+	{
+		"Name": "Toronto",
+		"Actual": 1.495,
+		"id": "tor",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "Soviet",
+		"Actual": 1.52,
+		"id": "sov",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "PA Trolley",
+		"Actual": 1.588,
+		"id": "pat",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "1.6_Metre",
+		"Actual": 1.6,
+		"id": "ire",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "Iberian",
+		"Actual": 1.668,
+		"id": "ib",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "San_Francisco",
+		"Actual": 1.676,
+		"id": "sf",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "APMs",
+		"Actual": 2,
+		"id": "aps",
+		"CostMultiplier": 1.1
+	},
+	{
+		"Name": "",
+		"Actual": 0,
+		"id": "",
+		"CostMultiplier": 0
+	},
+	{
+		"Name": "",
+		"Actual": 0,
+		"id": "",
+		"CostMultiplier": 0
+	},
+	{
+		"Name": "",
+		"Actual": 0,
+		"id": "",
+		"CostMultiplier": 0
+	},
+	{
+		"Name": "",
+		"Actual": 0,
+		"id": "",
+		"CostMultiplier": 0
+	},
+	{
+		"Name": "",
+		"Actual": 0,
+		"id": "",
+		"CostMultiplier": 0
+	},
+	{
+		"Name": "",
+		"Actual": 0,
+		"id": "",
+		"CostMultiplier": 0
+	}
+]

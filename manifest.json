@@ -1,10 +1,21 @@
 {
-  "id": "com.author.modname",
-  "name": "My Mod",
-  "description": "Description of your mod",
-  "version": "1.0.0",
-  "author": {
-    "name": "Your Name"
-  },
-  "main": "index.js"
+    "id": "danield1909.danTrains",
+    "name": "Dan Trains",
+    "description": "This is a train pack mod by DanielD1909 which adds a bunch of real trains via addTrains. Currently adds 300 trains.",
+    "version": "1.0",
+    "author": {
+		"name": "DanielD1909",
+		"url": "https://github.com/DanielD1909"
+	},
+    "main": "index.js",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DanielD1909/danTrains"
+	},
+	"keywords": [
+		"subway-builder",
+		"mod"
+	],
+	"subwayBuilderVersion": ">=1.1.0"
 }

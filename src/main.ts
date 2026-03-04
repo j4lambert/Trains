@@ -5,12 +5,11 @@
 
 import { ExamplePanel } from './ui/ExamplePanel';
 
-const MOD_ID = 'com.author.modname';
+const MOD_ID = 'danield1909.danTrains';
 const MOD_VERSION = '1.0.0';
-const TAG = '[MyMod]';
+const TAG = '[subway-builder]';
 
 const api = window.SubwayBuilderAPI;
-
 if (!api) {
   console.error(`${TAG} SubwayBuilderAPI not found!`);
 } else {
@@ -48,4 +47,6 @@ if (!api) {
       api.ui.showNotification(`${MOD_ID} failed to load. Check console for details.`, 'error');
     }
   });
+
+
 }

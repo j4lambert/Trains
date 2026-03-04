@@ -1,0 +1,92 @@
+[
+	{
+		"Name": "Classical DC",
+		"Actual": "DC 600V",
+		"id": "cdc"
+	},
+	{
+		"Name": "Modern DC",
+		"Actual": "DC 750V",
+		"id": "mdc"
+	},
+	{
+		"Name": "Ukranian Voltage",
+		"Actual": "DC 825V",
+		"id": "ukr"
+	},
+	{
+		"Name": "BART DC",
+		"Actual": "DC 1.0kV",
+		"id": "bart"
+	},
+	{
+		"Name": "Spanish Voltage",
+		"Actual": "DC 1.2kV",
+		"id": "sv"
+	},
+	{
+		"Name": "High Voltage DC",
+		"Actual": "DC 1.5kV",
+		"id": "hv"
+	},
+	{
+		"Name": "Soviet UHV DC",
+		"Actual": "DC 3kV",
+		"id": "uhv"
+	},
+	{
+		"Name": "Central European AC",
+		"Actual": "AC 15-16.6",
+		"id": "ceac"
+	},
+	{
+		"Name": "International AC",
+		"Actual": "AC 25-Grid",
+		"id": "iac"
+	},
+	{
+		"Name": "Pennsylvania AC",
+		"Actual": "AC 12-25",
+		"id": "pac"
+	},
+	{
+		"Name": "New Haven Line AC",
+		"Actual": "AC 12.5-60",
+		"id": "nhac"
+	},
+	{
+		"Name": "None",
+		"Actual": "Diesel",
+		"id": "non"
+	},
+	{
+		"Name": "APM 600V AC",
+		"Actual": "AC .6-50",
+		"id": "apm"
+	},
+	{
+		"Name": "",
+		"Actual": "",
+		"id": ""
+	},
+	{
+		"Name": "",
+		"Actual": "",
+		"id": ""
+	},
+	{
+		"Name": "",
+		"Actual": "",
+		"id": ""
+	},
+	{
+		"Name": "",
+		"Actual": "",
+		"id": ""
+	},
+	{
+		"Name": "",
+		"Actual": "",
+		"id": ""
+	}
+]

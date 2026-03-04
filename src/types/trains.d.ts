@@ -44,6 +44,13 @@ export interface TrainTypeStats {
   carOperationalCostPerHour: number;
   /** Cost for a scissors crossover */
   scissorsCrossoverCost: number;
+  trackClearance: number;
+  maxLateralAcceleration: number;
+  minTurnRadius: number;
+  minStationTurnRadius: number;
+  maxSlopePercentage: number;
+  lengthList: number[];
+  consistList: number[];
 }
 
 // =============================================================================

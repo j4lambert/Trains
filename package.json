@@ -26,5 +26,10 @@
     "typescript": "^5.9.3",
     "vite": "npm:rolldown-vite@latest",
     "vite-plugin-static-copy": "^3.0.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "papaparse": "^5.5.3",
+    "pnpm": "^10.30.3"
   }
 }

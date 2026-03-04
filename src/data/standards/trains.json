@@ -1,0 +1,182 @@
+[
+	{
+		"Name": "Metro",
+		"maxSpeedLocalStation": 12,
+		"train_CostPerHour": 500,
+		"car_CostPerHour": 50,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 35,
+		"maxLateralAcceleration": 1,
+		"maxSlopePercentage": 5.5
+	},
+	{
+		"Name": "Rubber Metro",
+		"maxSpeedLocalStation": 12,
+		"train_CostPerHour": 600,
+		"car_CostPerHour": 60,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 35,
+		"maxLateralAcceleration": 1.5,
+		"maxSlopePercentage": 12
+	},
+	{
+		"Name": "Commuter",
+		"maxSpeedLocalStation": 14,
+		"train_CostPerHour": 600,
+		"car_CostPerHour": 60,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 75,
+		"maxLateralAcceleration": 0.8,
+		"maxSlopePercentage": 2
+	},
+	{
+		"Name": "Diesel Commuter",
+		"maxSpeedLocalStation": 14,
+		"train_CostPerHour": 800,
+		"car_CostPerHour": 80,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 75,
+		"maxLateralAcceleration": 0.75,
+		"maxSlopePercentage": 1
+	},
+	{
+		"Name": "LRT",
+		"maxSpeedLocalStation": 5.7,
+		"train_CostPerHour": 200,
+		"car_CostPerHour": 20,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 30,
+		"maxLateralAcceleration": 1.2,
+		"maxSlopePercentage": 8
+	},
+	{
+		"Name": "Diesel LRT",
+		"maxSpeedLocalStation": 5.7,
+		"train_CostPerHour": 300,
+		"car_CostPerHour": 30,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 40,
+		"maxLateralAcceleration": 0.8,
+		"maxSlopePercentage": 6
+	},
+	{
+		"Name": "Rubber LRT",
+		"maxSpeedLocalStation": 5.7,
+		"train_CostPerHour": 250,
+		"car_CostPerHour": 25,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 30,
+		"maxLateralAcceleration": 1.5,
+		"maxSlopePercentage": 13
+	},
+	{
+		"Name": "People Mover",
+		"maxSpeedLocalStation": 4,
+		"train_CostPerHour": 300,
+		"car_CostPerHour": 30,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 30,
+		"maxLateralAcceleration": 1,
+		"maxSlopePercentage": 6
+	},
+	{
+		"Name": "Dual-Mode Commuter",
+		"maxSpeedLocalStation": 14,
+		"train_CostPerHour": 650,
+		"car_CostPerHour": 65,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 75,
+		"maxLateralAcceleration": 0.8,
+		"maxSlopePercentage": 1.5
+	},
+	{
+		"Name": "Hydrogen Commuter",
+		"maxSpeedLocalStation": 14,
+		"train_CostPerHour": 850,
+		"car_CostPerHour": 85,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 75,
+		"maxLateralAcceleration": 0.75,
+		"maxSlopePercentage": 1.5
+	},
+	{
+		"Name": "S-Bahn",
+		"maxSpeedLocalStation": 12,
+		"train_CostPerHour": 550,
+		"car_CostPerHour": 55,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 45,
+		"maxLateralAcceleration": 1.2,
+		"maxSlopePercentage": 4
+	},
+	{
+		"Name": "",
+		"maxSpeedLocalStation": 0,
+		"train_CostPerHour": 0,
+		"car_CostPerHour": 0,
+		"canCrossRoads": false,
+		"stopTimeSeconds": 0,
+		"maxLateralAcceleration": 0,
+		"maxSlopePercentage": 0
+	},
+	{
+		"Name": "",
+		"maxSpeedLocalStation": 0,
+		"train_CostPerHour": 0,
+		"car_CostPerHour": 0,
+		"canCrossRoads": false,
+		"stopTimeSeconds": 0,
+		"maxLateralAcceleration": 0,
+		"maxSlopePercentage": 0
+	},
+	{
+		"Name": "",
+		"maxSpeedLocalStation": 0,
+		"train_CostPerHour": 0,
+		"car_CostPerHour": 0,
+		"canCrossRoads": false,
+		"stopTimeSeconds": 0,
+		"maxLateralAcceleration": 0,
+		"maxSlopePercentage": 0
+	},
+	{
+		"Name": "",
+		"maxSpeedLocalStation": 0,
+		"train_CostPerHour": 0,
+		"car_CostPerHour": 0,
+		"canCrossRoads": false,
+		"stopTimeSeconds": 0,
+		"maxLateralAcceleration": 0,
+		"maxSlopePercentage": 0
+	},
+	{
+		"Name": "",
+		"maxSpeedLocalStation": 0,
+		"train_CostPerHour": 0,
+		"car_CostPerHour": 0,
+		"canCrossRoads": false,
+		"stopTimeSeconds": 0,
+		"maxLateralAcceleration": 0,
+		"maxSlopePercentage": 0
+	},
+	{
+		"Name": "",
+		"maxSpeedLocalStation": 0,
+		"train_CostPerHour": 0,
+		"car_CostPerHour": 0,
+		"canCrossRoads": false,
+		"stopTimeSeconds": 0,
+		"maxLateralAcceleration": 0,
+		"maxSlopePercentage": 0
+	},
+	{
+		"Name": "",
+		"maxSpeedLocalStation": 0,
+		"train_CostPerHour": 0,
+		"car_CostPerHour": 0,
+		"canCrossRoads": false,
+		"stopTimeSeconds": 0,
+		"maxLateralAcceleration": 0,
+		"maxSlopePercentage": 0
+	}
+]
