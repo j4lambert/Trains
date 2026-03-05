@@ -29,55 +29,46 @@ export function getTrainList() {
     return Trains
 }
 
-export function getElectrificationList() {
-    var out:string[] = [];
-    Electrifications.forEach(n => {
-        out.push(n.Name);
-    })
-    return out
-}
-export function getTrackGaugeList() {
-    var out:string[] = [];
-    TrackGauges.forEach(n => {
-        out.push(n.Name);
-    })
-    return out
-}
-export function getLoadingGaugeList() {
-    var out:string[] = [];
-    LoadingGauges.forEach(n => {
-        out.push(n.Name);
-    })
-    return out
-}
-export function getPowerSupplyList() {
-    var out:string[] = [];
-    PowerSupplys.forEach(n => {
-        out.push(n.Name);
-    })
-    return out
-}
-export function getTrainTypeList() {
-    var out:string[] = [];
-    TrainTypes.forEach(n => {
-        out.push(n.Name);
-    })
-    return out
-}
-export function getAutomationLevelList() {
-    var out:string[] = [];
-    AutomationLevels.forEach(n => {
-        out.push(n.Name);
-    })
-    return out
+export function getTrain(name:string) {
+    const hold = Trains.find(t => t.name === name);
+    if (typeof hold == "object") {
+        return Trains.find(t => t.name === name)
+    } else {
+        throw "Something went horribly wrong";
+    }
 }
 
+const aliasTable = {
+    elect: Electrifications,
+    track: TrackGauges,
+    load: LoadingGauges,
+    power: PowerSupplys,
+    type: TrainTypes,
+    auto: AutomationLevels
+}
+
+export function getOne(name:string,t:keyof typeof aliasTable) {
+    const hold = aliasTable[t];
+    return hold.find(h => h.Name === name);
+}
+
+export function getAll(names:string[],o:string[]) {
+    const order = o as (keyof typeof aliasTable)[];
+    var out:(TrackGauge|LoadingGauge|Electrification|PowerSupply|TrainType|AutomationLevel)[] = [];
+    names.forEach(n => {
+        const ind:number = names.indexOf(n);
+        const hold = getOne(n,order[ind])
+        if (hold != undefined) {out.push(hold)}
+        else {throw "Something went horribly wrong";}
+    })
+    return out
+}
 export function compatibleConsists(len:number,t:Train) {
-    var outputList:number[] = [];
+    var output:number[] = [];
     t.minStationList.forEach((n:number) => {
         if (n<len) {
-            outputList.push(n);
+            output.push(n);
         }
     })
-    return outputList
+    return output
 }

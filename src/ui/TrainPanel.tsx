@@ -8,6 +8,8 @@
 import { useState, useEffect } from 'react';
 import * as p from '../processing/process.jsx';
 import type * as c from "../processing/processes.d.ts";
+import type * as o from "../processing/register.tsx";
+import * as reg from "../processing/register";
 
 import trains from "../data/trains.json"
 import Electrifications from "../data/standards/electric.json"
@@ -39,6 +41,12 @@ function filterItems(la:string[],lb:string[],items:any[]) {
   return itemsout
 }
 
+var tosave:  Record<string, o.trainStorageData> = {};
+
+export function getSaveData() {
+  return tosave;
+}
+
 export function TrainPanel() {
   console.log(Object.getOwnPropertyNames(api.ui));
   console.log(api.ui.getResolvedTheme());
@@ -48,8 +56,11 @@ export function TrainPanel() {
   const [width, setWidth] = useState("");
   const [power, setPower] = useState("");
   const [type, setType] = useState("");
+  const [min, setMin] = useState(-2); const [max, setMax] = useState(-1);
   const [train, setTrain] = useState("");
   var eitems:any[] = es; var titems:any[] = tgs; var witems:any[] = lgs; var pitems:any[] = pss; var gitems:any[] = tts; var aitems:any[] = als;
+  const litems:number[] = Array.from({length:Math.floor((400-40)/20)+1},(_,i) => 40 + i*20).concat(620);
+  var minopts:number[] = litems; var maxopts:number[] = litems; 
   //eitems.push(""); titems.push(""); witems.push(""); gitems.push(""); pitems.push(""); aitems.push("");
   var [tlist,setTList]:[c.Train[],any] = useState(Trains);
   var all = {
@@ -58,11 +69,12 @@ export function TrainPanel() {
     TrackGauge: gauge,
     LoadingGauge: width,
     trainType: type,
-    Automation: auto
+    Automation: auto,
+    minStationLength: min
   }
   // aitems = p.getAutomationLevelList();
   
-  function trainFilterCond(key:keyof c.Train,value:string,t:c.Train) {
+  function trainFilterCond(key:keyof c.Train,value:string|number,t:c.Train) {
     if (value=="") {
       return true
     } else if (typeof t[key] === "string") {
@@ -79,18 +91,38 @@ export function TrainPanel() {
     console.log("Before: "+String(tlist.length))+String(all["Electrification"]);
     setTList(Trains);
     console.log("Reset: "+String(tlist.length)+String(all["Electrification"]));
-    const hold:[string,string][] = Object.entries(all);
+    const hold:[string,string|number][] = Object.entries(all);
     const out = Trains.filter(t => {
       return hold.every(([key,value]) => {
         return trainFilterCond(key as keyof c.Train,value,t)
       })
     })
     setTList(out);
+    lengthFix();
     console.log("After: "+String(tlist.length)+String(all["Electrification"]));
-  },[elect, auto, gauge, width, power, type])
+  },[elect, auto, gauge, width, power, type,min,max])
 
   function handleSelect(value:string,f:Function) {
     f(value);
+  }
+
+  function lengthFix() {
+    if (min <= max) {} else if (min < 0 || max < 0) {} 
+    else {
+      const hold:number = litems.indexOf(min);
+      setMax(litems[hold+1])
+    }
+  }
+
+  function handleLength(value:number,s:string) {
+    const hold:number = litems.indexOf(value);
+    if (s=="min") {
+      setMin(value);
+      maxopts = litems.slice(hold);
+    } else {
+      setMax(value);
+      minopts = litems.slice(0,hold+1)
+    }
   }
 
   function trainSelect(value:string) {
@@ -124,7 +156,7 @@ export function TrainPanel() {
     return (
       <select
         name="Train Picker"
-        className="text-sm text-muted-foreground"
+        className="text-sm text-muted-foreground bg-black"
         onChange={v => trainSelect(v.target.value)}
         value={train}
       >
@@ -146,6 +178,8 @@ export function TrainPanel() {
     setType("");
     setTrain("");
     setTList(Trains);
+    setMin(-2);
+    setMax(-1);
   }
 
   function resetButton() {
@@ -153,6 +187,41 @@ export function TrainPanel() {
       <Button
         variant="secondary"
         onClick={() => resetAll()}
+      >
+        Reset All
+      </Button>
+    )
+  }
+
+  function registrationProccess() {
+    const ordernames = {
+      order:["elect" , "track" , "load" , "power" , "type" , "auto"],
+      names:[elect , gauge , width , power , type , auto]
+    }
+    const values:(c.TrackGauge|c.LoadingGauge|c.Electrification|c.PowerSupply|c.TrainType|c.AutomationLevel)[] = p.getAll(ordernames.names,ordernames.order);
+    const tr = p.getTrain(train) as c.Train;
+    const calcin:o.statsCalcInput = {
+      y: values[4] as c.TrainType,
+      a: values[5] as c.AutomationLevel,
+      v: values[0] as c.Electrification,
+      e: values[3] as c.PowerSupply,
+      t: values[1] as c.TrackGauge,
+      l: values[2] as c.LoadingGauge,
+      train: tr,
+      min: min,
+      max: max
+    }
+    const calcout:o.statsCalcOutput = reg.statsCalc(calcin);
+    const hold:any = reg.compileTrain(tr,calcout,max,tr.name);
+    reg.registerTrain(hold.config);
+    tosave[hold.storageData.id] = hold.storageData;
+  }
+
+  function registerButton() {
+    return(
+      <Button
+        variant="secondary"
+        onClick={() => registrationProccess()}
       >
         Reset All
       </Button>
@@ -178,6 +247,9 @@ export function TrainPanel() {
       </p>
       <p className="text-sm text-muted-foreground">
         {resetButton()}
+      </p>
+      <p className="text-sm text-muted-foreground">
+        {registerButton()}
       </p>
     </div>
   );

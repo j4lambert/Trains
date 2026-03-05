@@ -49,8 +49,6 @@ export interface TrainTypeStats {
   minTurnRadius: number;
   minStationTurnRadius: number;
   maxSlopePercentage: number;
-  lengthList: number[];
-  consistList: number[];
 }
 
 // =============================================================================
@@ -87,6 +85,7 @@ export interface TrainTypeConfig {
   elevationMultipliers?: Partial<Record<ElevationType, number>>;
   /** Whether this train type can cross roads at grade level */
   allowAtGradeRoadCrossing?: boolean;
+  Manufacturer?: string[];
 }
 
 /** Alias for TrainTypeConfig. */
