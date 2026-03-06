@@ -154,6 +154,7 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
         allowAtGradeRoadCrossing: sco.canCrossRoads,
     }
     const store:trainStorageData = {
+        id: idin,
         config: config,
         Manufacturer: train.Manufacturer,
         City: train.Cities2,

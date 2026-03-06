@@ -212,7 +212,7 @@ export function TrainPanel() {
       max: max
     }
     const calcout:o.statsCalcOutput = reg.statsCalc(calcin);
-    const hold:any = reg.compileTrain(tr,calcout,max,tr.name);
+    const hold:any = reg.compileTrain(tr,calcout,max,String(Date.now()));
     reg.registerTrain(hold.config);
     tosave[hold.storageData.id] = hold.storageData;
   }
