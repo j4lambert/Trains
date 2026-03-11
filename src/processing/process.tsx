@@ -25,6 +25,7 @@ export function getTrainList() {
         t.lengthList = lengthList;
         t.consistList = consistList;
         t.minStationList = minStationList;
+        t.maxStationList = minStationList;
     })
     return Trains
 }
@@ -52,21 +53,18 @@ export function getOne(name:string,t:keyof typeof aliasTable) {
     return hold.find(h => h.Name === name);
 }
 
-export function getAll(names:string[],o:string[]) {
-    const order = o as (keyof typeof aliasTable)[];
-    var out:(TrackGauge|LoadingGauge|Electrification|PowerSupply|TrainType|AutomationLevel)[] = [];
-    names.forEach(n => {
-        const ind:number = names.indexOf(n);
-        const hold = getOne(n,order[ind])
-        if (hold != undefined) {out.push(hold)}
-        else {throw "Something went horribly wrong";}
-    })
-    return out
+export function getAll(names:string[],o:(keyof typeof aliasTable)[]) {
+    return names.map((n, i) => {
+        const hold = getOne(n, o[i]);
+        if (!hold) throw new Error("Something went horribly wrong");
+        return hold;
+    });
 }
 export function compatibleConsists(len:number,t:Train) {
     var output:number[] = [];
-    t.minStationList.forEach((n:number) => {
-        if (n<len) {
+    t.consistList.forEach((n:number,i:number) => {
+        const hold:any[] = t.minStationList;
+        if (hold[i]<=len) {
             output.push(n);
         }
     })

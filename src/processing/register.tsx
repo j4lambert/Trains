@@ -1,4 +1,5 @@
 import type * as c from "../processing/processes.d.ts";
+import * as p from "../processing/process";
 import type * as t from "../types/trains";
 import type { ElevationType } from '../types/core';
 const api = window.SubwayBuilderAPI;
@@ -77,12 +78,13 @@ export function statsCalc(i:statsCalcInput) {
     const stopTimeSeconds:number = Number((i.y.stopTimeSeconds*i.a.stopTimeSeconds).toFixed(2));
     const maxLateralAcceleration:number = Number((i.y.maxLateralAcceleration*i.a.maxLateralAcceleration).toFixed(2));
     const minCars:number = i.train.consistList[0];
-    const maxCars:number = i.train.consistList[i.train.lengthList.indexOf(i.min)];
+    const hold:number[] = p.compatibleConsists(i.min,i.train);
+    const maxCars:number = hold[hold.length-1];
     var name:string = i.v.Actual+" ("+i.a.Name+" | "+i.e.id.toUpperCase()+" | "+i.l.id.toUpperCase()+")";
     if (i.t.id != "std") {
         name = i.t.Name + " " + name
     }
-    const id:string = i.t.id+"_"+i.v.id+"-"+i.a.Name[-1]+"_"+i.e.id+"_"+i.l.id;
+    const id:string = i.t.id+"_"+i.v.id+"-"+i.a.Name[i.a.Name.length-1]+"_"+i.e.id+"_"+i.l.id;
     const o:statsCalcOutput = { 
         baseTrackCost: baseTrackCost,
         baseStationCost: baseStationCost,
@@ -132,7 +134,7 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
     }
     const tracktypecompat:string = "\""+idin+"\"";
     var desc = " Current Track Setup: "+sco.name;
-    if (train.desc[-1] != ".") {
+    if (train.desc[train.desc.length-1] != ".") {
         desc = train.desc + "." + desc;
     } else {
         desc = train.desc + desc
@@ -170,7 +172,7 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
 
 export function registerTrain(inp:t.TrainTypeConfig) {
     api.trains.registerTrainType(inp);
-    console.log("Train Registered!");
+    console.log("Train Registered! ID: "+inp.id);
     const check:boolean = (api.trains.getTrainType(inp.id) != undefined);
     return check;
 }

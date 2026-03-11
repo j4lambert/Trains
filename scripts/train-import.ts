@@ -15,10 +15,12 @@ const s:string[] = ["desc","color","name","trainType","trainType2","mainTrackID"
 const sl:string[] = ["Automation","Electrification","Voltage","TrackGauge","LoadingGauge","CompatibleTracks","ExtraTracks","Manufacturer","Cities","Nation","Cont","Cities2","Nation2"]
 const nl:string[] = ["Multipliers"];
 const b:string[] = ["canCrossRoads","Old","Generic","Ready"];
-const emptyList:string[] = ["lengthList","consistList","minStationList"]
+const emptyList:string[] = ["lengthList","consistList","minStationList","maxStationList"]
+const increment = 20;
 
 var TrainList:Train[] = [];
 parsed.data.forEach((r:any) => {
+  var lengthList:number[] = []; var consistList:number[] = []; var minStationList:number[] = [];
   Object.keys(r).forEach((key) => {
     if (s.includes(key)) {
       r[key] = String(r[key])
@@ -32,15 +34,28 @@ parsed.data.forEach((r:any) => {
       });
       r[key] = holdn;
     } else if (b.includes(key)){
-        r[key] = Boolean(r[key]);
+        r[key] = ((r[key])==="TRUE");
     } else {
         r[key] = Number(r[key]);
     }
   })
-  emptyList.forEach((key) => {
-    r[key] = [];
+
+  if (r["minCars"] != r["maxCars"]) {
+    for (let step = Number(r["minCars"]); step <= Number(r["maxCars"]); step += Number(r["carsPerCarSet"])) {
+        lengthList.push(Math.round(step * Number(r["carLength"])));
+        consistList.push(step);
+        minStationList.push(Math.round((step * Number(r["carLength"]) + 3) / increment) * increment);
+    }
+    r["lengthList"] = lengthList;
+    r["consistList"] = consistList;
+    r["minStationList"] = minStationList;
+    r["maxStationList"] = minStationList;
+  } else {
+    r["lengthList"] = [Math.round(Number(r["minCars"]) * Number(r["carLength"]))];
+    r["consistList"] = [Number(r["minCars"])];
+    r["minStationList"] = [Math.round((Number(r["minCars"]) * Number(r["carLength"]) + 3) / increment) * increment];
+    r["maxStationList"] = [Math.round((Number(r["minCars"]) * Number(r["carLength"]) + 3) / increment) * increment];
   }
-);
   const train:Train = r as Train;
   TrainList.push(train);
 });
@@ -104,7 +119,7 @@ parsed2.data.forEach((ro:any) => {
       maxSpeedLocalStation: Number(ro.maxSpeedLocalStation_V),
       train_CostPerHour: Number(ro.train_CostPerHour_W),
       car_CostPerHour: Number(ro.car_CostPerHour_X),
-      canCrossRoads: Boolean(ro.canCrossRoads_Y),
+      canCrossRoads: (ro.canCrossRoads_Y==="TRUE"),
       stopTimeSeconds: Number(ro.stopTimeSeconds_Z),
       maxLateralAcceleration: Number(ro.maxLateralAcceleration_AA),
       maxSlopePercentage: Number(ro.maxSlopePercentage_AB)
@@ -116,7 +131,7 @@ parsed2.data.forEach((ro:any) => {
       maxSpeedLocalStation: Number(ro.maxSpeedLocalStation_AD),
       train_CostPerHour: Number(ro.train_CostPerHour_AE),
       car_CostPerHour: Number(ro.car_CostPerHour_AF),
-      canCrossRoads: Boolean(ro.canCrossRoads_AG),
+      canCrossRoads: (ro.canCrossRoads_AG==="TRUE"),
       stopTimeSeconds: Number(ro.stopTimeSeconds_AH),
       maxLateralAcceleration: Number(ro.maxLateralAcceleration_AI),
       baseTrackCost: Number(ro.baseTrackCost),
