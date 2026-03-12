@@ -209,19 +209,19 @@ export function TrainDictPanel() {
             <option key={"None"} value={""}>
                 {""}
             </option>
-            <option key={"a"} value={"a"}>
+            <option key={">"} value={"a"}>
                 {">"}
             </option>
-            <option key={"b"} value={"b"}>
+            <option key={">="} value={"b"}>
                 {">="}
             </option>
-            <option key={"c"} value={"c"}>
+            <option key={"<"} value={"c"}>
                 {"<"}
             </option>
-            <option key={"d"} value={"d"}>
+            <option key={"<="} value={"d"}>
                 {"<="}
             </option>
-            <option key={"e"} value={"e"}>
+            <option key={"="} value={"e"}>
                 {"="}
             </option>
             </select>
