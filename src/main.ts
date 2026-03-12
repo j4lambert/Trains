@@ -4,6 +4,7 @@
  */
 
 import { TrainPanel } from './ui/TrainPanel';
+import { TrainDictPanel } from './ui/trainDictionary';
 
 const MOD_ID = 'danield1909.danTrains';
 const MOD_VERSION = '1.0.0';
@@ -30,6 +31,13 @@ if (!api) {
         title: 'Dan Trains Registration Menu',
         icon: 'TrainTrack',
         render: TrainPanel,
+      });
+
+      api.ui.addFloatingPanel({
+        id: 'dictPanel',
+        title: 'Dan Trains Train Dictionary',
+        icon: 'BookMarked',
+        render: TrainDictPanel,
       });
 
       

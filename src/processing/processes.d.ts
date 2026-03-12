@@ -73,6 +73,7 @@ export interface Train {
     consistList:number[];
     minStationList:number[];
     maxStationList:number[];
+    Author:string[];
 }
 
 export interface Electrification {

@@ -12,7 +12,7 @@ const parsed = Papa.parse(csv, {
 })
 
 const s:string[] = ["desc","color","name","trainType","trainType2","mainTrackID","MainTrack"];
-const sl:string[] = ["Automation","Electrification","Voltage","TrackGauge","LoadingGauge","CompatibleTracks","ExtraTracks","Manufacturer","Cities","Nation","Cont","Cities2","Nation2"]
+const sl:string[] = ["Automation","Electrification","Voltage","TrackGauge","LoadingGauge","CompatibleTracks","ExtraTracks","Manufacturer","Cities","Nation","Cont","Cities2","Nation2","Author"]
 const nl:string[] = ["Multipliers"];
 const b:string[] = ["canCrossRoads","Old","Generic","Ready"];
 const emptyList:string[] = ["lengthList","consistList","minStationList","maxStationList"]

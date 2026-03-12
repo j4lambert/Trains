@@ -4,7 +4,7 @@
 		"maxSpeedLocalStation": 12,
 		"train_CostPerHour": 500,
 		"car_CostPerHour": 50,
-		"canCrossRoads": true,
+		"canCrossRoads": false,
 		"stopTimeSeconds": 35,
 		"maxLateralAcceleration": 1,
 		"maxSlopePercentage": 5.5
@@ -14,7 +14,7 @@
 		"maxSpeedLocalStation": 12,
 		"train_CostPerHour": 600,
 		"car_CostPerHour": 60,
-		"canCrossRoads": true,
+		"canCrossRoads": false,
 		"stopTimeSeconds": 35,
 		"maxLateralAcceleration": 1.5,
 		"maxSlopePercentage": 12
@@ -74,7 +74,7 @@
 		"maxSpeedLocalStation": 4,
 		"train_CostPerHour": 300,
 		"car_CostPerHour": 30,
-		"canCrossRoads": true,
+		"canCrossRoads": false,
 		"stopTimeSeconds": 30,
 		"maxLateralAcceleration": 1,
 		"maxSlopePercentage": 6
