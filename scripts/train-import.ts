@@ -115,13 +115,14 @@ parsed2.data.forEach((ro:any) => {
       Name: ro.Track_Gauge,
       Actual: Number(ro.Actual_F),
       id: ro.id_E,
-      CostMultiplier: Number(ro.Cost_Multiplier_G)
+      CostMultiplier: Number(ro.Cost_Multiplier_G),
+      Cant_Multiplier: Number(ro.Cant_Multiplier)
     })
   } 
   if (ro.Loading_Gauge != "") {
     lglist.push({
       Name: ro.Loading_Gauge,
-      id: ro.id_I,
+      id: ro.id_J,
       Average: Number(ro.Average),
       Min_No_Filler: Number(ro.Min_No_Filler),
       Max_No_Filler: Number(ro.Max_No_Filler),
@@ -133,7 +134,7 @@ parsed2.data.forEach((ro:any) => {
   if (ro.Electrification_Type != "") {
     pslist.push({
       Name: ro.Electrification_Type,
-      id: ro.id_Q,
+      id: ro.id_R,
       Cost_Multiplier: Number(ro.Cost_Multiplier_R),
       Tunnel_Cost_Multiplier: Number(ro.Tunnel_Cost_Multiplier),
       Scissors_Cost_Multiplier: Number(ro.Scissors_Cost_Multiplier)
@@ -145,10 +146,12 @@ parsed2.data.forEach((ro:any) => {
       maxSpeedLocalStation: Number(ro.maxSpeedLocalStation_V),
       train_CostPerHour: Number(ro.train_CostPerHour_W),
       car_CostPerHour: Number(ro.car_CostPerHour_X),
-      canCrossRoads: (ro.canCrossRoads_Y==="TRUE"),
+      canCrossRoads: (ro.canCrossRoads_Y === "TRUE"),
       stopTimeSeconds: Number(ro.stopTimeSeconds_Z),
       maxLateralAcceleration: Number(ro.maxLateralAcceleration_AA),
-      maxSlopePercentage: Number(ro.maxSlopePercentage_AB)
+      maxSlopePercentage: Number(ro.maxSlopePercentage_AB),
+      maxCantDeficiency: Number(ro.maxCantDeficiency),
+      maxCant: Number(ro.maxCant)
     })
   } 
   if (ro.Automation_Level != "") {
@@ -159,7 +162,6 @@ parsed2.data.forEach((ro:any) => {
       car_CostPerHour: Number(ro.car_CostPerHour_AF),
       canCrossRoads: (ro.canCrossRoads_AG==="TRUE"),
       stopTimeSeconds: Number(ro.stopTimeSeconds_AH),
-      maxLateralAcceleration: Number(ro.maxLateralAcceleration_AI),
       baseTrackCost: Number(ro.baseTrackCost),
       baseStationCost: Number(ro.baseStationCost),
       scissorsCrossoverCost: Number(ro.scissorsCrossoverCost)

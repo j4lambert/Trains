@@ -168,10 +168,11 @@ export function setTrainCache(name:string,train:c.Train,all:Omit<trainCacheTempl
     }
 }
 
-export function TrainCacheButton(name:string,train:c.Train,all:Omit<trainCacheTemplate, "Train" | "Name">,label:string) {
+export function TrainCacheButton(name:string,train:c.Train,all:Omit<trainCacheTemplate, "Train" | "Name">,label:string,disabled:boolean=false) {
     return(
     <Button
         variant="secondary"
+        disabled={disabled}
         onClick={() => setTrainCache(name,train,all)}
     >
         {label}
@@ -591,6 +592,7 @@ export function TrainDictPanel() {
         console.log(key + calcout[key as keyof typeof calcout])
         })
         const hold:o.compileTrainOut = reg.compileTrain(tr,calcout,Number(max),String(Date.now()),calcin);
+        setDesc(hold.trainConfig.description);
         setPreview(p.statsPreview(tr,hold.storageData,true));
     }
 
@@ -624,15 +626,17 @@ export function TrainDictPanel() {
         picker: any,
         state: boolean,
         setState: Function,
+        disabled: boolean = false,
         classN: string = "flex items-center flex-1 leading-loose"
     ) {
         return (
         <div className={classN}>
             {picker}
             {h(Switch,{
-            defaultValue:false,
-            checked:state,
-            onChange:() => setState((prevState:boolean) => !prevState)
+                defaultValue:false,
+                disabled:disabled,
+                checked:state,
+                onChange:() => setState((prevState:boolean) => !prevState)
             })}
         </div>
         )
@@ -688,7 +692,7 @@ export function TrainDictPanel() {
     return (
         <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(tagPicker("Tag",auts,author,setAuthor,authorBool),authorBool,setAuthorBool)}
+                {pickerWithMode(tagPicker("Tag [Broken]",auts,author,setAuthor,false),authorBool,setAuthorBool,true)}
             </div>
             <div className="flex justify-between gap-2 w-full">
                 {pickerWithMode(specPicker("Region",regs,region,setRegion,regionBool),regionBool,setRegionBool)}
@@ -709,17 +713,19 @@ export function TrainDictPanel() {
                 {pickerWithMode(specPicker("Minimum Station Length",lens,min,setMin,minBool),minBool,setMinBool)}
                 {pickerWithMode(specPicker("Maximum Station Length",lens,max,setMax,maxBool),maxBool,setMaxBool)}
             </div>
-            <div className="flex flex-wrap justify-between gap-2 w-full">
-                {
-                    (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) => 
-                        inputWithModeAndOperator(
-                            key,
-                            allNum[key][2],
-                            allNum[key][3]
+            <p.MinimizeButton label="Stat-Based Filtering">
+                <div className="flex flex-wrap justify-between gap-2 w-full">
+                    {
+                        (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) => 
+                            inputWithModeAndOperator(
+                                key,
+                                allNum[key][2],
+                                allNum[key][3]
+                            )
                         )
-                    )
-                }
-            </div>
+                    }
+                </div>
+            </p.MinimizeButton>
             <p className="">
                 {trainPicker()}
             </p>
@@ -731,14 +737,21 @@ export function TrainDictPanel() {
                     {fixButton()}
                 </p>
                 <p className="text-sm text-muted-foreground">
-                    {TrainCacheButton(train,tr,tempall,"Save and send to Registration Menu")}
+                    {TrainCacheButton(train,tr,tempall,"[Broken] Save and send to Registration Menu",true)}
                 </p>
                 <p className="text-sm text-muted-foreground">
                     {ClearTrainCacheButton("Purge Cache")}
                 </p>
             </div>
             <p>
+                <p.MinimizeButton label="Description">
+                {desc}
+                </p.MinimizeButton>
+            </p>
+            <p>
+                <p.MinimizeButton label="Train Stats">
                 {preview}
+                </p.MinimizeButton>
             </p>
         </div>
     );

@@ -553,6 +553,13 @@
 		"Region": "Southern Europe"
 	},
 	{
+		"Name": "Perth",
+		"Code": "PER",
+		"Nation": "Australia",
+		"NationCode": "AU",
+		"Region": "Oceania"
+	},
+	{
 		"Name": "Generic",
 		"Code": "Generic",
 		"Region": "Generic",

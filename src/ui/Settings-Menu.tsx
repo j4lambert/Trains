@@ -13,31 +13,36 @@ const { Card, CardHeader, CardTitle, CardContent, Button, Switch, Label } = comp
 export function settingsMenu() {
     const options:string[] = p.getAllSaveNames() || ["No Saves Found"];
     const [save,setSave] = r.useState(options[0]);
+    const [failsafe,setFailsafe] = r.useState(false);
+    function getColor() {
+        if (failsafe) {
+            return "#FF0000"
+        } else {
+            return "#AA0000"
+        }
+    }
     return (
-        h(Card, { className: 'p-4' }, [
-            h(CardHeader, { key: 'header' },
-                h(CardTitle, null, 'DanTrains Loader')
-            ),
-            h(CardContent, { key: 'content' }, [
+        //h(Card, { className: 'w-full h-full flex flex-col' }, [
+            h('div', { key: 'content', className:'flex flex-col gap-2 items-stretch min-w-full max-w-full' }, [
+                h('div', { key: 'Name', className: 'text-lg font-bold w-full' }, 'DanTrains Loader'),
                 h('div', {
                     key: 'dropdown',
-                    className: 'flex items-center gap-2 mt-2'
+                    className: 'flex flex-row items-center gap-2 mt-2 w-full'
                 }, [
-
-                    h('label', { key: 'label' }, 'Select train:'),
-
+                    h('label', { key: 'label', className: 'flex-shrink-0 w-24' }, 'Select save:'),
                     h(
                         'select',
                         {
                             key: 'select',
                             variant: 'secondary',
-                            className: 'border rounded px-2 py-1',
+                            className: 'border rounded px-2 py-1 flex-1 w-full',
                             value: save,
                             style: {
                                 backgroundColor: '#303030'
                             },
                             onChange: (e: any) => {
-                                setSave(e.target.value);
+                                setSave(e.target.value),
+                                setFailsafe(false)
                             }
                         },
                         options.map(opt =>
@@ -49,8 +54,25 @@ export function settingsMenu() {
                 h(Button, {
                     key: 'btn',
                     onClick: () => reg.registerTrainList(p.getSaveData(save))
-                }, 'Register Train')
+                }, 'Register Train'),
+                h('div',{className: 'flex flex-row items-stretch w-full'},[
+                    h(Button, {
+                        key: 'btn',
+                        style: {
+                            backgroundColor:"#FF0000"
+                        },
+                        onClick: () => setFailsafe(true)
+                    }, 'Delete Train?'),
+                    h(Button, {
+                        key: 'btn',
+                        enabled:failsafe,
+                        style: {
+                            backgroundColor:getColor()
+                        },
+                        onClick: () => p.deleteSaveData(save)
+                    }, 'Delete Train.')
+                ])
             ])
-        ])
+        //])
     )
 }

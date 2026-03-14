@@ -6,7 +6,6 @@
 		"car_CostPerHour": 2,
 		"canCrossRoads": true,
 		"stopTimeSeconds": 1.4,
-		"maxLateralAcceleration": 0.9,
 		"baseTrackCost": 0.75,
 		"baseStationCost": 0.6,
 		"scissorsCrossoverCost": 0.65
@@ -18,7 +17,6 @@
 		"car_CostPerHour": 0,
 		"canCrossRoads": true,
 		"stopTimeSeconds": 1.2,
-		"maxLateralAcceleration": 1,
 		"baseTrackCost": 1,
 		"baseStationCost": 0.85,
 		"scissorsCrossoverCost": 1
@@ -30,7 +28,6 @@
 		"car_CostPerHour": -2.5,
 		"canCrossRoads": false,
 		"stopTimeSeconds": 1,
-		"maxLateralAcceleration": 1,
 		"baseTrackCost": 1,
 		"baseStationCost": 1,
 		"scissorsCrossoverCost": 1
@@ -42,7 +39,6 @@
 		"car_CostPerHour": -5,
 		"canCrossRoads": false,
 		"stopTimeSeconds": 1,
-		"maxLateralAcceleration": 1,
 		"baseTrackCost": 1.1,
 		"baseStationCost": 1,
 		"scissorsCrossoverCost": 1.2
@@ -54,7 +50,6 @@
 		"car_CostPerHour": -10,
 		"canCrossRoads": false,
 		"stopTimeSeconds": 0.9,
-		"maxLateralAcceleration": 1.1,
 		"baseTrackCost": 1.15,
 		"baseStationCost": 1.1,
 		"scissorsCrossoverCost": 1.25

@@ -13,7 +13,7 @@ import type * as t from "./types/trains";
 
 const MOD_ID = 'danield1909.danTrains';
 const MOD_VERSION = '1.0.0';
-const TAG = '[subway-builder]';
+const TAG = '[danTrains]';
 
 const api = window.SubwayBuilderAPI;
 if (!api) {
@@ -25,16 +25,13 @@ if (!api) {
   let initialized = false;
   let saveData:Record<string, register.trainStorageData>;
 
-  api.ui.registerComponent('settings-menu', {
-    id: 'my-custom-panel',
+  api.ui.registerComponent('main-menu', {
+    id: 'danTrains-panel',
     component: () => settingsMenu()
   }); 
 
   api.hooks.onGameLoaded((saveName) => {
-    // console.log("save loaded");
-    // console.log("30");
     const hold = p.getSaveData(saveName);
-    // console.log("32");
     if (hold != undefined) {
       saveData = hold;
     }
@@ -43,21 +40,7 @@ if (!api) {
         acc[key] = saveData[key].config;
         return acc;
       }, {} as Record<string, t.TrainTypeConfig>);
-    // console.log("36");
     const alltypes = api.trains.getTrainTypes();
-    // console.log("38");
-    // console.log(Object.keys(alltypes));
-    // console.log("40");
-    // if (!saveData || saveData == undefined) return;
-    // console.log("43 "+saveData);
-    // console.log("44 "+Object.keys(saveData))
-    // const datatwo = saveData.value;
-    // if (Object.keys(datatwo).length > 0) {
-    //   Object.keys(datatwo).forEach(key => {
-    //     const hold = saveData[key as keyof typeof saveData].config;
-    //     api.trains.registerTrainType(hold);
-    //   });
-    // }
     const legacy = p.getLegacyList(alltypes,saveDataData);
     if (legacy.length>0) {
       legacy.forEach(leg => {

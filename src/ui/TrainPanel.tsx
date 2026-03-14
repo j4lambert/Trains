@@ -60,7 +60,7 @@ export function getAuthorIdByName(name: string): string | undefined {
 var tosave:  Record<string, o.trainStorageData> = {};
 
 export function getToSaveData() {
-  console.log("Communism");
+  console.log("toSave");
   console.log(tosave);
   return tosave;
 }
@@ -133,6 +133,7 @@ function getTagNameById(id: string): string | undefined {
 var boolHold:boolean = false;
 
 export function TrainRegisterPanel() {
+    console.log(api.version)
     const cacheImport:dictType.trainCacheTemplate = dict.getTrainCache();
     const [elect, setElect] = useState(cacheImport.Voltage); const [auto, setAuto] = useState(cacheImport.Automation); const [gauge, setGauge] = useState(cacheImport.TrackGauge);
     const [width, setWidth] = useState(cacheImport.LoadingGauge); const [power, setPower] = useState(cacheImport.Electrification); const [type, setType] = useState(cacheImport.trainType);
@@ -164,8 +165,6 @@ export function TrainRegisterPanel() {
     const [regText,setRegText] = useState("Make all selections first.")
 
     function fixCityList() {
-        console.log(city);
-        console.log(nation);
         if (cityBool && nationBool) {
             const hold = cityItems.filter(city => {
                 return city.Nation === nation
@@ -504,9 +503,8 @@ export function TrainRegisterPanel() {
       minStationList: min,
       maxStationList: max
     };
-
+  const [desc,setDesc] = useState("");
   function registrationPreview() {
-    console.log("reg_start")
     printAllKeys(true);
     //refreshAll();
     //printAllKeys(true);
@@ -525,16 +523,10 @@ export function TrainRegisterPanel() {
       min: Number(min),
       max: Number(max)
     }
-    console.log(calcin.min);
-    console.log(calcin.max);
     const calcout:o.statsCalcOutput = reg.statsCalc(calcin);
-    Object.keys(calcout).forEach(key => {
-    console.log(key + calcout[key as keyof typeof calcout])
-    })
     const hold:o.compileTrainOut = reg.compileTrain(tr,calcout,Number(max),String(Date.now()),calcin);
-    console.log(hold.trainConfig.stats.minStationLength);
-    console.log(hold.trainConfig.stats.maxStationLength);
     setPreview(p.statsPreview(tr,hold.storageData,false));
+    setDesc(hold.trainConfig.description)
     setToRegister(hold);
     setRegDisable(false);
     setRegText("Register");
@@ -637,7 +629,7 @@ export function TrainRegisterPanel() {
                 {fixButton()}
             </p>
             <p className="text-sm text-muted-foreground">
-                {dict.TrainCacheButton(train,tr,tempall,"Save to Cache")}
+                {dict.TrainCacheButton(train,tr,tempall,"[Broken] Save to Cache",true)}
             </p>
             <p className="text-sm text-muted-foreground">
                 {dict.ClearTrainCacheButton("Purge Cache")}
@@ -650,7 +642,14 @@ export function TrainRegisterPanel() {
             </p>
           </div>
           <p>
-              {preview}
+              <p.MinimizeButton label="Description">
+                {desc}
+              </p.MinimizeButton>
+          </p>
+          <p>
+              <p.MinimizeButton label="Train Stats">
+                {preview}
+              </p.MinimizeButton>
           </p>
         </div>
     );

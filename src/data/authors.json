@@ -1,12 +1,17 @@
 [
 	{
-		"Name": "DanielD1909 (Author)",
-		"id": "Author:DanielD1909",
-		"Type": "Author"
+		"Name": "DanielD1909 (Creator)",
+		"id": "Creator:DanielD1909",
+		"Type": "Creator"
 	},
 	{
 		"Name": "Eric Adams (Challenge)",
 		"id": "Challenge:Eric Adams",
 		"Type": "Challenge"
+	},
+	{
+		"Name": "Pio (Creator)",
+		"id": "Creator:Pio",
+		"Type": "Creator"
 	}
 ]

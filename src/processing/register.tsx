@@ -4,6 +4,26 @@ import type * as t from "../types/trains";
 import type { ElevationType } from '../types/core';
 import {addToSaveData} from '../ui/TrainPanel'
 const api = window.SubwayBuilderAPI;
+import type * as elec from "../types/electron"
+const elecAPI = window.electron as elec.ElectronAPI
+let game_version: string | undefined;
+
+elecAPI.getVersion().then(v => {
+    game_version = v;
+});
+
+export function isNewVersion() {
+    const versionSplit = game_version?.split(".")
+    if (versionSplit != undefined) {
+        if (Number(versionSplit[0])>=1 && Number(versionSplit[1])>=2 && Number(versionSplit[2])>=1) {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        return false;
+    }
+}
 
 export interface statsCalcInput {
     y: c.TrainType,
@@ -56,10 +76,12 @@ export interface statsCalcOutput {
     minCars: number,
     maxCars: number,
     name: string,
-    id: string
+    id: string,
+    coefficient: number
 }
 
 export function statsCalc(i:statsCalcInput) {
+    console.log("Game Version"+game_version);
     const baseTrackCost:number = Math.round(base.baseTrackCost * i.e.Cost_Multiplier * i.t.CostMultiplier * i.a.baseTrackCost);
     const baseStationCost:number = Math.round(base.baseStationCost * i.a.baseStationCost);
     const scissorsCrossoverCost:number = Math.round(base.scissorsCrossoverCost * i.e.Scissors_Cost_Multiplier * i.a.scissorsCrossoverCost);
@@ -79,14 +101,23 @@ export function statsCalc(i:statsCalcInput) {
     const maxSpeedLocalStation:number = i.y.maxSpeedLocalStation+i.a.maxSpeedLocalStation;
     const canCrossRoads:boolean = (i.y.canCrossRoads && i.a.canCrossRoads);
     const stopTimeSeconds:number = Number((i.y.stopTimeSeconds*i.a.stopTimeSeconds).toFixed(2));
-    const maxLateralAcceleration:number = Number((i.y.maxLateralAcceleration*i.a.maxLateralAcceleration).toFixed(2));
+    const coefficient:number = Math.sqrt((i.y.maxCantDeficiency+i.y.maxCant)*i.t.Cant_Multiplier/(11.82*i.t.Actual/1.435));
+    console.log("Apple"+(i.y.maxCantDeficiency+i.y.maxCant));
+    console.log("Banana"+coefficient);
+    console.log("Orange"+(11.82*i.t.Actual/1.435));
+    const maxLateralAcceleration:number = Number((Math.pow(coefficient/3.6,2)).toFixed(2));
     const minCars:number = i.train.consistList[0];
-    const hold:number[] = p.compatibleConsists(i.min,i.train);
+    const hold:number[] = p.compatibleConsists(i.min,i.train,isNewVersion(),i.max);
     const maxCars:number = hold[hold.length-1];
     var name:string = i.v.Actual+" ("+i.a.Name+" | "+i.e.id.toUpperCase()+" | "+i.l.id.toUpperCase()+")";
     if (i.t.id != "std") {
         name = i.t.Name + " " + name
     }
+    var carActual = carOperationalCostPerHour;
+    if ((i.train.trainType).includes("LRT")) {
+        carActual = carActual/i.train.carsPerCarSet
+    }
+    carActual = Number(carActual.toFixed(2));
     const id:string = i.t.id+"_"+i.v.id+"-"+i.a.Name[i.a.Name.length-1]+"_"+i.e.id+"_"+i.l.id;
     const o:statsCalcOutput = { 
         baseTrackCost: baseTrackCost,
@@ -96,7 +127,7 @@ export function statsCalc(i:statsCalcInput) {
         elevationMults: elevationMults,
         trackClearance: trackClearance,
         trainOperationalCostPerHour: trainOperationalCostPerHour,
-        carOperationalCostPerHour: carOperationalCostPerHour,
+        carOperationalCostPerHour: carActual,
         maxSpeedLocalStation: maxSpeedLocalStation,
         canCrossRoads: canCrossRoads,
         stopTimeSeconds: stopTimeSeconds,
@@ -104,12 +135,17 @@ export function statsCalc(i:statsCalcInput) {
         minCars: minCars,
         maxCars: maxCars,
         name: name,
-        id: id
+        id: id,
+        coefficient:coefficient
     };
     return o;
 }
 
 export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:string,calcin:statsCalcInput) {
+    var msl = train.minStationList[train.consistList.indexOf(sco.maxCars)];
+    if (isNewVersion()) {
+        msl = train.minStationList[train.consistList.indexOf(sco.minCars)];
+    }
     const stat:t.TrainTypeStats = {
         maxAcceleration: train.maxAcceleration,
         maxDeceleration: train.maxDeceleration,
@@ -122,7 +158,7 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
         carsPerCarSet: train.carsPerCarSet,
         carCost: train.carCost,
         trainWidth: train.trainWidth,
-        minStationLength: train.minStationList[train.consistList.indexOf(sco.maxCars)],
+        minStationLength: msl,
         maxStationLength: max,
         baseTrackCost: sco.baseTrackCost,
         baseStationCost: sco.baseStationCost,
@@ -144,6 +180,12 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
     } else {
         desc = train.desc + desc
     }
+    const creatorList = train.Tags.filter(tag => tag.includes("Creator"))
+    if (creatorList.length > 0) {
+        const creatorString = creatorList.join(", ").replace("Creator:","");
+        desc = desc + ". Created by: "+creatorString;
+    }
+    
     const config:t.TrainTypeConfig = {
         id: "dt."+idin,
         name: train.name,

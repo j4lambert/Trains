@@ -86,6 +86,7 @@ export interface TrackGauge {
     id: string;
     Actual: number;
     CostMultiplier: number;
+    Cant_Multiplier: number;
 }
 export interface LoadingGauge {
     Name: string;
@@ -113,6 +114,8 @@ export interface TrainType {
     stopTimeSeconds: number;
     maxLateralAcceleration: number;
     maxSlopePercentage: number;
+    maxCantDeficiency: number;
+    maxCant: number;
 }
 export interface AutomationLevel {
     Name: string;
@@ -121,7 +124,6 @@ export interface AutomationLevel {
     car_CostPerHour: number;
     canCrossRoads: boolean;
     stopTimeSeconds: number;
-    maxLateralAcceleration: number;
     baseTrackCost: number;
     baseStationCost: number;
     scissorsCrossoverCost: number;

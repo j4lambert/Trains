@@ -10,6 +10,7 @@ import type { TrainTypeConfig } from "../types"
 import * as reg from "./register"
 import type * as regType from "./register"
 import {getToSaveData} from "../ui/TrainPanel"
+import React, { useState } from "react";
 const Trains: Train[] = trains as Train[];
 const train_names:string[] = trains.map(t => t.name);
 const Electrifications: Electrification[] = es as Electrification[];
@@ -59,6 +60,18 @@ export function getAllSaveNames() {
     if (!raw) {return []}
     const allSaveNamesList:string[] = JSON.parse(raw);
     return allSaveNamesList;
+}
+
+export function deleteSaveData(name:string) {
+    localStorage.removeItem(key+"saves."+name);
+    const currentList = getAllSaveNames();
+    if (!currentList) {throw "could not get save names"}
+    else {
+        const currentSet:Set<string> = new Set(currentList);
+        currentSet.delete(name);
+        const newList = Array.from(currentSet);
+        localStorage.setItem(key+"allsaves",JSON.stringify(newList))
+    }
 }
 
 export function setAllSaveNames(saveName:string) {
@@ -191,15 +204,86 @@ export function getAll(all:all) {
     })
     return hold;
 }
-export function compatibleConsists(len:number,t:Train) {
+export function compatibleConsists(min:number,t:Train,newV:boolean,max:number) {
     var output:number[] = [];
-    t.consistList.forEach((n:number,i:number) => {
-        const hold:any[] = t.minStationList;
-        if (hold[i]<=len) {
-            output.push(n);
-        }
-    })
+    if (newV) {
+        t.consistList.forEach((n:number,i:number) => {
+            const hold:any[] = t.minStationList;
+            if (hold[i]<=max) {
+                output.push(n);
+            }
+        })
+    } else {
+        t.consistList.forEach((n:number,i:number) => {
+            const hold:any[] = t.minStationList;
+            if (hold[i]<=min) {
+                output.push(n);
+            }
+        })
+    }
     return output
+}
+
+function latExplain(data:reg.trainStorageData,type:string) {
+    if (!data || !data.calcin) {
+        return (<div></div>)
+    } else if (type.includes("Rubber")) {
+        return (
+            <table className="w-full table-fixed text-center border-collapse text-xs">
+                <tr>
+                    <th>Base Max Lateral Acceleration (m/s<sup>2</sup>)</th>
+                    <th>Limit Multiplier</th>
+                    <th>Max Lateral (m/s<sup>2</sup>))</th>
+                </tr>
+                <tr>
+                    <td>{Math.sqrt((((data.calcin.y.maxCantDeficiency+data.calcin.y.maxCant)/(11.82*data.calcin.t.Actual/1.435))/3.6)^2).toFixed(2)}</td>
+                    <td>{"x"+data.calcin.t.Cant_Multiplier}</td>
+                    <td>{data.config.stats.maxLateralAcceleration})</td>
+                </tr>
+                
+            </table>
+        )
+    } else {
+        return (
+            <table className="w-full table-fixed text-center border-collapse text-xs">
+                <tr>
+                    <th>Max Cant (mm)</th>
+                    <th>Max Cant Deficiency (mm)</th>
+                    <th>Limit Multiplier</th>
+                    <th>Coefficient (mm*m*(km/h)<sup>-2</sup>)</th>
+                    <th>Equivalent Max Lateral (m/s<sup>2</sup>))</th>
+                </tr>
+                <tr>
+                    <td>{data.calcin.y.maxCantDeficiency}</td>
+                    <td>{data.calcin.y.maxCant}</td>
+                    <td>{"x"+data.calcin.t.Cant_Multiplier}</td>
+                    <td>{Math.sqrt((data.calcin.y.maxCantDeficiency+data.calcin.y.maxCant)*data.calcin.t.Cant_Multiplier/(11.82*data.calcin.t.Actual/1.435)).toFixed(2)}</td>
+                    <td>{data.config.stats.maxLateralAcceleration}</td>
+                </tr>
+                
+            </table>
+        )
+    }
+}
+
+export function MinimizeButton({ label = "Toggle", className = "flex flex-col gap-2 border p-1", children }: { label?: string; className?:string;children: React.ReactNode }) {
+    const [minimized, setMinimized] = useState(false);
+
+    return (
+        <div className={className}>
+            <button
+                onClick={() => setMinimized(!minimized)}
+                className="px-1 py-1 hover:bg-gray-300 rounded text-sm font-bold"
+                style= {{
+                    backgroundColor:"#000000"
+                }}
+            >
+                {minimized ? `+ ${label}` : `- ${label}`}
+            </button>
+
+            {!minimized && <div className="mt-2">{children}</div>}
+        </div>
+    );
 }
 
 export function statsPreview(train:Train,data?:reg.trainStorageData,dict:boolean=false) {
@@ -227,6 +311,7 @@ export function statsPreview(train:Train,data?:reg.trainStorageData,dict:boolean
     } else {
         hold["atcph"] = String(temp2)
     }
+    
     return (
         <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
@@ -304,7 +389,7 @@ export function statsPreview(train:Train,data?:reg.trainStorageData,dict:boolean
                         <td>{data.config.stats.trackClearance}</td>
                         <td>{data.config.stats.maxSlopePercentage}</td>
                     </tr>
-                    </table>
+                </table>
             </div>
             <div className="flex flex-col gap-2">
                 <div className="flex items-center gap-2 flex-1 text-sm font-bold">
@@ -347,43 +432,41 @@ export function statsPreview(train:Train,data?:reg.trainStorageData,dict:boolean
                         <td>N/A</td>
                     </tr>
                 </table>
-                <table className="w-full table-fixed text-center border-collapse text-xs">
-                    <tr>
-                        <th>Stat </th>
-                        <th>Base (from Train Type)</th>
-                        <th>From Automation Level</th>
-                    </tr>
-                    <tr>
-                        <th>Max Station Speed (m/s)</th>
-                        <td>{data.calcin.y.maxSpeedLocalStation}</td>
-                        <td>{"+"+data.calcin.a.maxSpeedLocalStation}</td>
-                    </tr>
-                    <tr>
-                        <th>Per Train Operating Cost (USD)</th>
-                        <td>{data.calcin.y.train_CostPerHour}</td>
-                        <td>{hold.atcph}</td>
-                    </tr>
-                    <tr>
-                        <th>Per Car Operating Cost (USD)</th>
-                        <td>{data.calcin.y.car_CostPerHour}</td>
-                        <td>{hold.accph}</td>
-                    </tr>
-                    <tr>
-                        <th>Allow At-Grade (boolean)</th>
-                        <td>{String(data.calcin.y.canCrossRoads)}</td>
-                        <td>{String(data.calcin.a.canCrossRoads)}</td>
-                    </tr>
-                    <tr>
-                        <th>Stop Time (s)</th>
-                        <td>{data.calcin.y.stopTimeSeconds}</td>
-                        <td>{"x"+data.calcin.a.stopTimeSeconds}</td>
-                    </tr>
-                    <tr>
-                        <th>Max Lateral Acceleration (m/s<sup>2</sup>)</th>
-                        <td>{data.calcin.y.maxLateralAcceleration}</td>
-                        <td>{"x"+data.calcin.a.maxLateralAcceleration}</td>
-                    </tr>
-                </table>
+                <div className="flex items-center gap-2 flex-1 text-sm font-bold">
+                    <table className="w-full table-fixed text-center border-collapse text-xs">
+                        <tr>
+                            <th>Stat </th>
+                            <th>Base (from Train Type)</th>
+                            <th>From Automation Level</th>
+                        </tr>
+                        <tr>
+                            <th>Max Station Speed (m/s)</th>
+                            <td>{data.calcin.y.maxSpeedLocalStation}</td>
+                            <td>{"+"+data.calcin.a.maxSpeedLocalStation}</td>
+                        </tr>
+                        <tr>
+                            <th>Per Train Operating Cost (USD)</th>
+                            <td>{data.calcin.y.train_CostPerHour}</td>
+                            <td>{hold.atcph}</td>
+                        </tr>
+                        <tr>
+                            <th>Per Car Operating Cost (USD)</th>
+                            <td>{data.calcin.y.car_CostPerHour}</td>
+                            <td>{hold.accph}</td>
+                        </tr>
+                        <tr>
+                            <th>Allow At-Grade (boolean)</th>
+                            <td>{String(data.calcin.y.canCrossRoads)}</td>
+                            <td>{String(data.calcin.a.canCrossRoads)}</td>
+                        </tr>
+                        <tr>
+                            <th>Stop Time (s)</th>
+                            <td>{data.calcin.y.stopTimeSeconds}</td>
+                            <td>{"x"+data.calcin.a.stopTimeSeconds}</td>
+                        </tr>
+                    </table>
+                    {latExplain(data,data.calcin.t.Name)}
+                </div>
             </div>
         </div>
     )
