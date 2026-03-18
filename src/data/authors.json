@@ -5,6 +5,11 @@
 		"Type": "Creator"
 	},
 	{
+		"Name": " Future Tech (Group)",
+		"id": "Group: Future Tech",
+		"Type": "Group"
+	},
+	{
 		"Name": "Eric Adams (Challenge)",
 		"id": "Challenge:Eric Adams",
 		"Type": "Challenge"
@@ -13,5 +18,20 @@
 		"Name": "Pio (Creator)",
 		"id": "Creator:Pio",
 		"Type": "Creator"
+	},
+	{
+		"Name": "Ansaldo-Breda Driverless Metros (Group)",
+		"id": "Group:Ansaldo-Breda Driverless Metros",
+		"Type": "Group"
+	},
+	{
+		"Name": " NYC A Division (Group)",
+		"id": "Group: NYC A Division",
+		"Type": "Group"
+	},
+	{
+		"Name": " NYC B Division (Group)",
+		"id": "Group: NYC B Division",
+		"Type": "Group"
 	}
 ]

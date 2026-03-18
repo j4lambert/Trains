@@ -11,8 +11,8 @@ import type * as c from "../processing/processes.d.ts";
 import type * as o from "../processing/register.tsx";
 import * as reg from "../processing/register";
 import * as tp from "./TrainPanel"
-import {getColors, dynamicButtonColors} from "./themeHandle";
-import type {colorSet} from "../ui/themeHandle";
+import { getColors, dynamicButtonColors } from "./themeHandle";
+import type { colorSet } from "../ui/themeHandle";
 
 import trains from "../data/trains.json"
 import Electrifications from "../data/standards/electric.json"
@@ -41,12 +41,12 @@ const auts: c.Tag[] = Authors as c.Tag[];
 const api = window.SubwayBuilderAPI;
 const r = api.utils.React;
 const h = r.createElement;
-const {Switch, Button} = api.utils.components;
+const { Switch, Button } = api.utils.components;
 
 
-function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:boolean,className?:string) {
-    const colors:colorSet = getColors();
-    let bg:string;
+function specPicker(n: string, items: any[], value: string | number, f: Function, enabled: boolean, className?: string) {
+    const colors: colorSet = getColors();
+    let bg: string;
     if (enabled) {
         bg = colors.background;
     } else {
@@ -54,30 +54,30 @@ function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:
     }
     return (
         <select
-        name={n}
-        className={className || "text-sm white bg-black w-full"}
-        onChange={v => f(v.target.value)}
-        value={value}
-        disabled={!enabled}
-        style={{
-            backgroundColor: bg
-        }}
+            name={n}
+            className={className || "text-sm white bg-black w-full"}
+            onChange={v => f(v.target.value)}
+            value={value}
+            disabled={!enabled}
+            style={{
+                backgroundColor: bg
+            }}
         >
-        <option key={"Select "+n} value={""}>
-            {"No Selection"}
-        </option>
-        {items.map((e) => (
-            <option key={String(e.Name)} value={String(e.Name)}>
-            {String(e.Name)}
+            <option key={"Select " + n} value={""}>
+                {"No Selection"}
             </option>
-        ))}
+            {items.map((e) => (
+                <option key={String(e.Name)} value={String(e.Name)}>
+                    {String(e.Name)}
+                </option>
+            ))}
         </select>
     )
 }
 
-function tagPicker(n:string,items:c.Tag[],value:string|number,f:Function,enabled:boolean,className?:string) {
-    const colors:colorSet = getColors();
-    let bg:string;
+function tagPicker(n: string, items: c.Tag[], value: string | number, f: Function, enabled: boolean, className?: string) {
+    const colors: colorSet = getColors();
+    let bg: string;
     if (enabled) {
         bg = colors.background;
     } else {
@@ -85,23 +85,23 @@ function tagPicker(n:string,items:c.Tag[],value:string|number,f:Function,enabled
     }
     return (
         <select
-        name={n}
-        className={className || "text-sm white bg-black w-full"}
-        onChange={v => f(v.target.value)}
-        value={value}
-        disabled={!enabled}
-        style={{
-            backgroundColor: bg
-        }}
+            name={n}
+            className={className || "text-sm white bg-black w-full"}
+            onChange={v => f(v.target.value)}
+            value={value}
+            disabled={!enabled}
+            style={{
+                backgroundColor: bg
+            }}
         >
-        <option key={"Select "+n} value={""}>
-            {"No Selection"}
-        </option>
-        {items.map((e) => (
-            <option key={String(e.id)} value={String(e.id)}>
-            {String(e.Name)}
+            <option key={"Select " + n} value={""}>
+                {"No Selection"}
             </option>
-        ))}
+            {items.map((e) => (
+                <option key={String(e.id)} value={String(e.id)}>
+                    {String(e.Name)}
+                </option>
+            ))}
         </select>
     )
 }
@@ -111,11 +111,11 @@ function getTagNameById(id: string): string | undefined {
     return entry?.Name;
 }
 
-function compare(a:number,b:number,op_code:string) {
+function compare(a: number, b: number, op_code: string) {
     switch (op_code) {
-        case("a"):
+        case ("a"):
             return a > b;
-        case("b"):
+        case ("b"):
             return a >= b;
         case ("c"):
             return a < b;
@@ -128,19 +128,19 @@ function compare(a:number,b:number,op_code:string) {
     }
 }
 
-function numberListToLengthList(l:number[]) {
-    let litems:lengthItem[] = [];
+function numberListToLengthList(l: number[]) {
+    let litems: lengthItem[] = [];
     l.forEach(le => {
-        const len:lengthItem = {
-        Name: String(le),
-        value: le
+        const len: lengthItem = {
+            Name: String(le),
+            value: le
         }
         litems.push(len)
     })
     return litems;
-    }
-    const lhold:number[] = Array.from({length:Math.floor((400-40)/20)+1},(_,i) => 40 + i*20).concat(620);
-    interface lengthItem {
+}
+const lhold: number[] = Array.from({ length: Math.floor((400 - 40) / 20) + 1 }, (_, i) => 40 + i * 20).concat(620);
+interface lengthItem {
     Name: String
     value: number
 }
@@ -150,7 +150,7 @@ export interface trainCacheTemplate {
     Name: string,
     Train: c.Train,
     Electrification: string,
-    Voltage: string, 
+    Voltage: string,
     TrackGauge: string,
     LoadingGauge: string,
     trainType: string,
@@ -159,7 +159,7 @@ export interface trainCacheTemplate {
     maxStationList: string
 }
 
-var trainCache:trainCacheTemplate = {
+var trainCache: trainCacheTemplate = {
     Name: trains[0].name,
     Train: trains[0],
     Electrification: "",
@@ -176,27 +176,27 @@ export function getTrainCache() {
     return trainCache
 }
 
-export function setTrainCache(name:string,train:c.Train,all:Omit<trainCacheTemplate, "Train" | "Name">) {
+export function setTrainCache(name: string, train: c.Train, all: Omit<trainCacheTemplate, "Train" | "Name">) {
     trainCache = {
         Name: name,
-        Train:train,
+        Train: train,
         ...all
     }
 }
 
-export function TrainCacheButton(name:string,train:c.Train,all:Omit<trainCacheTemplate, "Train" | "Name">,label:string,disabled:boolean=false) {
-    const colors:colorSet = getColors();
-    let bg:string;
+export function TrainCacheButton(name: string, train: c.Train, all: Omit<trainCacheTemplate, "Train" | "Name">, label: string, disabled: boolean = false) {
+    const colors: colorSet = getColors();
+    let bg: string;
     if (!disabled) {
         bg = colors.background;
     } else {
         bg = colors.disabledButton;
     }
-    return(
+    return (
         <Button
             variant="secondary"
             disabled={disabled}
-            onClick={() => setTrainCache(name,train,all)}
+            onClick={() => setTrainCache(name, train, all)}
             style={{
                 backgroundColor: bg
             }}
@@ -206,23 +206,23 @@ export function TrainCacheButton(name:string,train:c.Train,all:Omit<trainCacheTe
     )
 }
 
-export function ClearTrainCacheButton(label:string) {
-    const colors:colorSet = getColors();
-    return(
+export function ClearTrainCacheButton(label: string) {
+    const colors: colorSet = getColors();
+    return (
         <Button
             variant="secondary"
             onClick={() => trainCache = {
-                    Name: trains[0].name,
-                    Train: trains[0],
-                    Electrification: "",
-                    Voltage: "",
-                    TrackGauge: "",
-                    LoadingGauge: "",
-                    trainType: "",
-                    Automation: "",
-                    minStationList: "",
-                    maxStationList: ""
-                }
+                Name: trains[0].name,
+                Train: trains[0],
+                Electrification: "",
+                Voltage: "",
+                TrackGauge: "",
+                LoadingGauge: "",
+                trainType: "",
+                Automation: "",
+                minStationList: "",
+                maxStationList: ""
+            }
             }
             style={{
                 backgroundColor: colors.activeButton
@@ -234,7 +234,7 @@ export function ClearTrainCacheButton(label:string) {
 }
 
 export function TrainDictPanel() {
-    const colors:colorSet = getColors();
+    const colors: colorSet = getColors();
     const [elect, setElect] = useState(""); const [auto, setAuto] = useState(""); const [gauge, setGauge] = useState("");
     const [width, setWidth] = useState(""); const [power, setPower] = useState(""); const [type, setType] = useState("");
     const [min, setMin] = useState(""); const [max, setMax] = useState("");
@@ -281,12 +281,12 @@ export function TrainDictPanel() {
     const [TrainGapFillerLengthOperator, setTrainGapFillerLengthOperator] = useState("");
     const [stopTimeSecondsOperator, setStopTimeSecondsOperator] = useState("");
 
-    const [nationList,setNationList]:[c.Nation[],Function] = useState(nats);
-    const [cityList,setCityList]:[c.City[],Function] = useState(cits);
+    const [nationList, setNationList]: [c.Nation[], Function] = useState(nats);
+    const [cityList, setCityList]: [c.City[], Function] = useState(cits);
 
-    type AllNumEntry = [number, Function, boolean, Function,string,Function];
+    type AllNumEntry = [number, Function, boolean, Function, string, Function];
     type AllBoolEntry = [string, Function, boolean, Function];
-    const allNum:Record<string, AllNumEntry> = {
+    const allNum: Record<string, AllNumEntry> = {
         "maxAcceleration": [maxAcceleration, setMaxAcceleration, maxAccelerationBool, setMaxAccelerationBool, maxAccelerationOperator, setMaxAccelerationOperator],
         "maxDeceleration": [maxDeceleration, setMaxDeceleration, maxDecelerationBool, setMaxDecelerationBool, maxDecelerationOperator, setMaxDecelerationOperator],
         "maxSpeed": [maxSpeed, setMaxSpeed, maxSpeedBool, setMaxSpeedBool, maxSpeedOperator, setMaxSpeedOperator],
@@ -312,10 +312,10 @@ export function TrainDictPanel() {
         "stopTimeSeconds": [stopTimeSeconds, setStopTimeSeconds, stopTimeSecondsBool, setStopTimeSecondsBool, stopTimeSecondsOperator, setStopTimeSecondsOperator],
     };
 
-    const allBool:Record<string, AllBoolEntry> = {
-        "canCrossRoads":[canCrossRoads, setCanCrossRoads,canCrossRoadsBool, setCanCrossRoadsBool],
-        "Old":[Old, setOld,OldBool,setOldBool],
-        "Generic":[Generic, setGeneric,GenericBool,setGenericBool]
+    const allBool: Record<string, AllBoolEntry> = {
+        "canCrossRoads": [canCrossRoads, setCanCrossRoads, canCrossRoadsBool, setCanCrossRoadsBool],
+        "Old": [Old, setOld, OldBool, setOldBool],
+        "Generic": [Generic, setGeneric, GenericBool, setGenericBool]
     }
 
     function fixCityList() {
@@ -345,47 +345,47 @@ export function TrainDictPanel() {
     }
     const [train, setTrain] = useState(Trains[0].name);
     const tr = p.getTrain(train) as c.Train;
-    var [tlist,setTList]:[c.Train[],Function] = useState(Trains);
+    var [tlist, setTList]: [c.Train[], Function] = useState(Trains);
 
-    function selectOperator(value:string,f:Function, className?:string) {
-        const colors:colorSet = getColors();
+    function selectOperator(value: string, f: Function, className?: string) {
+        const colors: colorSet = getColors();
         return (
             <select
-            name={"OperatorSelection"}
-            className={className || "text-sm white bg-black w-full"}
-            onChange={v => f(v.target.value)}
-            value={value}
-            style={{
-                backgroundColor:colors.background,
-                color: colors.textColor
-            }}
+                name={"OperatorSelection"}
+                className={className || "text-sm white bg-black w-full"}
+                onChange={v => f(v.target.value)}
+                value={value}
+                style={{
+                    backgroundColor: colors.background,
+                    color: colors.textColor
+                }}
             >
-            <option key={"None"} value={""}>
-                {""}
-            </option>
-            <option key={">"} value={"a"}>
-                {">"}
-            </option>
-            <option key={">="} value={"b"}>
-                {">="}
-            </option>
-            <option key={"<"} value={"c"}>
-                {"<"}
-            </option>
-            <option key={"<="} value={"d"}>
-                {"<="}
-            </option>
-            <option key={"="} value={"e"}>
-                {"="}
-            </option>
+                <option key={"None"} value={""}>
+                    {""}
+                </option>
+                <option key={">"} value={"a"}>
+                    {">"}
+                </option>
+                <option key={">="} value={"b"}>
+                    {">="}
+                </option>
+                <option key={"<"} value={"c"}>
+                    {"<"}
+                </option>
+                <option key={"<="} value={"d"}>
+                    {"<="}
+                </option>
+                <option key={"="} value={"e"}>
+                    {"="}
+                </option>
             </select>
         )
     }
-    function numericFilterCond(value:number,key:string,operator:string,t:c.Train,active:boolean) {
-        if (!active) {return true}
-        const trainKey:keyof c.Train = key as keyof c.Train;
-        const trainValue:number = t[trainKey] as number;
-        return compare(trainValue,value,operator);
+    function numericFilterCond(value: number, key: string, operator: string, t: c.Train, active: boolean) {
+        if (!active) { return true }
+        const trainKey: keyof c.Train = key as keyof c.Train;
+        const trainValue: number = t[trainKey] as number;
+        return compare(trainValue, value, operator);
     }
     // var all = {
     //     Electrification: power,
@@ -398,40 +398,40 @@ export function TrainDictPanel() {
     //     maxStationList: max
     // }
     type AllEntry = [string, Function, boolean, Function];
-    const all:Record<string, AllEntry> = {
-        "Electrification":[power, setPower,powerBool,setPowerBool],
-        "Voltage":[elect, setElect,electBool,setElectBool],
-        "TrackGauge":[gauge, setGauge,gaugeBool,setGaugeBool],
-        "LoadingGauge":[width, setWidth,widthBool,setWidthBool],
-        "trainType":[type, setType,typeBool,setTypeBool],
-        "Automation":[auto, setAuto,autoBool,setAutoBool],
-        "minStationList":[min,setMin,minBool,setMinBool],
-        "maxStationList":[max,setMax,maxBool,setMaxBool],
-        "Cont":[region, setRegion,regionBool,setRegionBool],
-        "Nation2":[nation, setNation,nationBool,setNationBool],
-        "Cities2":[city, setCity,cityBool,setCityBool],
-        "author":[author, setAuthor,authorBool,setAuthorBool],
+    const all: Record<string, AllEntry> = {
+        "Electrification": [power, setPower, powerBool, setPowerBool],
+        "Voltage": [elect, setElect, electBool, setElectBool],
+        "TrackGauge": [gauge, setGauge, gaugeBool, setGaugeBool],
+        "LoadingGauge": [width, setWidth, widthBool, setWidthBool],
+        "trainType": [type, setType, typeBool, setTypeBool],
+        "Automation": [auto, setAuto, autoBool, setAutoBool],
+        "minStationList": [min, setMin, minBool, setMinBool],
+        "maxStationList": [max, setMax, maxBool, setMaxBool],
+        "Cont": [region, setRegion, regionBool, setRegionBool],
+        "Nation2": [nation, setNation, nationBool, setNationBool],
+        "Cities2": [city, setCity, cityBool, setCityBool],
+        "author": [author, setAuthor, authorBool, setAuthorBool],
     }
 
     function updateAll() {
         const allKeys = Object.keys(all) as (keyof typeof all)[];
         allKeys.forEach(key => {
             if (!all[key][2]) {
-                const trainKey:(keyof c.Train) = key as keyof c.Train;
+                const trainKey: (keyof c.Train) = key as keyof c.Train;
                 const trainValue = tr[trainKey];
-                if (key=="Tags" && typeof trainValue == "object") {
-                  const hold:string[] = trainValue as string[];
-                  const name:string = tp.getAuthorIdByName(hold[0])||auts[0].id;
-                  all[key][1](name);
+                if (key == "Tags" && typeof trainValue == "object") {
+                    const hold: string[] = trainValue as string[];
+                    const name: string = tp.getAuthorIdByName(hold[0]) || auts[0].id;
+                    all[key][1](name);
                 } else if (typeof trainValue == "object") {
-                    const hold:any[] = trainValue;
+                    const hold: any[] = trainValue;
                     if (hold.includes("Generic")) {
                         const filled = hold.filter(h => h != "Generic");
                         if (filled.length != 0) {
                             all[key][1](filled[0])
                         }
                     } else if (key == "maxStationList") {
-                        all[key][1](trainValue[trainValue.length-1])
+                        all[key][1](trainValue[trainValue.length - 1])
                     } else {
                         all[key][1](trainValue[0]);
                     }
@@ -446,8 +446,8 @@ export function TrainDictPanel() {
         const allNumKeys = Object.keys(allNum) as (keyof typeof allNum)[];
         allNumKeys.forEach(key => {
             if (!allNum[key][2]) {
-                const trainKey:(keyof c.Train) = key as keyof c.Train;
-                const trainValue:number = tr[trainKey] as number;
+                const trainKey: (keyof c.Train) = key as keyof c.Train;
+                const trainValue: number = tr[trainKey] as number;
                 allNum[key][1](trainValue);
             }
         })
@@ -456,24 +456,24 @@ export function TrainDictPanel() {
         const allBoolkeys = Object.keys(allBool) as (keyof typeof allBool)[];
         allBoolkeys.forEach(key => {
             if (!allBool[key][2]) {
-                const trainKey:(keyof c.Train) = key as keyof c.Train;
-                const trainValue:string = tr[trainKey] as string;
+                const trainKey: (keyof c.Train) = key as keyof c.Train;
+                const trainValue: string = tr[trainKey] as string;
                 allBool[key][1](trainValue == "true");
             }
         })
     }
 
-    function trainFilterCond(key:keyof c.Train,value:string,t:c.Train,enabled:boolean) {
-        if (value=="" || !enabled || String(key) == "maxStationList") {
+    function trainFilterCond(key: keyof c.Train, value: string, t: c.Train, enabled: boolean) {
+        if (value == "" || !enabled || String(key) == "maxStationList") {
             return true
         }
         if ((String(key) == "minStationList") && (typeof t[key] === "object")) {
             var holdlist = t[key];
             var hold = false;
             holdlist.forEach(len => {
-                if((typeof len) != "number") {
+                if ((typeof len) != "number") {
                 } else {
-                if(len <= Number(value)) {hold = true}
+                    if (len <= Number(value)) { hold = true }
                 }
             })
             return hold;
@@ -485,49 +485,49 @@ export function TrainDictPanel() {
             return t[key] == String(value);
         }
         if (typeof t[key] === "object") {
-            const hold:any[] = t[key];
+            const hold: any[] = t[key];
             return hold.includes(value);
         }
         return false;
     }
 
-        const numToggles = Object.values(allNum).map(v => v[2]);
-        const numVals = Object.values(allNum).map(v => v[0]); // Added
-        const numOps = Object.values(allNum).map(v => v[4]);  // Added
+    const numToggles = Object.values(allNum).map(v => v[2]);
+    const numVals = Object.values(allNum).map(v => v[0]); // Added
+    const numOps = Object.values(allNum).map(v => v[4]);  // Added
 
-        const strToggles = Object.values(all).map(v => v[2]);
-        const strVals = Object.values(all).map(v => v[0]);    // Added
+    const strToggles = Object.values(all).map(v => v[2]);
+    const strVals = Object.values(all).map(v => v[0]);    // Added
 
-        const boolToggles = Object.values(allBool).map(v => v[2]);
-        const boolVals = Object.values(allBool).map(v => v[0]); // Added
+    const boolToggles = Object.values(allBool).map(v => v[2]);
+    const boolVals = Object.values(allBool).map(v => v[0]); // Added
 
     useEffect(() => {
         setTList(Trains);
         lengthFix();
-        const hold:[string,AllEntry][] = Object.entries(all);
+        const hold: [string, AllEntry][] = Object.entries(all);
         var out = Trains.filter(t => {
-            return hold.every(([key,value]) => {
-                return trainFilterCond(key as keyof c.Train,String(value[0]),t,value[2])
+            return hold.every(([key, value]) => {
+                return trainFilterCond(key as keyof c.Train, String(value[0]), t, value[2])
             })
         })
-        const holdNum:[string,AllNumEntry][] = Object.entries(allNum);
+        const holdNum: [string, AllNumEntry][] = Object.entries(allNum);
         out = out.filter(t => {
-            return holdNum.every(([key,value]) => {
-                return numericFilterCond(value[0],key as keyof c.Train,value[4],t,value[2])
+            return holdNum.every(([key, value]) => {
+                return numericFilterCond(value[0], key as keyof c.Train, value[4], t, value[2])
             })
         })
-        const holdBool:[string,AllBoolEntry][] = Object.entries(allBool);
+        const holdBool: [string, AllBoolEntry][] = Object.entries(allBool);
         out = out.filter(t => {
-            return holdBool.every(([key,value]) => {
-                return trainFilterCond(key as keyof c.Train,String(value[0]),t,value[2])
+            return holdBool.every(([key, value]) => {
+                return trainFilterCond(key as keyof c.Train, String(value[0]), t, value[2])
             })
         })
         setTList(out);
         fixCityList();
         fixNationList();
-        try {registrationPreview()}
-        catch {}
-    },[...numVals,...numOps,...strVals,...boolVals,tr,train])
+        try { registrationPreview() }
+        catch { }
+    }, [...numVals, ...numOps, ...strVals, ...boolVals, tr, train])
 
     useEffect(() => {
         fixCityList();
@@ -536,41 +536,41 @@ export function TrainDictPanel() {
         updateAll();
         updateAllNums();
         updateAllBools();
-    },[...strToggles,...numToggles,...boolToggles,tr,train])
+    }, [...strToggles, ...numToggles, ...boolToggles, tr, train])
 
     function lengthFix() {
         if (min != "" && max != "") {
-        const minn = Number(min); const maxn = Number(max);
-        if (minn <= maxn) {} else if (minn < 0 || maxn < 0) {} 
-        else {
-            const hold:number = lhold.indexOf(minn);
-            setMax(String(lhold[hold+1]))
-        }
+            const minn = Number(min); const maxn = Number(max);
+            if (minn <= maxn) { } else if (minn < 0 || maxn < 0) { }
+            else {
+                const hold: number = lhold.indexOf(minn);
+                setMax(String(lhold[hold + 1]))
+            }
         }
     }
 
-    function trainSelect(value:string) {
+    function trainSelect(value: string) {
         setTrain(value);
     }
 
     function trainPicker() {
         return (
-        <select
-            name="Train Picker"
-            className="text-medium bg-black w-full"
-            onChange={v => trainSelect(v.target.value)}
-            value={train}
-            style={{
-                backgroundColor: colors.background,
-                color:colors.textColor
-            }}
-        >
-            {tlist.map((e) => (
-            <option key={e.name} value={e.name}>
-                {e.name}
-            </option>
-            ))}
-        </select>
+            <select
+                name="Train Picker"
+                className="text-medium bg-black w-full"
+                onChange={v => trainSelect(v.target.value)}
+                value={train}
+                style={{
+                    backgroundColor: colors.background,
+                    color: colors.textColor
+                }}
+            >
+                {tlist.map((e) => (
+                    <option key={e.name} value={e.name}>
+                        {e.name}
+                    </option>
+                ))}
+            </select>
         )
     }
 
@@ -584,26 +584,26 @@ export function TrainDictPanel() {
         setTrain(Trains[0].name);
         setTList(Trains);
         setMin(String(Trains[0].minStationList[0]));
-        setMax(String(Trains[0].maxStationList[Trains[0].maxStationList.length-1]));
+        setMax(String(Trains[0].maxStationList[Trains[0].maxStationList.length - 1]));
     }
 
     function resetButton() {
-        return(
+        return (
             <Button
                 variant="secondary"
                 onClick={() => resetAll()}
-                style={{backgroundColor:colors.activeButton}}
+                style={{ backgroundColor: colors.activeButton }}
             >
                 Reset All
             </Button>
         )
     }
 
-    const [preview,setPreview] = useState(<div></div>)
+    const [preview, setPreview] = useState(<div></div>)
 
     const tempall = {
         Electrification: power,
-        Voltage: elect, 
+        Voltage: elect,
         TrackGauge: gauge,
         LoadingGauge: width,
         trainType: type,
@@ -613,25 +613,25 @@ export function TrainDictPanel() {
     }
 
     function registrationPreview() {
-        const values:Partial<Record<keyof typeof all,c.TrackGauge|c.LoadingGauge|c.Electrification|c.PowerSupply|c.TrainType|c.AutomationLevel>> = p.getAll(tempall);
-        const calcin:o.statsCalcInput = {
-        y: values.trainType as c.TrainType,
-        a: values.Automation as c.AutomationLevel,
-        v: values.Voltage as c.Electrification,
-        e: values.Electrification as c.PowerSupply,
-        t: values.TrackGauge as c.TrackGauge,
-        l: values.LoadingGauge as c.LoadingGauge,
-        train: tr,
-        min: Number(min),
-        max: Number(max)
+        const values: Partial<Record<keyof typeof all, c.TrackGauge | c.LoadingGauge | c.Electrification | c.PowerSupply | c.TrainType | c.AutomationLevel>> = p.getAll(tempall);
+        const calcin: o.statsCalcInput = {
+            y: values.trainType as c.TrainType,
+            a: values.Automation as c.AutomationLevel,
+            v: values.Voltage as c.Electrification,
+            e: values.Electrification as c.PowerSupply,
+            t: values.TrackGauge as c.TrackGauge,
+            l: values.LoadingGauge as c.LoadingGauge,
+            train: tr,
+            min: Number(min),
+            max: Number(max)
         }
-        const calcout:o.statsCalcOutput = reg.statsCalc(calcin);
+        const calcout: o.statsCalcOutput = reg.statsCalc(calcin);
         Object.keys(calcout).forEach(key => {
-        console.log(key + calcout[key as keyof typeof calcout])
+            console.log(key + calcout[key as keyof typeof calcout])
         })
-        const hold:o.compileTrainOut = reg.compileTrain(tr,calcout,Number(max),String(Date.now()),calcin);
+        const hold: o.compileTrainOut = reg.compileTrain(tr, calcout, Number(max), String(Date.now()), calcin);
         setDesc(hold.trainConfig.description);
-        setPreview(p.statsPreview(tr,hold.storageData,true));
+        setPreview(p.statsPreview(tr, hold.storageData, true));
     }
 
     function toggleBools() {
@@ -650,14 +650,14 @@ export function TrainDictPanel() {
     }
 
     function fixButton() {
-        return(
-        <Button
-            variant="secondary"
-            onClick={() => toggleBools()}
-            style={{backgroundColor:colors.activeButton}}
-        >
-            {"Switch all Switches"}
-        </Button>
+        return (
+            <Button
+                variant="secondary"
+                onClick={() => toggleBools()}
+                style={{ backgroundColor: colors.activeButton }}
+            >
+                {"Switch all Switches"}
+            </Button>
         )
     }
 
@@ -669,85 +669,85 @@ export function TrainDictPanel() {
         classN: string = "flex items-center flex-1 leading-loose"
     ) {
         return (
-        <div className={classN}>
-            {picker}
-            {h(Switch,{
-                defaultValue:false,
-                disabled:disabled,
-                checked:state,
-                onChange:() => setState((prevState:boolean) => !prevState)
-            })}
-        </div>
+            <div className={classN}>
+                {picker}
+                {h(Switch, {
+                    defaultValue: false,
+                    disabled: disabled,
+                    checked: state,
+                    onChange: () => setState((prevState: boolean) => !prevState)
+                })}
+            </div>
         )
     }
 
     function inputWithModeAndOperator(
-        key:keyof typeof allNum,
+        key: keyof typeof allNum,
         state: boolean,
         setState: Function,
         classN: string = "flex flex-col items-center flex-1 gap-1 text-xs text-center"
     ) {
         return (
-        <div>
-            <div className={"text-xs flex-wrap"}>
-                <label>{String(key)}</label>
+            <div>
+                <div className={"text-xs flex-wrap"}>
+                    <label>{String(key)}</label>
+                </div>
+                <div className={classN}>
+                    {selectOperator(allNum[key][4], allNum[key][5], classN)}
+                    <input
+                        type="number"
+                        id={String(allNum[key][0])}
+                        disabled={!allNum[key][2]}
+                        name={String(allNum[key][0])}
+                        min="1"
+                        max="500"
+                        step="0.01"
+                        value={allNum[key][0]}
+                        onChange={e => allNum[key][1](e.target.value)}
+                        style={{ backgroundColor: dynamicButtonColors(allNum[key][2]) }}
+                    />
+                    {h(Switch, {
+                        defaultValue: false,
+                        checked: state,
+                        onChange: () => setState((prevState: boolean) => !prevState)
+                    })}
+                </div>
             </div>
-            <div className={classN}>
-                {selectOperator(allNum[key][4],allNum[key][5],classN)}
-                <input
-                    type="number"
-                    id={String(allNum[key][0])}
-                    disabled={!allNum[key][2]}
-                    name={String(allNum[key][0])}
-                    min="1"
-                    max="500"
-                    step="0.01"
-                    value={allNum[key][0]}
-                    onChange={e => allNum[key][1](e.target.value)}
-                    style={{backgroundColor: dynamicButtonColors(allNum[key][2])}}
-                />
-                {h(Switch,{
-                    defaultValue:false,
-                    checked:state,
-                    onChange:() => setState((prevState:boolean) => !prevState)
-                })}
-            </div>
-        </div>
         )
     }
 
-    
 
-    const pickerstyle:string = "flex items-center gap-4";
+
+    const pickerstyle: string = "flex items-center gap-4";
 
     return (
         <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(tagPicker("Tag [Broken]",auts,author,setAuthor,false),authorBool,setAuthorBool,true)}
+                {pickerWithMode(tagPicker("Tag [Broken]", auts, author, setAuthor, false), authorBool, setAuthorBool, true)}
             </div>
             <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Region",regs,region,setRegion,regionBool),regionBool,setRegionBool)}
-                {pickerWithMode(specPicker("Nation",nationList,nation,setNation,nationBool),nationBool,setNationBool)}
-                {pickerWithMode(specPicker("City",cityList,city,setCity,cityBool),cityBool,setCityBool)}
+                {pickerWithMode(specPicker("Region", regs, region, setRegion, regionBool), regionBool, setRegionBool)}
+                {pickerWithMode(specPicker("Nation", nationList, nation, setNation, nationBool), nationBool, setNationBool)}
+                {pickerWithMode(specPicker("City", cityList, city, setCity, cityBool), cityBool, setCityBool)}
             </div>
             <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Automation Standard",als,auto,setAuto,autoBool),autoBool,setAutoBool)}
-                {pickerWithMode(specPicker("Electrification Standard",es,elect,setElect,electBool),electBool,setElectBool)}
-                {pickerWithMode(specPicker("Track Gauge",tgs,gauge,setGauge,electBool),gaugeBool,setGaugeBool)}
+                {pickerWithMode(specPicker("Automation Standard", als, auto, setAuto, autoBool), autoBool, setAutoBool)}
+                {pickerWithMode(specPicker("Electrification Standard", es, elect, setElect, electBool), electBool, setElectBool)}
+                {pickerWithMode(specPicker("Track Gauge", tgs, gauge, setGauge, electBool), gaugeBool, setGaugeBool)}
             </div>
             <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Loading Gauge",lgs,width,setWidth,widthBool),widthBool,setWidthBool)}
-                {pickerWithMode(specPicker("Power Supply",pss,power,setPower,powerBool),powerBool,setPowerBool)}
-                {pickerWithMode(specPicker("Train Type",tts,type,setType,typeBool),typeBool,setTypeBool)}
+                {pickerWithMode(specPicker("Loading Gauge", lgs, width, setWidth, widthBool), widthBool, setWidthBool)}
+                {pickerWithMode(specPicker("Power Supply", pss, power, setPower, powerBool), powerBool, setPowerBool)}
+                {pickerWithMode(specPicker("Train Type", tts, type, setType, typeBool), typeBool, setTypeBool)}
             </div>
             <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Minimum Station Length",lens,min,setMin,minBool),minBool,setMinBool)}
-                {pickerWithMode(specPicker("Maximum Station Length",lens,max,setMax,maxBool),maxBool,setMaxBool)}
+                {pickerWithMode(specPicker("Minimum Station Length", lens, min, setMin, minBool), minBool, setMinBool)}
+                {pickerWithMode(specPicker("Maximum Station Length", lens, max, setMax, maxBool), maxBool, setMaxBool)}
             </div>
             <p.MinimizeButton label="Stat-Based Filtering">
                 <div className="flex flex-wrap justify-between gap-2 w-full">
                     {
-                        (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) => 
+                        (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) =>
                             inputWithModeAndOperator(
                                 key,
                                 allNum[key][2],
@@ -768,7 +768,7 @@ export function TrainDictPanel() {
                     {fixButton()}
                 </p>
                 <p className="text-sm text-muted-foreground">
-                    {TrainCacheButton(train,tr,tempall,"[Broken] Save and send to Registration Menu",true)}
+                    {TrainCacheButton(train, tr, tempall, "[Broken] Save and send to Registration Menu", true)}
                 </p>
                 <p className="text-sm text-muted-foreground">
                     {ClearTrainCacheButton("Purge Cache")}
@@ -776,12 +776,14 @@ export function TrainDictPanel() {
             </div>
             <p>
                 <p.MinimizeButton label="Description">
-                {desc}
+                    <div className='text-sm'>
+                        {desc}
+                    </div>
                 </p.MinimizeButton>
             </p>
             <p>
                 <p.MinimizeButton label="Train Stats">
-                {preview}
+                    {preview}
                 </p.MinimizeButton>
             </p>
         </div>

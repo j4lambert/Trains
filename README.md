@@ -1,3 +1,14 @@
+1.1.0 Patch Notes:
+- Hopefully fixed a glitch causing crashes on menu start
+- Added Singapore (MRT and LRT)
+- Added more tags (NYC A Division, NYC B Division, Future Tech, and Ansaldo-Breda Driverless Metros)
+- Added unit conversions for those who are uncivilized
+- Added depth multipliers (I am sorry for taking this long to add them)
+- Expanded NYC rolling stock to include the entire current fleet + the future planned ones
+- Added a new type of metro called the Weird Metro. This is for the trains which are metros but still have level crossings for some bizzare reason
+- Made the description text smaller
+
+Previously:
 Welcome to the release of danTrains 1.0.0 "Phoenix"!
 
 There's been a lot of changes since the last version so here's a broad summary changelog:

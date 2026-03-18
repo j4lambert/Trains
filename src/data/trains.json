@@ -87,6 +87,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_fr_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -190,6 +191,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_fr_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -300,6 +302,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_fr_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -409,6 +412,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_fr_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -514,6 +518,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_fr_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -603,7 +608,7 @@
 			0.3,
 			0.77
 		],
-		"desc": "2024 Stock is a subway EMU built by Siemens as part of their Inspiro family. It will enter service around mid-2026 on the Picadilly Line, and potentially later the Central, Waterloo & City, and Bakerloo lines.",
+		"desc": "2024 Stock is a subway EMU built by Siemens as part of their Inspiro family. It will enter service around early 2027 on the Picadilly Line, and potentially later the Central, Waterloo & City, and Bakerloo lines.",
 		"color": "#1B3F94",
 		"Manufacturer": [
 			"Siemens"
@@ -625,8 +630,10 @@
 			"United Kingdom"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "London 2024 Stock",
 		"mainTrackID": "std_cdc-4_fr_ms",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -733,6 +740,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -848,8 +856,10 @@
 			"United States of America"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tra_dc",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -978,6 +988,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_ukr-1_cat_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -1110,6 +1121,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -1217,6 +1229,7 @@
 		"Tags": [
 			"Creator:Pio"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-0_cat_ms",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -1328,6 +1341,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -1440,6 +1454,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -1553,6 +1568,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "pat_mdc-1_tru_mw",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -1694,6 +1710,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
@@ -1830,6 +1847,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -1966,6 +1984,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -2075,6 +2094,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_mw",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -2182,6 +2202,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_ukr-2_tru_mw",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -2325,8 +2346,10 @@
 			"Generic"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group:Ansaldo-Breda Driverless Metros"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -2470,8 +2493,10 @@
 		],
 		"Tags": [
 			"Creator:DanielD1909",
-			"Challenge:Eric Adams"
+			"Challenge:Eric Adams",
+			"Group:Ansaldo-Breda Driverless Metros"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -2590,8 +2615,10 @@
 			"United States of America"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group:Ansaldo-Breda Driverless Metros"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -2705,8 +2732,10 @@
 			"Italy"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group:Ansaldo-Breda Driverless Metros"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_rer",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -2818,8 +2847,10 @@
 			"Generic"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group:Ansaldo-Breda Driverless Metros"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_ms",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -2936,8 +2967,10 @@
 			"Italy"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group:Ansaldo-Breda Driverless Metros"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_ms",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -3048,6 +3081,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "m_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -3154,6 +3188,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "m_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -3266,6 +3301,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -3371,6 +3407,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-2_fr_nar",
 		"trainType2": "Rubber Metro",
 		"lengthList": [
@@ -3484,6 +3521,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
@@ -3599,6 +3637,7 @@
 		"Tags": [
 			"Creator:Pio"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_ms",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -3708,6 +3747,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sf_bart-2_tra_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -3831,6 +3871,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_sv-1_cat_rem",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -3919,7 +3960,7 @@
 			0.3,
 			0.79
 		],
-		"desc": "The 5th Series of rolling stock for the MBTA Blue Line is an EMU built by Siemens. Acceleration is guessimated.",
+		"desc": "The 5th Series of rolling stock for the MBTA Blue Line is an EMU built by Siemens that entered service in 2008. Acceleration is guessimated.",
 		"color": "#003DA5",
 		"Manufacturer": [
 			"Siemens"
@@ -3943,6 +3984,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_trucat_mw",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -4069,6 +4111,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-0_non_mw",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -4188,6 +4231,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_mw",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -4323,6 +4367,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -4463,6 +4508,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-0_non_mw",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -4588,6 +4634,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -4701,6 +4748,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -4809,6 +4857,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -4921,6 +4970,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5029,6 +5079,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5136,6 +5187,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5247,6 +5299,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5364,6 +5417,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5485,6 +5539,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5593,6 +5648,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5710,6 +5766,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5821,6 +5878,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -5932,6 +5990,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6044,6 +6103,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6155,6 +6215,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6266,6 +6327,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6377,6 +6439,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6488,6 +6551,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -6607,6 +6671,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-2_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6720,6 +6785,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6831,6 +6897,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -6949,6 +7016,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -7062,6 +7130,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -7180,6 +7249,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -7297,6 +7367,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -7410,6 +7481,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
@@ -7530,6 +7602,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -7644,6 +7717,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -7759,6 +7833,7 @@
 		"Tags": [
 			"Creator:Pio"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_ms",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -7772,6 +7847,323 @@
 		],
 		"maxStationList": [
 			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "C151A/B/C (SGP)",
+		"trainType": "Metro",
+		"MainTrack": "DC 750V (GoA3 | TRU | LIRR)",
+		"maxSpeed": 22.4,
+		"maxAcceleration": 1,
+		"maxDeceleration": 1.2,
+		"Automation": [
+			"GoA3",
+			"GoA2"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_mdc-3_tru_lirr",
+			"std_mdc-2_tru_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 35,
+		"minStationLength": 150,
+		"maxStationLength": 200,
+		"maxSpeedLocalStation": 16,
+		"minCars": 6,
+		"maxCars": 6,
+		"carsPerCarSet": 6,
+		"capacityPerCar": 320,
+		"carLength": 23.14,
+		"trainWidth": 3.2,
+		"carCost": 1089964,
+		"MinCapacity": 1920,
+		"MaxCapacity": 1920,
+		"baseTrackCost": 54450,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 18000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 170,
+		"carOperationalCostPerHour": 23,
+		"Multipliers": [
+			4.99,
+			2.22,
+			1.11,
+			0.3,
+			0.85
+		],
+		"desc": "The C151 is an EMU built by Kawasaki and CSR Qingdao/CRRC for Singapore's MRT that entered service in 2011. They serve on the North-South and East-West lines. It comes in 3 series - A, B, and C, although they seem to be identical outside of time of construction, so they have been merged here.",
+		"color": "#D42E12",
+		"Manufacturer": [
+			"Kawasaki",
+			"CRRC"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_mdc-3_tru_lirr",
+		"trainType2": "Metro",
+		"lengthList": [
+			139
+		],
+		"consistList": [
+			6
+		],
+		"minStationList": [
+			160
+		],
+		"maxStationList": [
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "C810A (SGP)",
+		"trainType": "People Mover",
+		"MainTrack": "APM Narrow DC 750V (GoA4 | TRU | BM)",
+		"maxSpeed": 19.4,
+		"maxAcceleration": 1,
+		"maxDeceleration": 1,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"APMs"
+		],
+		"LoadingGauge": [
+			"Barcelona Metro"
+		],
+		"CompatibleTracks": [
+			"",
+			"pmn_mdc-4_tru_bm"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 6,
+		"minTurnRadius": 25,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.22,
+		"trackClearance": 1.06,
+		"minStationTurnRadius": 700,
+		"stopTimeSeconds": 27,
+		"minStationLength": 50,
+		"maxStationLength": 75,
+		"maxSpeedLocalStation": 10,
+		"minCars": 2,
+		"maxCars": 2,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 105,
+		"carLength": 11.84,
+		"trainWidth": 2.69,
+		"carCost": 4590666,
+		"MinCapacity": 210,
+		"MaxCapacity": 210,
+		"baseTrackCost": 28463,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18750000,
+		"Old": true,
+		"trainOperationalCostPerHour": 124,
+		"carOperationalCostPerHour": 25,
+		"Multipliers": [
+			4.22,
+			1.88,
+			0.94,
+			0.3,
+			0.78
+		],
+		"desc": "The C810A is an automated people mover built by Mitsubishi for Singapore's LRT that entered service in 2003 on the Sengkang and Punggol Lines. It can be run as singular cars IRL, but game restrictions force it to be 2 cars only. Cost is a guesstimate based on the C810D.",
+		"color": "#691cd1",
+		"Manufacturer": [
+			"Mitsubishi"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "pmn_mdc-4_tru_bm",
+		"trainType2": "Automated People Mover",
+		"lengthList": [
+			24
+		],
+		"consistList": [
+			2
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
+		"name": "C810D (SGP)",
+		"trainType": "People Mover",
+		"MainTrack": "APM Narrow DC 750V (GoA4 | TRU | BM)",
+		"maxSpeed": 19.4,
+		"maxAcceleration": 1,
+		"maxDeceleration": 1,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"APMs"
+		],
+		"LoadingGauge": [
+			"Barcelona Metro"
+		],
+		"CompatibleTracks": [
+			"",
+			"pmn_mdc-4_tru_bm"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 6,
+		"minTurnRadius": 25,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.22,
+		"trackClearance": 1.06,
+		"minStationTurnRadius": 700,
+		"stopTimeSeconds": 27,
+		"minStationLength": 50,
+		"maxStationLength": 75,
+		"maxSpeedLocalStation": 10,
+		"minCars": 2,
+		"maxCars": 2,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 105,
+		"carLength": 11.84,
+		"trainWidth": 2.69,
+		"carCost": 6120888,
+		"MinCapacity": 210,
+		"MaxCapacity": 210,
+		"baseTrackCost": 28463,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 60,
+		"carOperationalCostPerHour": 15,
+		"Multipliers": [
+			4.22,
+			1.88,
+			0.94,
+			0.3,
+			0.78
+		],
+		"desc": "The C810D is an automated people mover built by Mitsubishi for Singapore's LRT that entered service in 2025 on the Sengkang and Punggol Lines. It can be run as singular cars IRL, but game restrictions force it to be 2 cars only.",
+		"color": "#83d11c",
+		"Manufacturer": [
+			"Mitsubishi"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "pmn_mdc-4_tru_bm",
+		"trainType2": "Automated People Mover",
+		"lengthList": [
+			24
+		],
+		"consistList": [
+			2
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
 		]
 	},
 	{
@@ -7879,6 +8271,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-0_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8002,6 +8395,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8127,6 +8521,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8261,6 +8656,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-0_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8389,6 +8785,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8509,6 +8906,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8629,6 +9027,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8749,6 +9148,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8869,6 +9269,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -8989,6 +9390,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -9105,6 +9507,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -9227,6 +9630,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -9339,6 +9743,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -9458,6 +9863,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -9590,6 +9996,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Hydrogen Commuter",
 		"lengthList": [
@@ -9730,6 +10137,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -9872,6 +10280,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -10013,6 +10422,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -10153,6 +10563,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -10267,6 +10678,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -10383,8 +10795,10 @@
 			"United States of America"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_tra_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -10401,6 +10815,119 @@
 		],
 		"maxStationList": [
 			100,
+			200
+		]
+	},
+	{
+		"Ready": true,
+		"name": "CR151 (SGP)",
+		"trainType": "Metro",
+		"MainTrack": "DC 1.5kV (GoA4 | CAT | LIRR)",
+		"maxSpeed": 25,
+		"maxAcceleration": 1.1,
+		"maxDeceleration": 1.3,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"High Voltage DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_hv-4_cat_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 32,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 18,
+		"minCars": 6,
+		"maxCars": 8,
+		"carsPerCarSet": 1,
+		"capacityPerCar": 320,
+		"carLength": 23.08,
+		"trainWidth": 3.2,
+		"carCost": 1707009,
+		"MinCapacity": 1920,
+		"MaxCapacity": 2560,
+		"baseTrackCost": 48875,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 15937500,
+		"Old": false,
+		"trainOperationalCostPerHour": 120,
+		"carOperationalCostPerHour": 18,
+		"Multipliers": [
+			4.29,
+			1.91,
+			0.95,
+			0.3,
+			0.85
+		],
+		"desc": "The CR151 is an EMU being built by CRRC for Singapore's MRT that will enter service in 2030 on the Cross Island Line. It initially will come in 6 car sets but is expanable to up to 8. Acceleration is a guesstimate.",
+		"color": "#cbb47e",
+		"Manufacturer": [
+			"CRRC"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: Future Tech"
+		],
+		"Alias": "",
+		"mainTrackID": "std_hv-4_cat_lirr",
+		"trainType2": "Automated Metro",
+		"lengthList": [
+			139,
+			162,
+			185
+		],
+		"consistList": [
+			6,
+			7,
+			8
+		],
+		"minStationList": [
+			160,
+			180,
+			200
+		],
+		"maxStationList": [
+			160,
+			180,
 			200
 		]
 	},
@@ -10497,6 +11024,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -10523,7 +11051,7 @@
 	{
 		"Ready": true,
 		"name": "CTA 3200 Series",
-		"trainType": "Metro",
+		"trainType": "Weird Metro",
 		"MainTrack": "DC 600V (GoA1 | TRA | RER)",
 		"maxSpeed": 24.6,
 		"maxAcceleration": 1.43,
@@ -10551,7 +11079,7 @@
 			""
 		],
 		"maxLateralAcceleration": 1.63,
-		"canCrossRoads": false,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 50,
 		"TrainGapFillerLength": 0,
@@ -10610,8 +11138,9 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_rer",
-		"trainType2": "Metro",
+		"trainType2": "Weird Metro",
 		"lengthList": [
 			59,
 			88,
@@ -10636,7 +11165,7 @@
 	{
 		"Ready": true,
 		"name": "CTA 5000 Series",
-		"trainType": "Metro",
+		"trainType": "Weird Metro",
 		"MainTrack": "DC 600V (GoA1 | TRA | RER)",
 		"maxSpeed": 24.6,
 		"maxAcceleration": 1.25,
@@ -10664,7 +11193,7 @@
 			""
 		],
 		"maxLateralAcceleration": 1.63,
-		"canCrossRoads": false,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 50,
 		"TrainGapFillerLength": 0,
@@ -10722,8 +11251,9 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tra_rer",
-		"trainType2": "Metro",
+		"trainType2": "Weird Metro",
 		"lengthList": [
 			59,
 			88,
@@ -10836,6 +11366,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -10964,6 +11495,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -11085,6 +11617,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_sv-1_trs_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -11198,6 +11731,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_uic",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -11316,6 +11850,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_uic",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -11438,6 +11973,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_sv-1_trs_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -11555,6 +12091,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -11706,6 +12243,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -11813,6 +12351,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-3_tru_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -11931,6 +12470,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_lirr",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -11983,6 +12523,7 @@
 			"Standard"
 		],
 		"LoadingGauge": [
+			"Narrow",
 			"Metro Standard",
 			"Barcelona Metro",
 			"Metro Wide"
@@ -12054,6 +12595,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_mw",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -12165,6 +12707,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_mw",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -12277,6 +12820,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_mw",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -12391,6 +12935,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_tru_mw",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -12512,6 +13057,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -12633,8 +13179,10 @@
 			"Denmark"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -12758,6 +13306,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -12878,6 +13427,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -13026,6 +13576,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -13173,6 +13724,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_cat_mw",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -13284,6 +13836,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -13395,6 +13948,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -13500,6 +14054,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -13618,6 +14173,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -13735,6 +14291,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -13843,6 +14400,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "tor_cdc-1_cat_nar",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -13966,6 +14524,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -14088,6 +14647,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -14221,6 +14781,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -14334,6 +14895,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -14449,6 +15011,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_rer",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -14559,6 +15122,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_rer",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -14669,6 +15233,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -14786,6 +15351,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -14903,6 +15469,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_ceac-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -15017,6 +15584,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -15145,6 +15713,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel LRT",
 		"lengthList": [
@@ -15281,6 +15850,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel LRT",
 		"lengthList": [
@@ -15393,6 +15963,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -15499,6 +16070,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -15620,6 +16192,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -15753,6 +16326,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -15871,6 +16445,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_tra_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -15983,6 +16558,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -16095,8 +16671,10 @@
 			"Italy"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -16201,6 +16779,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -16306,6 +16885,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_un",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -16423,6 +17003,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -16538,6 +17119,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_non-1_non_lss",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -16673,6 +17255,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_non-1_non_lss",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -16785,6 +17368,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_un",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -16808,7 +17392,7 @@
 		"Ready": true,
 		"name": "Innovia APM",
 		"trainType": "People Mover",
-		"MainTrack": "APMs DC 1.5kV (GoA4 | TRS | MW)",
+		"MainTrack": "APMs AC .6-50 (GoA4 | TRS | MW)",
 		"maxSpeed": 13.9,
 		"maxAcceleration": 1,
 		"maxDeceleration": 1,
@@ -16819,7 +17403,7 @@
 			"tr-side"
 		],
 		"Voltage": [
-			"Modern DC"
+			"APM 600V AC"
 		],
 		"TrackGauge": [
 			"APMs"
@@ -16829,8 +17413,7 @@
 			"RER Narrow"
 		],
 		"CompatibleTracks": [
-			"",
-			"aps_hv-4_trs_mw"
+			"aps_apm-4_trs_mw"
 		],
 		"ExtraTracks": [
 			""
@@ -16857,12 +17440,12 @@
 		"carCost": 3600000,
 		"MinCapacity": 200,
 		"MaxCapacity": 400,
-		"baseTrackCost": 63883,
+		"baseTrackCost": 29038,
 		"baseStationCost": 82500000,
 		"scissorsCrossoverCost": 18937500,
 		"Old": false,
-		"trainOperationalCostPerHour": -40,
-		"carOperationalCostPerHour": 5,
+		"trainOperationalCostPerHour": 60,
+		"carOperationalCostPerHour": 15,
 		"Multipliers": [
 			4.39,
 			1.95,
@@ -16894,7 +17477,8 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
-		"mainTrackID": "aps_hv-4_trs_mw",
+		"Alias": "",
+		"mainTrackID": "aps_apm-4_trs_mw",
 		"trainType2": "Automated People Mover",
 		"lengthList": [
 			26,
@@ -16915,6 +17499,217 @@
 			40,
 			60,
 			60
+		]
+	},
+	{
+		"Ready": true,
+		"name": "Innovia APM C801A",
+		"trainType": "People Mover",
+		"MainTrack": "APMs AC .6-50 (GoA4 | TRS | MW)",
+		"maxSpeed": 13.3,
+		"maxAcceleration": 0.8,
+		"maxDeceleration": 1.1,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-side"
+		],
+		"Voltage": [
+			"APM 600V AC"
+		],
+		"TrackGauge": [
+			"APMs"
+		],
+		"LoadingGauge": [
+			"Metro Wide",
+			"RER Narrow"
+		],
+		"CompatibleTracks": [
+			"aps_apm-4_trs_mw"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 6,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.27,
+		"trackClearance": 1.08,
+		"minStationTurnRadius": 800,
+		"stopTimeSeconds": 27,
+		"minStationLength": 50,
+		"maxStationLength": 75,
+		"maxSpeedLocalStation": 10,
+		"minCars": 2,
+		"maxCars": 2,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 105,
+		"carLength": 12.8,
+		"trainWidth": 2.8,
+		"carCost": 4896710,
+		"MinCapacity": 210,
+		"MaxCapacity": 210,
+		"baseTrackCost": 29038,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18937500,
+		"Old": false,
+		"trainOperationalCostPerHour": 60,
+		"carOperationalCostPerHour": 15,
+		"Multipliers": [
+			4.39,
+			1.95,
+			0.98,
+			0.3,
+			0.79
+		],
+		"desc": "The C801A is an automated people mover built by Bombardier for Singapore's LRT that entered service in 2014 on the Bukit Panjang Line. They are part of the Innovia People Mover family (100 Series). It can be run as singular cars IRL, but game restrictions force it to be 2 cars only.  Cost is a guesstimate based on the C810D.",
+		"color": "#7e95cb",
+		"Manufacturer": [
+			"Bombardier"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "aps_apm-4_trs_mw",
+		"trainType2": "Automated People Mover",
+		"lengthList": [
+			26
+		],
+		"consistList": [
+			2
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
+		"name": "Innovia APM C801B",
+		"trainType": "People Mover",
+		"MainTrack": "APMs AC .6-50 (GoA4 | TRS | MW)",
+		"maxSpeed": 13.3,
+		"maxAcceleration": 0.75,
+		"maxDeceleration": 0.75,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-side"
+		],
+		"Voltage": [
+			"APM 600V AC"
+		],
+		"TrackGauge": [
+			"APMs"
+		],
+		"LoadingGauge": [
+			"Metro Wide",
+			"RER Narrow"
+		],
+		"CompatibleTracks": [
+			"aps_apm-4_trs_mw"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 6,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.27,
+		"trackClearance": 1.08,
+		"minStationTurnRadius": 800,
+		"stopTimeSeconds": 27,
+		"minStationLength": 50,
+		"maxStationLength": 75,
+		"maxSpeedLocalStation": 10,
+		"minCars": 2,
+		"maxCars": 2,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 105,
+		"carLength": 12.8,
+		"trainWidth": 2.8,
+		"carCost": 5100740,
+		"MinCapacity": 210,
+		"MaxCapacity": 210,
+		"baseTrackCost": 29038,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18937500,
+		"Old": false,
+		"trainOperationalCostPerHour": 60,
+		"carOperationalCostPerHour": 15,
+		"Multipliers": [
+			4.39,
+			1.95,
+			0.98,
+			0.3,
+			0.79
+		],
+		"desc": "The C801B is an automated people mover built by Alstom and CRRC for Singapore's LRT that entered service in 2024 on the Bukit Panjang Line. They are part of the Innovia People Mover family (300 Series). It can be run as singular cars IRL, but game restrictions force it to be 2 cars only.  Cost is a guesstimate based on the C810D.",
+		"color": "#f8f2ca",
+		"Manufacturer": [
+			"Alstom",
+			"CRRC"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "aps_apm-4_trs_mw",
+		"trainType2": "Automated People Mover",
+		"lengthList": [
+			26
+		],
+		"consistList": [
+			2
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
 		]
 	},
 	{
@@ -17005,6 +17800,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-4_cat_lirr",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -17109,6 +17905,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -17214,6 +18011,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_ms",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -17318,8 +18116,10 @@
 		],
 		"Tags": [
 			"Creator:DanielD1909",
-			"Challenge:Eric Adams"
+			"Challenge:Eric Adams",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_lss",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -17428,6 +18228,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -17540,6 +18341,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -17654,6 +18456,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -17764,6 +18567,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -17874,6 +18678,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_cat_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -17982,6 +18787,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -18091,6 +18897,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -18198,6 +19005,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -18247,6 +19055,7 @@
 			"Standard"
 		],
 		"LoadingGauge": [
+			"London S Stock",
 			"REM",
 			"U.S. Passenger Standard"
 		],
@@ -18262,6 +19071,7 @@
 			"std_nhac-0_cat_aar",
 			"std_hv-1_cat_aar",
 			"std_hv-0_cat_aar",
+			"std_cdc-1_fr_lss",
 			"std_mdc-1_tra_aar",
 			"std_cdc-1_tru_aar",
 			"std_sv-1_cat_rem",
@@ -18269,7 +19079,9 @@
 			"std_ceac-1_cat_aar",
 			"std_ceac-0_cat_aar",
 			"std_sv-1_trs_aar",
-			"std_sv-0_trs_aar"
+			"std_sv-0_trs_aar",
+			"std_iac-1_cat_lss",
+			"std_iac-0_cat_lss"
 		],
 		"ExtraTracks": [
 			""
@@ -18333,6 +19145,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -18350,6 +19163,116 @@
 		"maxStationList": [
 			60,
 			120
+		]
+	},
+	{
+		"Ready": true,
+		"name": "J151 (SGP)",
+		"trainType": "Metro",
+		"MainTrack": "DC 750V (GoA4 | TRU | MW)",
+		"maxSpeed": 19.4,
+		"maxAcceleration": 1.1,
+		"maxDeceleration": 1.1,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Barcelona Metro",
+			"Metro Wide"
+		],
+		"CompatibleTracks": [
+			"std_mdc-4_tru_mw"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 75,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.27,
+		"trackClearance": 1.08,
+		"minStationTurnRadius": 1700,
+		"stopTimeSeconds": 32,
+		"minStationLength": 100,
+		"maxStationLength": 125,
+		"maxSpeedLocalStation": 18,
+		"minCars": 3,
+		"maxCars": 4,
+		"carsPerCarSet": 1,
+		"capacityPerCar": 150,
+		"carLength": 18.6,
+		"trainWidth": 2.75,
+		"carCost": 1713273,
+		"MinCapacity": 450,
+		"MaxCapacity": 600,
+		"baseTrackCost": 56925,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 120,
+		"carOperationalCostPerHour": 18,
+		"Multipliers": [
+			4.31,
+			1.91,
+			0.96,
+			0.3,
+			0.79
+		],
+		"desc": "The J151 is an EMU being built by Hyundai Rotem for Singapore's MRT that will enter service in 2028 on the Jurong Region Line. They come in 3 car sets, but are expandable to 4 cars long. Acceleration is a guesstimate.",
+		"color": "#6acc81",
+		"Manufacturer": [
+			"Hyundai"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: Future Tech"
+		],
+		"Alias": "",
+		"mainTrackID": "std_mdc-4_tru_mw",
+		"trainType2": "Automated Metro",
+		"lengthList": [
+			56,
+			75
+		],
+		"consistList": [
+			3,
+			4
+		],
+		"minStationList": [
+			60,
+			80
+		],
+		"maxStationList": [
+			60,
+			80
 		]
 	},
 	{
@@ -18441,6 +19364,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_un",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -18555,6 +19479,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -18665,6 +19590,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_mdc-1_cat_nar",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -18770,6 +19696,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_bm",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -18894,6 +19821,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -19024,6 +19952,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_fr_rer",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -19131,6 +20060,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_cph",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -19249,6 +20179,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -19357,6 +20288,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_mdc-1_tru_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -19469,6 +20401,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_mdc-1_tru_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -19597,6 +20530,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_mdc-4_tru_lirr",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -19709,6 +20643,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -19822,6 +20757,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_mdc-2_tru_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -19936,6 +20872,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -20042,6 +20979,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -20158,6 +21096,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tru_lirr",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -20298,6 +21237,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -20414,6 +21354,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_lirr",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -20537,6 +21478,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-4_trs_ms",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -20640,6 +21582,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-4_trs_ms",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -20761,6 +21704,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -20887,6 +21831,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -20995,6 +21940,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21102,6 +22048,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21206,6 +22153,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21310,6 +22258,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21416,6 +22365,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21521,6 +22471,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21626,6 +22577,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21732,6 +22684,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21837,6 +22790,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21941,6 +22895,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -21962,6 +22917,327 @@
 			140,
 			160,
 			180
+		]
+	},
+	{
+		"Ready": true,
+		"name": "Metropolis C751A/C",
+		"trainType": "Metro",
+		"MainTrack": "DC 1.5kV (GoA4 | CAT | LIRR)",
+		"maxSpeed": 25,
+		"maxAcceleration": 1.1,
+		"maxDeceleration": 1.3,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"High Voltage DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_hv-4_cat_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 32,
+		"minStationLength": 150,
+		"maxStationLength": 200,
+		"maxSpeedLocalStation": 18,
+		"minCars": 6,
+		"maxCars": 6,
+		"carsPerCarSet": 6,
+		"capacityPerCar": 320,
+		"carLength": 23.08,
+		"trainWidth": 3.2,
+		"carCost": 1326192,
+		"MinCapacity": 1920,
+		"MaxCapacity": 1920,
+		"baseTrackCost": 48875,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 15937500,
+		"Old": false,
+		"trainOperationalCostPerHour": 120,
+		"carOperationalCostPerHour": 18,
+		"Multipliers": [
+			4.29,
+			1.91,
+			0.95,
+			0.3,
+			0.85
+		],
+		"desc": "The C751A is an EMU built by Alstom for Singapore's MRT that entered service in 2003. They are based on Alstom's Metropolis family, and serve the North East Line. The C is identical but built as a joint venture with Shanghai Electric.",
+		"color": "#fe3570",
+		"Manufacturer": [
+			"Alstom",
+			"Shanghai Electric"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_hv-4_cat_lirr",
+		"trainType2": "Automated Metro",
+		"lengthList": [
+			138
+		],
+		"consistList": [
+			6
+		],
+		"minStationList": [
+			160
+		],
+		"maxStationList": [
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "Metropolis C830(C)",
+		"trainType": "Metro",
+		"MainTrack": "DC 750V (GoA4 | TRU | LIRR)",
+		"maxSpeed": 21.7,
+		"maxAcceleration": 1.1,
+		"maxDeceleration": 1.3,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_mdc-4_tru_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 32,
+		"minStationLength": 75,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 18,
+		"minCars": 3,
+		"maxCars": 3,
+		"carsPerCarSet": 3,
+		"capacityPerCar": 310,
+		"carLength": 23.37,
+		"trainWidth": 3.21,
+		"carCost": 1657740,
+		"MinCapacity": 931,
+		"MaxCapacity": 931,
+		"baseTrackCost": 56925,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 120,
+		"carOperationalCostPerHour": 18,
+		"Multipliers": [
+			4.99,
+			2.22,
+			1.11,
+			0.3,
+			0.85
+		],
+		"desc": "The C830 is an EMU built by Alstom for Singapore's MRT that entered service in 2006. They are based on Alstom's Metropolis family, and serve the Circle Line. The C830C is a later variant built in partnership with Shanghai Electric.",
+		"color": "#03edb6",
+		"Manufacturer": [
+			"Alstom",
+			"Shanghai Electric"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_mdc-4_tru_lirr",
+		"trainType2": "Automated Metro",
+		"lengthList": [
+			70
+		],
+		"consistList": [
+			3
+		],
+		"minStationList": [
+			80
+		],
+		"maxStationList": [
+			80
+		]
+	},
+	{
+		"Ready": true,
+		"name": "Metropolis C851E",
+		"trainType": "Metro",
+		"MainTrack": "DC 1.5kV (GoA4 | CAT | LIRR)",
+		"maxSpeed": 25,
+		"maxAcceleration": 1.1,
+		"maxDeceleration": 1.3,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"catenary",
+			"tr-under"
+		],
+		"Voltage": [
+			"High Voltage DC",
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_hv-4_cat_lirr",
+			"std_mdc-4_tru_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 32,
+		"minStationLength": 150,
+		"maxStationLength": 200,
+		"maxSpeedLocalStation": 18,
+		"minCars": 3,
+		"maxCars": 6,
+		"carsPerCarSet": 3,
+		"capacityPerCar": 320,
+		"carLength": 23.08,
+		"trainWidth": 3.2,
+		"carCost": 1820964,
+		"MinCapacity": 960,
+		"MaxCapacity": 1920,
+		"baseTrackCost": 48875,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 15937500,
+		"Old": false,
+		"trainOperationalCostPerHour": 120,
+		"carOperationalCostPerHour": 18,
+		"Multipliers": [
+			4.29,
+			1.91,
+			0.95,
+			0.3,
+			0.85
+		],
+		"desc": "The C851E is an EMU built by Alstom for Singapore's MRT that entered service in 2023. They are based on Alstom's Metropolis family, and serve the North East Line as 6 car sets. They will soon enter service in the Circle Line as 3 car sets.",
+		"color": "#ed0338",
+		"Manufacturer": [
+			"Alstom"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_hv-4_cat_lirr",
+		"trainType2": "Automated Metro",
+		"lengthList": [
+			70,
+			139
+		],
+		"consistList": [
+			3,
+			6
+		],
+		"minStationList": [
+			80,
+			160
+		],
+		"maxStationList": [
+			80,
+			160
 		]
 	},
 	{
@@ -22055,6 +23331,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_tra_un",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -22161,6 +23438,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_tra_un",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -22269,8 +23547,10 @@
 			"France"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_tra_un",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -22373,8 +23653,10 @@
 			"France"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tra_un",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -22478,6 +23760,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_cat_un",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -22590,6 +23873,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -22704,8 +23988,10 @@
 			"France"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -22822,6 +24108,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -22839,6 +24126,219 @@
 		"maxStationList": [
 			120,
 			220
+		]
+	},
+	{
+		"Ready": true,
+		"name": "Movia C951",
+		"trainType": "Metro",
+		"MainTrack": "DC 750V (GoA4 | TRU | LIRR)",
+		"maxSpeed": 22.2,
+		"maxAcceleration": 1.1,
+		"maxDeceleration": 1.1,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_mdc-4_tru_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 32,
+		"minStationLength": 75,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 18,
+		"minCars": 3,
+		"maxCars": 3,
+		"carsPerCarSet": 3,
+		"capacityPerCar": 310,
+		"carLength": 23.37,
+		"trainWidth": 3.2,
+		"carCost": 1912500,
+		"MinCapacity": 931,
+		"MaxCapacity": 931,
+		"baseTrackCost": 56925,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 120,
+		"carOperationalCostPerHour": 18,
+		"Multipliers": [
+			4.99,
+			2.22,
+			1.11,
+			0.3,
+			0.85
+		],
+		"desc": "The C951 is an EMU built by Bombardier/Alstom and CRRC for Singapore's MRT that entered service in 2013. They serve on the Downtown Line. They are based on the ADTranz/Bombardier/Alstom Movia family.",
+		"color": "#62dc40",
+		"Manufacturer": [
+			"Alstom",
+			"CRRC",
+			"Bombardier"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_mdc-4_tru_lirr",
+		"trainType2": "Automated Metro",
+		"lengthList": [
+			70
+		],
+		"consistList": [
+			3
+		],
+		"minStationList": [
+			80
+		],
+		"maxStationList": [
+			80
+		]
+	},
+	{
+		"Ready": true,
+		"name": "Movia R141",
+		"trainType": "Metro",
+		"MainTrack": "DC 750V (GoA3 | TRU | LIRR)",
+		"maxSpeed": 22.4,
+		"maxAcceleration": 1,
+		"maxDeceleration": 1.2,
+		"Automation": [
+			"GoA3",
+			"GoA2"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_mdc-3_tru_lirr",
+			"std_mdc-2_tru_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 35,
+		"minStationLength": 150,
+		"maxStationLength": 200,
+		"maxSpeedLocalStation": 16,
+		"minCars": 6,
+		"maxCars": 6,
+		"carsPerCarSet": 6,
+		"capacityPerCar": 320,
+		"carLength": 23.11,
+		"trainWidth": 3.2,
+		"carCost": 1804507,
+		"MinCapacity": 1920,
+		"MaxCapacity": 1920,
+		"baseTrackCost": 54450,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 18000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 170,
+		"carOperationalCostPerHour": 23,
+		"Multipliers": [
+			4.99,
+			2.22,
+			1.11,
+			0.3,
+			0.85
+		],
+		"desc": "The R141 is an EMU built by Alstom/Bombardier and CRRC for Singapore's MRT that entered service in 2023. They serve on the North-South and East-West lines. They are based on the ADTranz/Bombardier/Alstom Movia family.",
+		"color": "#009645",
+		"Manufacturer": [
+			"Alstom",
+			"CRRC"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_mdc-3_tru_lirr",
+		"trainType2": "Metro",
+		"lengthList": [
+			139
+		],
+		"consistList": [
+			6
+		],
+		"minStationList": [
+			160
+		],
+		"maxStationList": [
+			160
 		]
 	},
 	{
@@ -22929,6 +24429,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-4_fr_tff",
 		"trainType2": "Automated Rubber Metro",
 		"lengthList": [
@@ -23032,6 +24533,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-4_fr_tff",
 		"trainType2": "Automated Rubber Metro",
 		"lengthList": [
@@ -23141,6 +24643,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-2_fr_tff",
 		"trainType2": "Rubber Metro",
 		"lengthList": [
@@ -23244,6 +24747,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-4_fr_tff",
 		"trainType2": "Automated Rubber Metro",
 		"lengthList": [
@@ -23353,6 +24857,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-2_fr_tff",
 		"trainType2": "Rubber Metro",
 		"lengthList": [
@@ -23481,6 +24986,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -23650,6 +25156,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -23812,6 +25319,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -23941,6 +25449,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-2_fr_nar",
 		"trainType2": "Rubber Metro",
 		"lengthList": [
@@ -24052,8 +25561,10 @@
 			"France"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -24159,8 +25670,10 @@
 			"France"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_tru_nar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -24277,6 +25790,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -24440,6 +25954,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -24559,6 +26074,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_ceac-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -24704,6 +26220,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -24757,11 +26274,14 @@
 			"Standard"
 		],
 		"LoadingGauge": [
+			"Metro Standard",
 			"Barcelona Metro"
 		],
 		"CompatibleTracks": [
 			"std_mdc-1_cat_bm",
-			"std_mdc-0_cat_bm"
+			"std_mdc-0_cat_bm",
+			"std_mdc-0_cat_ms",
+			"std_mdc-1_cat_ms"
 		],
 		"ExtraTracks": [
 			""
@@ -24825,6 +26345,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_bm",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -24866,11 +26387,14 @@
 			"Standard"
 		],
 		"LoadingGauge": [
+			"Metro Standard",
 			"Barcelona Metro"
 		],
 		"CompatibleTracks": [
 			"std_mdc-1_cat_bm",
-			"std_mdc-0_cat_bm"
+			"std_mdc-0_cat_bm",
+			"std_mdc-0_cat_ms",
+			"std_mdc-1_cat_ms"
 		],
 		"ExtraTracks": [
 			""
@@ -24934,6 +26458,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_bm",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -25040,6 +26565,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "rub_mdc-2_fr_nar",
 		"trainType2": "Rubber Metro",
 		"lengthList": [
@@ -25145,6 +26671,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "tor_cdc-1_tru_uic",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -25227,7 +26754,7 @@
 			0.3,
 			0.82
 		],
-		"desc": "The 14th Series of rolling stock for the MBTA Orange Line is an EMU built by CRRC. Acceleration and capacity is guessimated.",
+		"desc": "The 14th Series of rolling stock for the MBTA Orange Line is an EMU built by CRRC from 2018-2025. Acceleration and capacity is guessimated.",
 		"color": "#ED8B00",
 		"Manufacturer": [
 			"CRRC"
@@ -25251,6 +26778,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -25361,6 +26889,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_tra_aar",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -25472,6 +27001,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-2_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -25489,6 +27019,128 @@
 		"maxStationList": [
 			60,
 			100
+		]
+	},
+	{
+		"Ready": true,
+		"name": "PA5",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA1 | TRA | MW)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Wide",
+			"RER Narrow"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_rer",
+			"std_cdc-1_tra_mw"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.27,
+		"trackClearance": 1.08,
+		"minStationTurnRadius": 1200,
+		"stopTimeSeconds": 42,
+		"minStationLength": 175,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 13,
+		"minCars": 6,
+		"maxCars": 10,
+		"carsPerCarSet": 1,
+		"capacityPerCar": 163,
+		"carLength": 15.54,
+		"trainWidth": 2.8,
+		"carCost": 1467647,
+		"MinCapacity": 978,
+		"MaxCapacity": 1630,
+		"baseTrackCost": 50000,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 220,
+		"carOperationalCostPerHour": 28,
+		"Multipliers": [
+			4.35,
+			1.93,
+			0.97,
+			0.3,
+			0.79
+		],
+		"desc": "The PA-5 is a metro EMU built by Kawasaki for the Port Authority of New York and New Jersey and its PATH service that entered service in 2009. They are a derivative of the R142As ordered by the MTA for the NYC Subway.",
+		"color": "#81f6fe",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_tra_mw",
+		"trainType2": "Metro",
+		"lengthList": [
+			94,
+			109,
+			125,
+			140,
+			156
+		],
+		"consistList": [
+			6,
+			7,
+			8,
+			9,
+			10
+		],
+		"minStationList": [
+			100,
+			120,
+			140,
+			160,
+			160
+		],
+		"maxStationList": [
+			100,
+			120,
+			140,
+			160,
+			160
 		]
 	},
 	{
@@ -25588,6 +27240,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -25712,8 +27365,10 @@
 			"Australia"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
@@ -25735,7 +27390,7 @@
 	},
 	{
 		"Ready": true,
-		"name": "R142A/PA5",
+		"name": "R142 (NYC)",
 		"trainType": "Metro",
 		"MainTrack": "DC 600V (GoA1 | TRA | MS)",
 		"maxSpeed": 24.6,
@@ -25799,8 +27454,8 @@
 			0.3,
 			0.77
 		],
-		"desc": "The R142A is a subway EMU built by Bombardier (now Alstom) for the NYC Subway's A Division that entered service in 2000. The PA5 is a variant built for the PATH Rapid Transit system. ",
-		"color": "#0095D3",
+		"desc": "The R142 is a subway EMU built by Bombardier (now Alstom) and Kawsak ifor the NYC Subway's A Division that entered service in 2000. As of 2024, they are deployed on lines 2, 4, and 5.",
+		"color": "#009952",
 		"Manufacturer": [
 			"Bombardier"
 		],
@@ -25821,8 +27476,10 @@
 			"United States of America"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: NYC A Division"
 		],
+		"Alias": "R142A/PA5",
 		"mainTrackID": "std_cdc-1_tra_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -25840,6 +27497,342 @@
 		"maxStationList": [
 			100,
 			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R143 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"REM",
+			"U.S. Passenger Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar",
+			"std_cdc-2_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 75,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 1700,
+		"stopTimeSeconds": 35,
+		"minStationLength": 150,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 14,
+		"minCars": 4,
+		"maxCars": 8,
+		"carsPerCarSet": 4,
+		"capacityPerCar": 220,
+		"carLength": 18.35,
+		"trainWidth": 2.98,
+		"carCost": 1500000,
+		"MinCapacity": 880,
+		"MaxCapacity": 1760,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R143 is a subway EMU built by Kawasaki for the B Division of the NYC Subway that entered service in 2001. As of 2024, they serve line L.",
+		"color": "#830172",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_aar",
+		"trainType2": "Metro",
+		"lengthList": [
+			74,
+			147
+		],
+		"consistList": [
+			4,
+			8
+		],
+		"minStationList": [
+			80,
+			160
+		],
+		"maxStationList": [
+			80,
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R160A (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"REM",
+			"U.S. Passenger Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar",
+			"std_cdc-2_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 75,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 1700,
+		"stopTimeSeconds": 35,
+		"minStationLength": 150,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 14,
+		"minCars": 4,
+		"maxCars": 8,
+		"carsPerCarSet": 4,
+		"capacityPerCar": 220,
+		"carLength": 18.35,
+		"trainWidth": 2.98,
+		"carCost": 2000000,
+		"MinCapacity": 880,
+		"MaxCapacity": 1760,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R160A is a subway EMU built by Alstom for the NYC Subway's B Divison that entered service in 2006. It is effectively identical to the R160B except in manufacturer, and that the As come in 4 or 5 cars while the Bs come in 5 cars only. As of 2024, they serve lines J/Z,L, and M.",
+		"color": "#EB6800",
+		"Manufacturer": [
+			"Alstom"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_aar",
+		"trainType2": "Metro",
+		"lengthList": [
+			74,
+			147
+		],
+		"consistList": [
+			4,
+			8
+		],
+		"minStationList": [
+			80,
+			160
+		],
+		"maxStationList": [
+			80,
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R160B (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"REM",
+			"U.S. Passenger Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar",
+			"std_cdc-2_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 75,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 1700,
+		"stopTimeSeconds": 35,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 14,
+		"minCars": 5,
+		"maxCars": 10,
+		"carsPerCarSet": 5,
+		"capacityPerCar": 220,
+		"carLength": 18.35,
+		"trainWidth": 2.98,
+		"carCost": 2000000,
+		"MinCapacity": 1100,
+		"MaxCapacity": 2200,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R160B is a subway EMU built by Kawasaki for the NYC Subway's B Divison that entered service in 2006. It is effectively identical to the R160A except in manufacturer, and that the As come in 4 or 5 cars while the Bs come in 5 cars only. As of 2024, they serve lines E,F, and R.",
+		"color": "#018312",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_aar",
+		"trainType2": "Metro",
+		"lengthList": [
+			92,
+			184
+		],
+		"consistList": [
+			5,
+			10
+		],
+		"minStationList": [
+			100,
+			200
+		],
+		"maxStationList": [
+			100,
+			200
 		]
 	},
 	{
@@ -25931,8 +27924,10 @@
 			"United States of America"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: NYC B Division"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_tra_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -25954,12 +27949,12 @@
 	},
 	{
 		"Ready": true,
-		"name": "R188 (NYC)",
+		"name": "R188-11 (NYC)",
 		"trainType": "Metro",
 		"MainTrack": "DC 600V (GoA2 | TRA | MS)",
 		"maxSpeed": 24.7,
-		"maxAcceleration": 1.1,
-		"maxDeceleration": 1.3,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
 		"Automation": [
 			"GoA2",
 			"GoA1"
@@ -26018,8 +28013,8 @@
 			0.3,
 			0.77
 		],
-		"desc": "The R188 is a subway EMU built by Kawasaki for the NYC Subway's A Division that entered service in 2013.",
-		"color": "#AF378B",
+		"desc": "The R188 is a subway EMU built by Kawasaki for the NYC Subway's A Division that entered service in 2013. This is the 11 car variant which is made up of a 5 car and a 6 car set. It can also handle 10 cars if you use a 5 and a 5. 11 cars is what is used IRL. As of 2024, they are deployed on the 7 Line.",
+		"color": "#370b2c",
 		"Manufacturer": [
 			"Kawasaki"
 		],
@@ -26040,8 +28035,232 @@
 			"United States of America"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: NYC A Division"
 		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_ms",
+		"trainType2": "Metro",
+		"lengthList": [
+			79,
+			157
+		],
+		"consistList": [
+			5,
+			10
+		],
+		"minStationList": [
+			100,
+			160
+		],
+		"maxStationList": [
+			100,
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R188-5 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | MS)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_ms",
+			"std_cdc-2_tra_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0.3,
+		"parallelTrackSpacing": 2.12,
+		"trackClearance": 1.01,
+		"minStationTurnRadius": 200,
+		"stopTimeSeconds": 35,
+		"minStationLength": 160,
+		"maxStationLength": 200,
+		"maxSpeedLocalStation": 14,
+		"minCars": 5,
+		"maxCars": 10,
+		"carsPerCarSet": 5,
+		"capacityPerCar": 188,
+		"carLength": 15.65,
+		"trainWidth": 2.62,
+		"carCost": 2270000,
+		"MinCapacity": 940,
+		"MaxCapacity": 1880,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.11,
+			1.83,
+			0.91,
+			0.3,
+			0.77
+		],
+		"desc": "The R188 is a subway EMU built by Kawasaki for the NYC Subway's A Division that entered service in 2013. This is the 5/10 car variant. As of 2024, they are deployed on the 7 Line.",
+		"color": "#9A38A1",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC A Division"
+		],
+		"Alias": "R188",
+		"mainTrackID": "std_cdc-2_tra_ms",
+		"trainType2": "Metro",
+		"lengthList": [
+			79,
+			157
+		],
+		"consistList": [
+			5,
+			10
+		],
+		"minStationList": [
+			100,
+			160
+		],
+		"maxStationList": [
+			100,
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R188-6 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | MS)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_ms",
+			"std_cdc-2_tra_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0.3,
+		"parallelTrackSpacing": 2.12,
+		"trackClearance": 1.01,
+		"minStationTurnRadius": 200,
+		"stopTimeSeconds": 35,
+		"minStationLength": 160,
+		"maxStationLength": 200,
+		"maxSpeedLocalStation": 14,
+		"minCars": 5,
+		"maxCars": 10,
+		"carsPerCarSet": 5,
+		"capacityPerCar": 188,
+		"carLength": 15.65,
+		"trainWidth": 2.62,
+		"carCost": 2270000,
+		"MinCapacity": 940,
+		"MaxCapacity": 1880,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.11,
+			1.83,
+			0.91,
+			0.3,
+			0.77
+		],
+		"desc": "The R188 is a subway EMU built by Kawasaki for the NYC Subway's A Division that entered service in 2013. This is the 6/12 car variant. 12 cars is not used IRL, but they can couple 2 5 car sets and a 5 car and a 6 car so they can most likely do a 6 and a 6 if the stations were long enough. As of 2024, they are deployed on the 7 Line.",
+		"color": "#0b3716",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC A Division"
+		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_tra_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -26066,9 +28285,9 @@
 		"name": "R211 (NYC)",
 		"trainType": "Metro",
 		"MainTrack": "DC 600V (GoA2 | TRA | AAR)",
-		"maxSpeed": 24.7,
-		"maxAcceleration": 1.1,
-		"maxDeceleration": 1.3,
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
 		"Automation": [
 			"GoA2",
 			"GoA1"
@@ -26109,12 +28328,12 @@
 		"minCars": 5,
 		"maxCars": 10,
 		"carsPerCarSet": 5,
-		"capacityPerCar": 240,
+		"capacityPerCar": 220,
 		"carLength": 18.35,
 		"trainWidth": 3.05,
 		"carCost": 2780000,
-		"MinCapacity": 1200,
-		"MaxCapacity": 2400,
+		"MinCapacity": 1100,
+		"MaxCapacity": 2200,
 		"baseTrackCost": 50000,
 		"baseStationCost": 75000000,
 		"scissorsCrossoverCost": 15000000,
@@ -26128,8 +28347,121 @@
 			0.3,
 			0.82
 		],
-		"desc": "The R211 is a subway EMU built by Kawasaki for the NYC Subway's B Division that entered service in 2023.",
-		"color": "#007EC6",
+		"desc": "The R211 is a subway EMU built by Kawasaki for the B Division of the NYC Subway that entered service in 2023. As of 2024, they are deployed on the A,B,C,G, and Rockaway Shuttle Lines.",
+		"color": "#0062CF",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_aar",
+		"trainType2": "Metro",
+		"lengthList": [
+			92,
+			184
+		],
+		"consistList": [
+			5,
+			10
+		],
+		"minStationList": [
+			100,
+			200
+		],
+		"maxStationList": [
+			100,
+			200
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R211S (NYC)",
+		"trainType": "Weird Metro",
+		"MainTrack": "DC 600V (GoA1 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA1",
+			"GoA0",
+			"GoA2"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"U.S. Passenger Standard",
+			"DC Metro"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar",
+			"std_cdc-2_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 75,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 1700,
+		"stopTimeSeconds": 42,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 13,
+		"minCars": 5,
+		"maxCars": 10,
+		"carsPerCarSet": 5,
+		"capacityPerCar": 240,
+		"carLength": 18.35,
+		"trainWidth": 3.05,
+		"carCost": 2780000,
+		"MinCapacity": 1200,
+		"MaxCapacity": 2400,
+		"baseTrackCost": 50000,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 220,
+		"carOperationalCostPerHour": 28,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R211S is an EMU built by Kawasaki for the Staten Island Railway that entered service in 2023 and replaced the very old R44s. The SIR is why the tag \"Weird Metro\" was created, since it's basically a subway and the interior is that of a subway car, but it has level crossings. Like legitimately this is the same thing as the regular R211, just with the third rail contact moved slightly since the SIR has a different height of third rail.",
+		"color": "#7910e9",
 		"Manufacturer": [
 			"Kawasaki"
 		],
@@ -26152,6 +28484,457 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_tra_aar",
+		"trainType2": "Weird Metro",
+		"lengthList": [
+			92,
+			184
+		],
+		"consistList": [
+			5,
+			10
+		],
+		"minStationList": [
+			100,
+			200
+		],
+		"maxStationList": [
+			100,
+			200
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R262-5 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | MS)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.2,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_ms",
+			"std_cdc-2_tra_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.12,
+		"trackClearance": 1.01,
+		"minStationTurnRadius": 1200,
+		"stopTimeSeconds": 35,
+		"minStationLength": 175,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 14,
+		"minCars": 5,
+		"maxCars": 10,
+		"carsPerCarSet": 5,
+		"capacityPerCar": 207,
+		"carLength": 15.6,
+		"trainWidth": 2.62,
+		"carCost": 1666667,
+		"MinCapacity": 1034,
+		"MaxCapacity": 2068,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.11,
+			1.83,
+			0.91,
+			0.3,
+			0.77
+		],
+		"desc": "The R262 is a subway EMU in development for the A Division of the NYC Subway to enter service in the 2030s. This is the 5 car set version for the IRT. They will replace the R62s and R62As. Some data is assumed from prior models.",
+		"color": "#80e910",
+		"Manufacturer": [
+			"Unknown"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC A Division",
+			"Group: Future Tech"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_ms",
+		"trainType2": "Metro",
+		"lengthList": [
+			78,
+			156
+		],
+		"consistList": [
+			5,
+			10
+		],
+		"minStationList": [
+			100,
+			160
+		],
+		"maxStationList": [
+			100,
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R262-6 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | MS)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.2,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_ms",
+			"std_cdc-2_tra_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.12,
+		"trackClearance": 1.01,
+		"minStationTurnRadius": 1200,
+		"stopTimeSeconds": 35,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 14,
+		"minCars": 6,
+		"maxCars": 12,
+		"carsPerCarSet": 6,
+		"capacityPerCar": 207,
+		"carLength": 15.6,
+		"trainWidth": 2.62,
+		"carCost": 1666667,
+		"MinCapacity": 1241,
+		"MaxCapacity": 2482,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.11,
+			1.83,
+			0.91,
+			0.3,
+			0.77
+		],
+		"desc": "The R262 is a subway EMU in development for the A Division of the NYC Subway to enter service in the 2030s. This is the 6 car set version for the 42nd Street Shuttle, which will only use them in sets of 1 but 2 is theoretically possible. They will replace the R62s and R62As. Some data is assumed from prior models.",
+		"color": "#00cfbd",
+		"Manufacturer": [
+			"Unknown"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC A Division",
+			"Group: Future Tech"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_ms",
+		"trainType2": "Metro",
+		"lengthList": [
+			94,
+			188
+		],
+		"consistList": [
+			6,
+			12
+		],
+		"minStationList": [
+			100,
+			200
+		],
+		"maxStationList": [
+			100,
+			200
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R268-4 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.2,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"U.S. Passenger Standard",
+			"DC Metro"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar",
+			"std_cdc-2_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 75,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 1700,
+		"stopTimeSeconds": 35,
+		"minStationLength": 150,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 14,
+		"minCars": 4,
+		"maxCars": 8,
+		"carsPerCarSet": 4,
+		"capacityPerCar": 242,
+		"carLength": 18.35,
+		"trainWidth": 3.05,
+		"carCost": 3968254,
+		"MinCapacity": 968,
+		"MaxCapacity": 1936,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R268 is a subway EMU being built by Kawasaki for the B Division of the NYC Subway to enter service in 2028. This is the 4-car set version. They will replace the R68s and R68As.",
+		"color": "#cf0011",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division",
+			"Group: Future Tech"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-2_tra_aar",
+		"trainType2": "Metro",
+		"lengthList": [
+			74,
+			147
+		],
+		"consistList": [
+			4,
+			8
+		],
+		"minStationList": [
+			80,
+			160
+		],
+		"maxStationList": [
+			80,
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R268-5 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA2 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.2,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA2",
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"U.S. Passenger Standard",
+			"DC Metro"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar",
+			"std_cdc-2_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 75,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 1700,
+		"stopTimeSeconds": 35,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 14,
+		"minCars": 5,
+		"maxCars": 10,
+		"carsPerCarSet": 5,
+		"capacityPerCar": 242,
+		"carLength": 18.35,
+		"trainWidth": 3.05,
+		"carCost": 3968254,
+		"MinCapacity": 1210,
+		"MaxCapacity": 2420,
+		"baseTrackCost": 50000,
+		"baseStationCost": 75000000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": false,
+		"trainOperationalCostPerHour": 195,
+		"carOperationalCostPerHour": 25.5,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R268 is a subway EMU being built by Kawasaki for the B Division of the NYC Subway to enter service in 2028. This is the 5-car set version. They will replace the R68s and R68As.",
+		"color": "#fe8a81",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division",
+			"Group: Future Tech"
+		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_tra_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -26168,6 +28951,472 @@
 		],
 		"maxStationList": [
 			100,
+			200
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R62 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA1 | TRA | MS)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.12,
+		"trackClearance": 1.01,
+		"minStationTurnRadius": 1200,
+		"stopTimeSeconds": 42,
+		"minStationLength": 175,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 13,
+		"minCars": 5,
+		"maxCars": 10,
+		"carsPerCarSet": 5,
+		"capacityPerCar": 156,
+		"carLength": 15.56,
+		"trainWidth": 2.62,
+		"carCost": 1000000,
+		"MinCapacity": 780,
+		"MaxCapacity": 1560,
+		"baseTrackCost": 50000,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": true,
+		"trainOperationalCostPerHour": 308,
+		"carOperationalCostPerHour": 39.2,
+		"Multipliers": [
+			4.11,
+			1.83,
+			0.91,
+			0.3,
+			0.77
+		],
+		"desc": "The R62 is a subway EMU built by Kawasaki for the A Division of the NYC Subway that entered service in 1983. It was originally built as single cars but renovated to be 5 car sets. As of 2024, they serve lines 1, 3, 6.",
+		"color": "#a9d73c",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC A Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_tra_ms",
+		"trainType2": "Metro",
+		"lengthList": [
+			78,
+			156
+		],
+		"consistList": [
+			5,
+			10
+		],
+		"minStationList": [
+			100,
+			160
+		],
+		"maxStationList": [
+			100,
+			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R62A (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA1 | TRA | MS)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 50,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.12,
+		"trackClearance": 1.01,
+		"minStationTurnRadius": 1200,
+		"stopTimeSeconds": 42,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 13,
+		"minCars": 6,
+		"maxCars": 12,
+		"carsPerCarSet": 6,
+		"capacityPerCar": 156,
+		"carLength": 15.56,
+		"trainWidth": 2.62,
+		"carCost": 1000000,
+		"MinCapacity": 936,
+		"MaxCapacity": 1872,
+		"baseTrackCost": 50000,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": true,
+		"trainOperationalCostPerHour": 308,
+		"carOperationalCostPerHour": 39.2,
+		"Multipliers": [
+			4.11,
+			1.83,
+			0.91,
+			0.3,
+			0.77
+		],
+		"desc": "The R62A is a subway EMU built by Bombardier for the A Division of the NYC Subway that entered service in 1985. They are the same design as the R62, but since Kawasaki didn't want to build more, Bombardier did it. It was originally built as single cars but renovated to be 5 and 6 car sets. The 6 car sets serve the 42nd Street Shuttle as single set trains, but since they are capable of being run as 12 cars if the station were long enough, they have been enabled for this mod. As of 2024, they serve the 42nd Street Shuttle.",
+		"color": "#6a3cd7",
+		"Manufacturer": [
+			"Bombardier"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC A Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_tra_ms",
+		"trainType2": "Metro",
+		"lengthList": [
+			94,
+			187
+		],
+		"consistList": [
+			6,
+			12
+		],
+		"minStationList": [
+			100,
+			200
+		],
+		"maxStationList": [
+			100,
+			200
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R68 (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA1 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"U.S. Passenger Standard",
+			"DC Metro"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 2600,
+		"stopTimeSeconds": 42,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 13,
+		"minCars": 2,
+		"maxCars": 8,
+		"carsPerCarSet": 1,
+		"capacityPerCar": 245,
+		"carLength": 22.77,
+		"trainWidth": 3.05,
+		"carCost": 1000000,
+		"MinCapacity": 490,
+		"MaxCapacity": 1960,
+		"baseTrackCost": 50000,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": true,
+		"trainOperationalCostPerHour": 308,
+		"carOperationalCostPerHour": 39.2,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R68 is a subway EMU built by Westinghouse-Amrail aka Francorail aka Westinghouse, ANF, Jeumont Schneider, and Alstom for the B Division of the NYC Subway that entered service in 1986. To quote Wikipedia, \"the fleet became known as a lemon in its early years\". Most are linked in 4 car sets after being built as single units, but since they are used in revenue service as coupled single units as low as 2 cars, a full range of lengths has been made available. As of 2024, they serve lines B, D, N, Q, W, and the Franklin Avenue Shuttle.",
+		"color": "#ab8ecf",
+		"Manufacturer": [
+			"Westinghouse",
+			"ANF",
+			"Jeumont Schneider",
+			"Alstom",
+			"Francorail"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_tra_aar",
+		"trainType2": "Metro",
+		"lengthList": [
+			46,
+			69,
+			92,
+			114,
+			137,
+			160,
+			183
+		],
+		"consistList": [
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8
+		],
+		"minStationList": [
+			60,
+			80,
+			100,
+			120,
+			140,
+			180,
+			200
+		],
+		"maxStationList": [
+			60,
+			80,
+			100,
+			120,
+			140,
+			180,
+			200
+		]
+	},
+	{
+		"Ready": true,
+		"name": "R68A (NYC)",
+		"trainType": "Metro",
+		"MainTrack": "DC 600V (GoA1 | TRA | AAR)",
+		"maxSpeed": 24.6,
+		"maxAcceleration": 1.12,
+		"maxDeceleration": 1.34,
+		"Automation": [
+			"GoA1"
+		],
+		"Electrification": [
+			"tr-above"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"U.S. Passenger Standard",
+			"DC Metro"
+		],
+		"CompatibleTracks": [
+			"std_cdc-1_tra_aar"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.52,
+		"trackClearance": 1.21,
+		"minStationTurnRadius": 2600,
+		"stopTimeSeconds": 42,
+		"minStationLength": 200,
+		"maxStationLength": 225,
+		"maxSpeedLocalStation": 13,
+		"minCars": 4,
+		"maxCars": 8,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 245,
+		"carLength": 22.77,
+		"trainWidth": 3.05,
+		"carCost": 1000000,
+		"MinCapacity": 980,
+		"MaxCapacity": 1960,
+		"baseTrackCost": 50000,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 15000000,
+		"Old": true,
+		"trainOperationalCostPerHour": 308,
+		"carOperationalCostPerHour": 39.2,
+		"Multipliers": [
+			4.73,
+			2.1,
+			1.05,
+			0.3,
+			0.82
+		],
+		"desc": "The R68A is a subway EMU built by Kawasaki for the NYC Subway's B Division that entered service in 1988. Unlike the regular R68, these were built as 4 car sets only. As of 2024, they serve lines B, D, N, Q, and W.",
+		"color": "#b2cf8e",
+		"Manufacturer": [
+			"Kawasaki"
+		],
+		"Cities": [
+			"NYC"
+		],
+		"Nation": [
+			"US"
+		],
+		"Cont": [
+			"North America"
+		],
+		"Generic": false,
+		"Cities2": [
+			"New York City"
+		],
+		"Nation2": [
+			"United States of America"
+		],
+		"Tags": [
+			"Creator:DanielD1909",
+			"Group: NYC B Division"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_tra_aar",
+		"trainType2": "Metro",
+		"lengthList": [
+			92,
+			137,
+			183
+		],
+		"consistList": [
+			4,
+			6,
+			8
+		],
+		"minStationList": [
+			100,
+			140,
+			200
+		],
+		"maxStationList": [
+			100,
+			140,
 			200
 		]
 	},
@@ -26264,6 +29513,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -26373,6 +29623,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -26480,6 +29731,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-4_tra_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -26590,6 +29842,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-2_fr_lss",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -26697,8 +29950,10 @@
 			"Denmark"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_cph",
 		"trainType2": "Automated S-Bahn",
 		"lengthList": [
@@ -26814,6 +30069,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -26921,6 +30177,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -27035,6 +30292,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -27177,6 +30435,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -27321,6 +30580,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -27447,6 +30707,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -27562,6 +30823,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_rem",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -27691,6 +30953,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -27863,6 +31126,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -28014,6 +31278,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
@@ -28166,6 +31431,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -28287,6 +31553,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -28403,6 +31670,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_tru_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -28523,6 +31791,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -28634,6 +31903,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -28745,6 +32015,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -28855,6 +32126,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -28967,6 +32239,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -29078,6 +32351,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_sv-2_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -29186,6 +32460,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "m_hv-1_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -29302,6 +32577,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -29425,6 +32701,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -29542,6 +32819,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -29660,6 +32938,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -29772,8 +33051,10 @@
 			"Spain"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -29891,6 +33172,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -30049,6 +33331,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -30156,6 +33439,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_sv-2_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -30262,6 +33546,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_hv-2_cat_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -30367,6 +33652,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_sv-2_cat_bm",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -30473,6 +33759,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -30583,6 +33870,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ib_hv-2_cat_dc",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -30689,6 +33977,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -30795,6 +34084,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -30906,6 +34196,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -31012,6 +34303,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -31118,6 +34410,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -31230,6 +34523,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_lirr",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -31351,6 +34645,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -31487,6 +34782,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -31618,6 +34914,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -31761,6 +35058,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -31904,6 +35202,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -32056,6 +35355,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
@@ -32199,6 +35499,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -32338,6 +35639,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -32458,6 +35760,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_uhv-1_cat_cph",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -32591,6 +35894,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -32724,6 +36028,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -32867,6 +36172,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -33010,6 +36316,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -33123,6 +36430,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -33231,6 +36539,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "tor_cdc-1_tru_uic",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -33248,6 +36557,111 @@
 		"maxStationList": [
 			100,
 			160
+		]
+	},
+	{
+		"Ready": true,
+		"name": "T251 (SGP)",
+		"trainType": "Metro",
+		"MainTrack": "DC 750V (GoA4 | TRU | LIRR)",
+		"maxSpeed": 25,
+		"maxAcceleration": 1.1,
+		"maxDeceleration": 1.3,
+		"Automation": [
+			"GoA4"
+		],
+		"Electrification": [
+			"tr-under"
+		],
+		"Voltage": [
+			"Modern DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"LIRR / Metro North"
+		],
+		"CompatibleTracks": [
+			"std_mdc-4_tru_lirr"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": false,
+		"maxSlopePercentage": 5.5,
+		"minTurnRadius": 125,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 2.72,
+		"trackClearance": 1.31,
+		"minStationTurnRadius": 2700,
+		"stopTimeSeconds": 32,
+		"minStationLength": 100,
+		"maxStationLength": 125,
+		"maxSpeedLocalStation": 18,
+		"minCars": 4,
+		"maxCars": 4,
+		"carsPerCarSet": 4,
+		"capacityPerCar": 320,
+		"carLength": 23.23,
+		"trainWidth": 3.2,
+		"carCost": 1574363,
+		"MinCapacity": 1280,
+		"MaxCapacity": 1280,
+		"baseTrackCost": 56925,
+		"baseStationCost": 82500000,
+		"scissorsCrossoverCost": 18750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 120,
+		"carOperationalCostPerHour": 18,
+		"Multipliers": [
+			4.99,
+			2.22,
+			1.11,
+			0.3,
+			0.85
+		],
+		"desc": "The T251 is an EMU built by Kawasaki and CRRC for Singapore's MRT that entered service in 2020. They serve on the Thomson-East Coast Line. Acceleration is a guesstimate.",
+		"color": "#ba40dc",
+		"Manufacturer": [
+			"Kawasaki",
+			"CRRC"
+		],
+		"Cities": [
+			"SGP"
+		],
+		"Nation": [
+			"SG"
+		],
+		"Cont": [
+			"Southeast Asia"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Singapore"
+		],
+		"Nation2": [
+			"Singapore"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_mdc-4_tru_lirr",
+		"trainType2": "Automated Metro",
+		"lengthList": [
+			93
+		],
+		"consistList": [
+			4
+		],
+		"minStationList": [
+			100
+		],
+		"maxStationList": [
+			100
 		]
 	},
 	{
@@ -33342,6 +36756,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-2_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -33452,6 +36867,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -33558,6 +36974,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "m_cdc-1_cat_ber",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -33664,6 +37081,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "tor_cdc-2_tru_uic",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -33779,6 +37197,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_mdc-1_cat_nar",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -33882,6 +37301,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_ms",
 		"trainType2": "Metro",
 		"lengthList": [
@@ -33993,8 +37413,10 @@
 			"United States of America"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34104,6 +37526,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34213,6 +37636,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34328,6 +37752,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34443,6 +37868,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34561,6 +37987,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34679,6 +38106,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34788,6 +38216,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -34898,6 +38327,7 @@
 			"Creator:DanielD1909",
 			"Challenge:Eric Adams"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -35016,6 +38446,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -35125,6 +38556,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -35235,6 +38667,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-0_cat_tff",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -35348,6 +38781,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -35456,6 +38890,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -35569,6 +39004,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
@@ -35686,6 +39122,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
 		"lengthList": [
@@ -35791,6 +39228,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_iac-1_cat_lirr",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -35902,8 +39340,10 @@
 			"Finland"
 		],
 		"Tags": [
-			"Creator:DanielD1909"
+			"Creator:DanielD1909",
+			"Group: Future Tech"
 		],
+		"Alias": "",
 		"mainTrackID": "sov_iac-1_cat_lirr",
 		"trainType2": "Commuter",
 		"lengthList": [
@@ -36025,6 +39465,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -36143,6 +39584,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -36255,6 +39697,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_hv-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -36371,6 +39814,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -36483,6 +39927,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
@@ -36596,6 +40041,7 @@
 		"Tags": [
 			"Creator:DanielD1909"
 		],
+		"Alias": "",
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [

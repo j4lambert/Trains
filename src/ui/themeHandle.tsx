@@ -8,8 +8,8 @@ export interface colorSet {
 }
 
 export function getColors() {
-    const theme:('light'|'dark') = api.ui.getResolvedTheme();
-    let resolvedColors:colorSet;
+    const theme: ('light' | 'dark') = api.ui.getResolvedTheme();
+    let resolvedColors: colorSet;
     if (theme == 'dark') {
         resolvedColors = {
             background: "#000000",
@@ -28,8 +28,8 @@ export function getColors() {
     return resolvedColors;
 }
 
-export function dynamicButtonColors(active:boolean) {
-    const hold:colorSet = getColors();
+export function dynamicButtonColors(active: boolean) {
+    const hold: colorSet = getColors();
     if (active) {
         return hold.activeButton;
     } else {

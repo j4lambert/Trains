@@ -21,7 +21,7 @@
 		"maxLateralAcceleration": 1.5,
 		"maxSlopePercentage": 12,
 		"maxCantDeficiency": 0,
-		"maxCant": 137.86848
+		"maxCant": 138
 	},
 	{
 		"Name": "Commuter",
@@ -81,19 +81,19 @@
 		"maxLateralAcceleration": 1.5,
 		"maxSlopePercentage": 13,
 		"maxCantDeficiency": 0,
-		"maxCant": 122.54976
+		"maxCant": 123
 	},
 	{
 		"Name": "People Mover",
 		"maxSpeedLocalStation": 4,
-		"train_CostPerHour": 60,
-		"car_CostPerHour": 15,
+		"train_CostPerHour": 160,
+		"car_CostPerHour": 25,
 		"canCrossRoads": false,
 		"stopTimeSeconds": 30,
 		"maxLateralAcceleration": 1,
 		"maxSlopePercentage": 6,
 		"maxCantDeficiency": 0,
-		"maxCant": 91.91232
+		"maxCant": 92
 	},
 	{
 		"Name": "Dual-Mode Commuter",
@@ -142,5 +142,17 @@
 		"maxSlopePercentage": 2,
 		"maxCantDeficiency": 275,
 		"maxCant": 160
+	},
+	{
+		"Name": "Weird Metro",
+		"maxSpeedLocalStation": 12,
+		"train_CostPerHour": 220,
+		"car_CostPerHour": 28,
+		"canCrossRoads": true,
+		"stopTimeSeconds": 35,
+		"maxLateralAcceleration": 1,
+		"maxSlopePercentage": 5.5,
+		"maxCantDeficiency": 100,
+		"maxCant": 150
 	}
 ]

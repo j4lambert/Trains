@@ -69,11 +69,12 @@ export interface Train {
     trainType2: string;
     MainTrack: string;
     mainTrackID: string;
-    lengthList:number[];
-    consistList:number[];
-    minStationList:number[];
-    maxStationList:number[];
-    Tags:string[];
+    lengthList: number[];
+    consistList: number[];
+    minStationList: number[];
+    maxStationList: number[];
+    Tags: string[];
+    Alias: string;
 }
 
 export interface Electrification {

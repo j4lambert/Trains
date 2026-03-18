@@ -78,9 +78,16 @@
 	},
 	{
 		"Name": "APMs",
-		"Actual": 2,
+		"Actual": 2.642,
 		"id": "aps",
-		"CostMultiplier": 1.1,
-		"Cant_Multiplier": 1.08
+		"CostMultiplier": 0.5,
+		"Cant_Multiplier": 1.17
+	},
+	{
+		"Name": "APM Narrow",
+		"Actual": 1.8,
+		"id": "pmn",
+		"CostMultiplier": 0.5,
+		"Cant_Multiplier": 1.05
 	}
 ]
