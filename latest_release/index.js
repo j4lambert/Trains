@@ -3252,55 +3252,59 @@
 		]);
 	}
 	function settingsMenu2() {
-		const colors = getColors();
-		const allSaved = getAllSaved() || {};
-		const options = [];
-		Object.keys(allSaved).forEach((key$1) => {
-			const id = allSaved[key$1].config.id;
-			console.log("ID: " + id);
-			const name = allSaved[key$1].config.name + "(" + id + ")";
-			console.log("Name: " + name);
-			options.push([id, name]);
-		});
-		const [save, setSave] = r.useState(options[0][0]);
-		return h("div", {
-			key: "content",
-			className: "flex flex-col gap-2 items-stretch min-w-full max-w-full"
-		}, [
-			h("div", {
-				key: "Name",
-				className: "text-lg font-bold w-full"
-			}, "DanTrains Loader (By ID)"),
-			h("div", {
-				key: "dropdown",
-				className: "flex flex-row items-center gap-2 mt-2 w-full"
-			}, [h("label", {
-				key: "label",
-				className: "flex-shrink-0 w-24"
-			}, "Select save:"), h("select", {
-				key: "select",
-				variant: "secondary",
-				className: "border rounded px-2 py-1 flex-1 w-full",
-				value: save,
-				style: { backgroundColor: colors.background },
-				onChange: (e) => {
-					setSave(e.target.value);
-				}
-			}, options.map((opt) => h("option", {
-				key: opt[1],
-				value: opt[0]
-			}, opt[1])))]),
-			h(Button, {
-				key: "btn",
-				onClick: () => {
-					registerTrain(getTrainFromID(save, allSaved).config);
-				},
-				style: {
-					backgroundColor: colors.activeButton,
-					color: colors.textColor
-				}
-			}, "Register Train")
-		]);
+		try {
+			const colors = getColors();
+			const allSaved = getAllSaved() || {};
+			const options = [];
+			Object.keys(allSaved).forEach((key$1) => {
+				const id = allSaved[key$1].config.id;
+				console.log("ID: " + id);
+				const name = allSaved[key$1].config.name + "(" + id + ")";
+				console.log("Name: " + name);
+				options.push([id, name]);
+			});
+			const [save, setSave] = r.useState(options[0][0]);
+			return h("div", {
+				key: "content",
+				className: "flex flex-col gap-2 items-stretch min-w-full max-w-full"
+			}, [
+				h("div", {
+					key: "Name",
+					className: "text-lg font-bold w-full"
+				}, "DanTrains Loader (By ID)"),
+				h("div", {
+					key: "dropdown",
+					className: "flex flex-row items-center gap-2 mt-2 w-full"
+				}, [h("label", {
+					key: "label",
+					className: "flex-shrink-0 w-24"
+				}, "Select save:"), h("select", {
+					key: "select",
+					variant: "secondary",
+					className: "border rounded px-2 py-1 flex-1 w-full",
+					value: save,
+					style: { backgroundColor: colors.background },
+					onChange: (e) => {
+						setSave(e.target.value);
+					}
+				}, options.map((opt) => h("option", {
+					key: opt[1],
+					value: opt[0]
+				}, opt[1])))]),
+				h(Button, {
+					key: "btn",
+					onClick: () => {
+						registerTrain(getTrainFromID(save, allSaved).config);
+					},
+					style: {
+						backgroundColor: colors.activeButton,
+						color: colors.textColor
+					}
+				}, "Register Train")
+			]);
+		} catch {
+			return /* @__PURE__ */ jsx("div", { children: "No Save Found" });
+		}
 	}
 	var MOD_ID = "danield1909.danTrains";
 	var MOD_VERSION = "1.0.0";

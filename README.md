@@ -1,3 +1,6 @@
+1.1.1 Patch Notes: 
+- Actually fixed the glitch causing crashes on menu start for new users
+
 1.1.0 Patch Notes:
 - Hopefully fixed a glitch causing crashes on menu start
 - Added Singapore (MRT and LRT)
