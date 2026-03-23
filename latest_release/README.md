@@ -1,3 +1,7 @@
+1.2.1 Patch Notes:
+- Fixed a glitch which caused newly registered trains to have dramatically incorrect maxSlopePercentages
+    - To fix any trains affected, simply enter the game, save again, and then reload
+
 1.2.0 Patch Notes:
 - Adjusted minCurveRadii to use a new formula.
     - If the new value smaller, the track will automatically update existing tracks, otherwise it will not to avoid breaking the game

@@ -257,16 +257,26 @@ export function updateTrainsIfPossible(inp:Record<string,t.TrainTypeConfig>) {
         if (train == undefined) {
             console.log("No matching train found for "+key+" ("+inp[key].name+")")
             blist[key] = false;
-        } else if (train.minTurnRadius < inp[key].stats.minTurnRadius) {
-            const old = inp[key].stats.minTurnRadius
-            hold = true;
-            blist[key] = true;
-            inp[key].stats.minTurnRadius = train.minTurnRadius
-            console.log("Updated Turn Radius for "+key+" ("+inp[key].name+") from "+old+" to "+train.minTurnRadius)
+        } else if (train.minTurnRadius < inp[key].stats.minTurnRadius || train.maxSlopePercentage > inp[key].stats.maxSlopePercentage) {
+            if (train.minTurnRadius < inp[key].stats.minTurnRadius) {
+                const old = inp[key].stats.minTurnRadius
+                hold = true;
+                blist[key] = true;
+                inp[key].stats.minTurnRadius = train.minTurnRadius
+                console.log("Updated Turn Radius for "+key+" ("+inp[key].name+") from "+old+" to "+train.minTurnRadius)
+            } 
+            if (train.maxSlopePercentage > inp[key].stats.maxSlopePercentage) {
+                const old = inp[key].stats.maxSlopePercentage
+                hold = true;
+                blist[key] = true;
+                inp[key].stats.maxSlopePercentage = train.maxSlopePercentage
+                console.log("Updated Slope Percentage for "+key+" ("+inp[key].name+") from "+old+" to "+train.maxSlopePercentage)
+            }
         } else {
             console.log("No Update Needed for "+key+" ("+inp[key].name+")")
             blist[key] = false;
         }
+         
     })
     return [inp,hold,blist];
 }
