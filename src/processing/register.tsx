@@ -5,6 +5,8 @@ import type { ElevationType } from '../types/core';
 import {addToSaveData} from '../ui/TrainPanel'
 import type * as elec from "../types/electron"
 import trains from "../data/trains.json"
+import trainTypes from "../data/standards/trains.json"
+import als from "../data/standards/automation.json"
 
 const api = window.SubwayBuilderAPI;
 
@@ -80,7 +82,9 @@ export interface statsCalcOutput {
     maxCars: number,
     name: string,
     id: string,
-    coefficient: number
+    coefficient: number,
+    trackMaintenanceCostPerMeter: number,
+    stationMaintenanceCostPerYear: number
 }
 
 export function statsCalc(i:statsCalcInput) {
@@ -110,6 +114,8 @@ export function statsCalc(i:statsCalcInput) {
     console.log("Apple"+(i.y.maxCantDeficiency+i.y.maxCant));
     console.log("Banana"+coefficient);
     console.log("Orange"+(11.82*i.t.Actual/1.435));
+    const trackMaintenanceCostPerMeter = i.y.trackMaintenanceCostPerMeter * i.a.trackMaintenanceCostPerMeterMod;
+    const stationMaintenanceCostPerYear = i.y.stationMaintenanceCostPerYear * i.a.stationMaintenanceCostPerYearMod
     const maxLateralAcceleration:number = Number((Math.pow(coefficient/3.6,2)).toFixed(2));
     const minCars:number = i.train.consistList[0];
     const hold:number[] = p.compatibleConsists(i.min,i.train,isNewVersion(),i.max);
@@ -141,7 +147,9 @@ export function statsCalc(i:statsCalcInput) {
         maxCars: maxCars,
         name: name,
         id: id,
-        coefficient:coefficient
+        coefficient:coefficient,
+        trackMaintenanceCostPerMeter: trackMaintenanceCostPerMeter,
+        stationMaintenanceCostPerYear: stationMaintenanceCostPerYear
     };
     return o;
 }
@@ -176,7 +184,9 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
         minStationTurnRadius: train.minStationTurnRadius,
         maxSlopePercentage: train.maxSlopePercentage,
         parallelTrackSpacing: sco.parallelTrackSpacing,
-        stopTimeSeconds: sco.stopTimeSeconds
+        stopTimeSeconds: sco.stopTimeSeconds,
+        trackMaintenanceCostPerMeter: sco.trackMaintenanceCostPerMeter,
+        stationMaintenanceCostPerYear: sco.stationMaintenanceCostPerYear
     }
     const tracktypecompat:string = "\""+idin+"\"";
     var desc = " Current Track Setup: "+sco.name;
@@ -249,6 +259,8 @@ export function registerTrainList(inp:Record<string,trainStorageData>) {
 }
 
 const Trains: c.Train[] = trains as c.Train[];
+const types: c.TrainType[] = trainTypes as c.TrainType[];
+const autos: c.AutomationLevel[] = als as c.AutomationLevel[];
 export function updateTrainsIfPossible(inp:Record<string,t.TrainTypeConfig>) {
     var hold:boolean = false;
     const blist:Record<string,boolean> = {}
@@ -257,7 +269,7 @@ export function updateTrainsIfPossible(inp:Record<string,t.TrainTypeConfig>) {
         if (train == undefined) {
             console.log("No matching train found for "+key+" ("+inp[key].name+")")
             blist[key] = false;
-        } else if (train.minTurnRadius < inp[key].stats.minTurnRadius || train.maxSlopePercentage > inp[key].stats.maxSlopePercentage) {
+        } else if (train.minTurnRadius < inp[key].stats.minTurnRadius || train.maxSlopePercentage > inp[key].stats.maxSlopePercentage || !(inp[key].stats.trackMaintenanceCostPerMeter)) {
             if (train.minTurnRadius < inp[key].stats.minTurnRadius) {
                 const old = inp[key].stats.minTurnRadius
                 hold = true;
@@ -271,6 +283,26 @@ export function updateTrainsIfPossible(inp:Record<string,t.TrainTypeConfig>) {
                 blist[key] = true;
                 inp[key].stats.maxSlopePercentage = train.maxSlopePercentage
                 console.log("Updated Slope Percentage for "+key+" ("+inp[key].name+") from "+old+" to "+train.maxSlopePercentage)
+            }
+            if (!(inp[key].stats.trackMaintenanceCostPerMeter)) {
+                blist[key] = true;
+                const type = train.trainType;
+                const typeob = types.find(t => t.Name == type);
+                let auto:string; let autoob:c.AutomationLevel;
+                if ((inp[key].description).includes("Current Track Setup:")) {
+                    const trackid = inp[key].description.slice(inp[key].description.indexOf("Current Track Setup: "+21));
+                    auto = trackid[trackid.indexOf("(GoA")+5];
+                    autoob = autos.find(a => a.Name == auto) || autos[1];
+                } else {
+                    autoob = autos.find(a => a.Name == train.Automation[0]) || autos[1];
+                }
+                if (autoob && typeob) {
+                    const tmcpm = typeob.trackMaintenanceCostPerMeter*autoob.trackMaintenanceCostPerMeterMod;
+                    const smcpy = typeob.stationMaintenanceCostPerYear*autoob.stationMaintenanceCostPerYearMod;
+                    inp[key].stats.trackMaintenanceCostPerMeter = tmcpm;
+                    inp[key].stats.stationMaintenanceCostPerYear = smcpy;
+                    console.log("Added trackMaintenanceCostPerMeter and stationMaintenanceCostPerYear for "+key+" ("+inp[key].name+"): "+tmcpm+" and "+smcpy)
+                }
             }
         } else {
             console.log("No Update Needed for "+key+" ("+inp[key].name+")")

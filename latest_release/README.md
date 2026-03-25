@@ -1,3 +1,9 @@
+1.3.0 Patch Notes:
+- Added 1.2.2 beta compatibilitity
+    - Track maintainence costs subject to change
+- Fixed various glitches related to the save loader
+- Added 6 trams from Melbourne
+
 1.2.1 Patch Notes:
 - Fixed a glitch which caused newly registered trains to have dramatically incorrect maxSlopePercentages
     - To fix any trains affected, simply enter the game, save again, and then reload

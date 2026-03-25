@@ -153,7 +153,9 @@ parsed2.data.forEach((ro: any) => {
             maxLateralAcceleration: Number(ro.maxLateralAcceleration_AA),
             maxSlopePercentage: Number(ro.maxSlopePercentage_AB),
             maxCantDeficiency: Number(ro.maxCantDeficiency),
-            maxCant: Number(ro.maxCant)
+            maxCant: Number(ro.maxCant),
+            trackMaintenanceCostPerMeter: Number(ro.trackMaintenanceCostPerMeter),
+            stationMaintenanceCostPerYear: Number(ro.stationMaintenanceCostPerYear)
         })
     }
     if (ro.Automation_Level != "") {
@@ -166,7 +168,9 @@ parsed2.data.forEach((ro: any) => {
             stopTimeSeconds: Number(ro.stopTimeSeconds_AH),
             baseTrackCost: Number(ro.baseTrackCost),
             baseStationCost: Number(ro.baseStationCost),
-            scissorsCrossoverCost: Number(ro.scissorsCrossoverCost)
+            scissorsCrossoverCost: Number(ro.scissorsCrossoverCost),
+            trackMaintenanceCostPerMeterMod: Number(ro.trackMaintenanceCostPerMeterMod),
+            stationMaintenanceCostPerYearMod: Number(ro.stationMaintenanceCostPerYearMod)
         })
     }
 })

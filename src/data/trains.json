@@ -28,7 +28,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -37,7 +37,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -132,7 +132,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -141,7 +141,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -242,8 +242,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -251,7 +251,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 14,
@@ -353,8 +353,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -362,7 +362,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 14,
@@ -459,8 +459,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -468,7 +468,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 14,
@@ -573,8 +573,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -582,7 +582,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 120,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -681,7 +681,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -690,7 +690,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 13,
@@ -799,8 +799,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -808,7 +808,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 18,
@@ -918,7 +918,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -927,7 +927,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1800,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 13,
@@ -1061,8 +1061,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -1070,7 +1070,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 18,
@@ -1170,7 +1170,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -1179,8 +1179,8 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 2900,
-		"stopTimeSeconds": 1,
-		"minStationLength": 150,
+		"stopTimeSeconds": 150,
+		"minStationLength": 160,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 14,
 		"minCars": 4,
@@ -1281,7 +1281,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -1290,7 +1290,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -1395,7 +1395,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -1404,7 +1404,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -1509,7 +1509,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -1518,7 +1518,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 220,
 		"maxStationLength": 220,
 		"maxSpeedLocalStation": 13,
@@ -1646,7 +1646,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1.5,
 		"minTurnRadius": 35,
@@ -1655,7 +1655,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 150,
 		"minStationLength": 280,
 		"maxStationLength": 330,
 		"maxSpeedLocalStation": 15,
@@ -1788,7 +1788,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -1797,7 +1797,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 280,
 		"maxStationLength": 330,
 		"maxSpeedLocalStation": 15,
@@ -1925,7 +1925,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 30,
@@ -1934,7 +1934,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 240,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -2035,8 +2035,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -2044,7 +2044,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 18,
@@ -2143,8 +2143,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -2152,7 +2152,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 14,
@@ -2288,8 +2288,8 @@
 			"std_hv-4_cat_bm",
 			"std_hv-4_tru_bm"
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -2297,7 +2297,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 18,
@@ -2434,8 +2434,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -2443,7 +2443,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -2557,8 +2557,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -2566,7 +2566,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1900,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -2674,8 +2674,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -2683,7 +2683,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 120,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -2789,8 +2789,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -2798,7 +2798,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 80,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 18,
@@ -2904,8 +2904,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -2913,7 +2913,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 900,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 60,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 18,
@@ -3022,7 +3022,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -3031,7 +3031,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 55,
 		"maxSpeedLocalStation": 6.7,
@@ -3129,7 +3129,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -3138,7 +3138,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 55,
 		"maxSpeedLocalStation": 6.7,
@@ -3242,7 +3242,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -3251,7 +3251,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 50,
 		"maxSpeedLocalStation": 6.7,
@@ -3348,8 +3348,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -3357,7 +3357,7 @@
 		"parallelTrackSpacing": 8.74,
 		"trackClearance": 3.1,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 660,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -3462,7 +3462,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1.5,
 		"minTurnRadius": 25,
@@ -3471,7 +3471,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 150,
 		"minStationLength": 240,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -3578,7 +3578,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -3587,8 +3587,8 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 2900,
-		"stopTimeSeconds": 1,
-		"minStationLength": 150,
+		"stopTimeSeconds": 200,
+		"minStationLength": 160,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
 		"minCars": 3,
@@ -3659,6 +3659,114 @@
 	},
 	{
 		"Ready": true,
+		"name": "B-Class (MEL)",
+		"trainType": "LRT",
+		"MainTrack": "DC 600V (GoA1 | CAT | MS)",
+		"maxSpeed": 18.1,
+		"maxAcceleration": 1.35,
+		"maxDeceleration": 1.4,
+		"Automation": [
+			"GoA1",
+			"GoA0"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard",
+			"Barcelona Metro"
+		],
+		"CompatibleTracks": [
+			"std_cdc-0_cat_ms",
+			"std_cdc-1_cat_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.11,
+		"canCrossRoads": true,
+		"maxSlopePercentage": 8,
+		"minTurnRadius": 15,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 9.08,
+		"trackClearance": 3.22,
+		"minStationTurnRadius": 700,
+		"stopTimeSeconds": 100,
+		"minStationLength": 40,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 6.7,
+		"minCars": 2,
+		"maxCars": 2,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 100,
+		"carLength": 11.82,
+		"trainWidth": 2.67,
+		"carCost": 1000000,
+		"MinCapacity": 200,
+		"MaxCapacity": 200,
+		"baseTrackCost": 42500,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 12750000,
+		"Old": true,
+		"trainOperationalCostPerHour": 140,
+		"carOperationalCostPerHour": 14,
+		"Multipliers": [
+			22.3,
+			9.91,
+			4.96,
+			0.3,
+			2.73
+		],
+		"desc": "The B-class is a tram built by Comeng/ABB for the Melbourne tram network that entered service in 1985. This is based on the B2 variant. Capacity is increased due to game processing requirements.",
+		"color": "#5c36d1",
+		"Manufacturer": [
+			"Cormeng",
+			"ABB"
+		],
+		"Cities": [
+			"MEL"
+		],
+		"Nation": [
+			"AU"
+		],
+		"Cont": [
+			"Oceania"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Melbourne"
+		],
+		"Nation2": [
+			"Australia"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_cat_ms",
+		"trainType2": "LRT",
+		"lengthList": [
+			24
+		],
+		"consistList": [
+			2
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
 		"name": "BART D/E",
 		"trainType": "Metro",
 		"MainTrack": "San_Francisco DC 1.0kV (GoA2 | TRA | LIRR)",
@@ -3688,8 +3796,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -3697,7 +3805,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 220,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 14,
@@ -3812,7 +3920,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -3821,7 +3929,7 @@
 		"parallelTrackSpacing": 10.1,
 		"trackClearance": 3.58,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 120,
 		"maxStationLength": 181,
 		"maxSpeedLocalStation": 15,
@@ -3925,7 +4033,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -3934,7 +4042,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 100,
 		"maxStationLength": 110,
 		"maxSpeedLocalStation": 13,
@@ -4052,7 +4160,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 30,
@@ -4061,7 +4169,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 75,
 		"minStationLength": 60,
 		"maxStationLength": 60,
 		"maxSpeedLocalStation": 14,
@@ -4172,7 +4280,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 30,
@@ -4181,7 +4289,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 15,
@@ -4308,7 +4416,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -4317,7 +4425,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 160,
 		"maxStationLength": 160,
 		"maxSpeedLocalStation": 15,
@@ -4444,7 +4552,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -4453,7 +4561,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 75,
 		"minStationLength": 160,
 		"maxStationLength": 160,
 		"maxSpeedLocalStation": 14,
@@ -4575,7 +4683,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -4584,7 +4692,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 15,
@@ -4689,7 +4797,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -4698,7 +4806,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 15,
@@ -4798,7 +4906,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -4807,7 +4915,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -4911,7 +5019,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -4920,7 +5028,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 15,
@@ -5020,7 +5128,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5029,7 +5137,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 15,
@@ -5128,7 +5236,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5137,7 +5245,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 15,
@@ -5240,7 +5348,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5249,7 +5357,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 15,
@@ -5358,7 +5466,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5367,7 +5475,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 120,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -5480,7 +5588,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5489,7 +5597,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 120,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 15,
@@ -5589,7 +5697,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5598,7 +5706,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -5707,7 +5815,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5716,7 +5824,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -5819,7 +5927,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -5828,7 +5936,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 15,
@@ -5931,7 +6039,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -5940,7 +6048,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -6044,7 +6152,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -6053,7 +6161,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -6156,7 +6264,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -6165,7 +6273,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -6268,7 +6376,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -6277,7 +6385,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 15,
@@ -6380,7 +6488,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -6389,7 +6497,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 210,
 		"maxSpeedLocalStation": 15,
@@ -6492,7 +6600,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 15,
@@ -6501,7 +6609,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 13,
@@ -6612,8 +6720,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.89,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -6621,7 +6729,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 220,
 		"minStationLength": 260,
 		"maxStationLength": 260,
 		"maxSpeedLocalStation": 16,
@@ -6726,7 +6834,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -6735,7 +6843,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 15,
@@ -6838,7 +6946,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -6847,7 +6955,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 15,
@@ -6957,7 +7065,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -6966,7 +7074,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 120,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 15,
@@ -7071,7 +7179,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -7080,7 +7188,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 260,
 		"maxStationLength": 275,
 		"maxSpeedLocalStation": 15,
@@ -7185,7 +7293,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -7194,7 +7302,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 15,
@@ -7308,7 +7416,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -7317,7 +7425,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 260,
 		"maxSpeedLocalStation": 15,
@@ -7422,7 +7530,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1.5,
 		"minTurnRadius": 45,
@@ -7431,7 +7539,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 150,
 		"minStationLength": 120,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 15,
@@ -7543,7 +7651,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 20,
@@ -7552,7 +7660,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 15,
@@ -7653,7 +7761,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -7662,7 +7770,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 1900,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 160,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -7774,7 +7882,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -7783,8 +7891,8 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 3000,
-		"stopTimeSeconds": 1,
-		"minStationLength": 150,
+		"stopTimeSeconds": 200,
+		"minStationLength": 160,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
 		"minCars": 6,
@@ -7880,8 +7988,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -7889,8 +7997,8 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 150,
+		"stopTimeSeconds": 360,
+		"minStationLength": 160,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 16,
 		"minCars": 6,
@@ -7986,8 +8094,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.04,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 6,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -7995,8 +8103,8 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 50,
+		"stopTimeSeconds": 650,
+		"minStationLength": 40,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 10,
 		"minCars": 2,
@@ -8091,8 +8199,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.04,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 6,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -8100,8 +8208,8 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 50,
+		"stopTimeSeconds": 650,
+		"minStationLength": 40,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 10,
 		"minCars": 2,
@@ -8168,6 +8276,117 @@
 	},
 	{
 		"Ready": true,
+		"name": "Citadis 202",
+		"trainType": "LRT",
+		"MainTrack": "DC 600V (GoA1 | CAT | MS)",
+		"maxSpeed": 22.2,
+		"maxAcceleration": 1.57,
+		"maxDeceleration": 1.03,
+		"Automation": [
+			"GoA1",
+			"GoA0"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-0_cat_ms",
+			"std_cdc-1_cat_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.11,
+		"canCrossRoads": true,
+		"maxSlopePercentage": 8,
+		"minTurnRadius": 15,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 9.08,
+		"trackClearance": 3.22,
+		"minStationTurnRadius": 700,
+		"stopTimeSeconds": 100,
+		"minStationLength": 40,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 6.7,
+		"minCars": 2,
+		"maxCars": 2,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 100,
+		"carLength": 11.5,
+		"trainWidth": 2.65,
+		"carCost": 1100000,
+		"MinCapacity": 200,
+		"MaxCapacity": 200,
+		"baseTrackCost": 42500,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 12750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 100,
+		"carOperationalCostPerHour": 10,
+		"Multipliers": [
+			22.3,
+			9.91,
+			4.96,
+			0.3,
+			2.73
+		],
+		"desc": "The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 2nd generation, two section version.",
+		"color": "#aad136",
+		"Manufacturer": [
+			"Alstom"
+		],
+		"Cities": [
+			"Generic",
+			"MEL"
+		],
+		"Nation": [
+			"Generic",
+			"AU"
+		],
+		"Cont": [
+			"Generic",
+			"Oceania"
+		],
+		"Generic": true,
+		"Cities2": [
+			"Generic",
+			"Melbourne"
+		],
+		"Nation2": [
+			"Generic",
+			"Australia"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_cat_ms",
+		"trainType2": "LRT",
+		"lengthList": [
+			23
+		],
+		"consistList": [
+			2
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
 		"name": "Citadis 302",
 		"trainType": "LRT",
 		"MainTrack": "DC 750V (GoA0 | CAT | MS)",
@@ -8207,7 +8426,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -8216,7 +8435,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 75,
 		"minStationLength": 80,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 5.7,
@@ -8293,6 +8512,112 @@
 	},
 	{
 		"Ready": true,
+		"name": "Citadis 302 (MEL)",
+		"trainType": "LRT",
+		"MainTrack": "DC 600V (GoA1 | CAT | MS)",
+		"maxSpeed": 19.4,
+		"maxAcceleration": 1.2,
+		"maxDeceleration": 1.2,
+		"Automation": [
+			"GoA1",
+			"GoA0"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-0_cat_ms",
+			"std_cdc-1_cat_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.11,
+		"canCrossRoads": true,
+		"maxSlopePercentage": 8,
+		"minTurnRadius": 15,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 9.08,
+		"trackClearance": 3.22,
+		"minStationTurnRadius": 600,
+		"stopTimeSeconds": 100,
+		"minStationLength": 40,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 6.7,
+		"minCars": 3,
+		"maxCars": 3,
+		"carsPerCarSet": 3,
+		"capacityPerCar": 106,
+		"carLength": 10.84,
+		"trainWidth": 2.65,
+		"carCost": 1100000,
+		"MinCapacity": 319,
+		"MaxCapacity": 319,
+		"baseTrackCost": 42500,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 12750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 100,
+		"carOperationalCostPerHour": 10,
+		"Multipliers": [
+			22.3,
+			9.91,
+			4.96,
+			0.3,
+			2.73
+		],
+		"desc": "The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is Melbourne's 2nd generation, three section version.",
+		"color": "#0a41c2",
+		"Manufacturer": [
+			"Alstom"
+		],
+		"Cities": [
+			"MEL"
+		],
+		"Nation": [
+			"AU"
+		],
+		"Cont": [
+			"Oceania"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Melbourne"
+		],
+		"Nation2": [
+			"Australia"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_cat_ms",
+		"trainType2": "LRT",
+		"lengthList": [
+			33
+		],
+		"consistList": [
+			3
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
 		"name": "Citadis 302 N",
 		"trainType": "LRT",
 		"MainTrack": "DC 750V (GoA1 | CAT | UN)",
@@ -8331,7 +8656,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -8340,7 +8665,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -8456,7 +8781,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -8465,7 +8790,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 70,
 		"maxSpeedLocalStation": 6.7,
@@ -8582,7 +8907,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -8591,7 +8916,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 75,
 		"minStationLength": 80,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 5.7,
@@ -8716,7 +9041,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -8725,7 +9050,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -8841,7 +9166,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -8850,7 +9175,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -8963,7 +9288,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -8972,7 +9297,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -9084,7 +9409,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -9093,7 +9418,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -9204,7 +9529,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -9213,7 +9538,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -9326,7 +9651,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -9335,7 +9660,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 6.7,
@@ -9448,7 +9773,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -9457,7 +9782,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 6.7,
@@ -9561,7 +9886,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -9570,7 +9895,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 6.7,
@@ -9684,7 +10009,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -9693,7 +10018,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 110,
 		"maxSpeedLocalStation": 6.7,
@@ -9804,7 +10129,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -9813,7 +10138,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -9937,7 +10262,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1.5,
 		"minTurnRadius": 40,
@@ -9946,7 +10271,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 220,
 		"maxStationLength": 220,
 		"maxSpeedLocalStation": 15,
@@ -10078,7 +10403,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 40,
@@ -10087,7 +10412,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 15,
@@ -10211,7 +10536,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 30,
@@ -10220,7 +10545,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 15,
@@ -10358,7 +10683,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 40,
@@ -10367,7 +10692,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 220,
 		"maxStationLength": 220,
 		"maxSpeedLocalStation": 15,
@@ -10504,7 +10829,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 40,
@@ -10513,7 +10838,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 180,
 		"maxStationLength": 220,
 		"maxSpeedLocalStation": 15,
@@ -10619,7 +10944,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -10628,7 +10953,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 13,
@@ -10738,8 +11063,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 35,
 		"TrainGapFillerLength": 0,
@@ -10747,7 +11072,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2800,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -10847,8 +11172,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -10856,7 +11181,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 18,
@@ -10965,7 +11290,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -10974,7 +11299,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 160,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -11078,7 +11403,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -11087,7 +11412,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 130,
 		"maxSpeedLocalStation": 13,
@@ -11192,7 +11517,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -11201,7 +11526,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 130,
 		"maxSpeedLocalStation": 13,
@@ -11306,7 +11631,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -11315,7 +11640,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 220,
 		"maxSpeedLocalStation": 15,
@@ -11434,7 +11759,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -11443,7 +11768,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -11521,6 +11846,222 @@
 	},
 	{
 		"Ready": true,
+		"name": "D1-Class (MEL)",
+		"trainType": "LRT",
+		"MainTrack": "DC 600V (GoA1 | CAT | MS)",
+		"maxSpeed": 19.4,
+		"maxAcceleration": 1.3,
+		"maxDeceleration": 1.61,
+		"Automation": [
+			"GoA1",
+			"GoA0"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard",
+			"Barcelona Metro",
+			"Metro Wide"
+		],
+		"CompatibleTracks": [
+			"std_cdc-0_cat_ms",
+			"std_cdc-1_cat_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.11,
+		"canCrossRoads": true,
+		"maxSlopePercentage": 8,
+		"minTurnRadius": 15,
+		"TrainGapFillerLength": 0.1,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 9.08,
+		"trackClearance": 3.22,
+		"minStationTurnRadius": 200,
+		"stopTimeSeconds": 100,
+		"minStationLength": 40,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 6.7,
+		"minCars": 2,
+		"maxCars": 2,
+		"carsPerCarSet": 2,
+		"capacityPerCar": 100,
+		"carLength": 10.02,
+		"trainWidth": 2.65,
+		"carCost": 1200000,
+		"MinCapacity": 200,
+		"MaxCapacity": 200,
+		"baseTrackCost": 42500,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 12750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 100,
+		"carOperationalCostPerHour": 10,
+		"Multipliers": [
+			22.3,
+			9.91,
+			4.96,
+			0.3,
+			2.73
+		],
+		"desc": "The D-class is a tram built by Siemens based off of the Combino family for the Melbourne tram network that entered service in 2002. This is based on the D1 variant. Capacity is increased due to game processing requirements.",
+		"color": "#8b149f",
+		"Manufacturer": [
+			"Siemens"
+		],
+		"Cities": [
+			"MEL"
+		],
+		"Nation": [
+			"AU"
+		],
+		"Cont": [
+			"Oceania"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Melbourne"
+		],
+		"Nation2": [
+			"Australia"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_cat_ms",
+		"trainType2": "LRT",
+		"lengthList": [
+			20
+		],
+		"consistList": [
+			2
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
+		"name": "D2-Class (MEL)",
+		"trainType": "LRT",
+		"MainTrack": "DC 600V (GoA1 | CAT | MS)",
+		"maxSpeed": 19.4,
+		"maxAcceleration": 1.3,
+		"maxDeceleration": 1.47,
+		"Automation": [
+			"GoA1",
+			"GoA0"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard",
+			"Barcelona Metro",
+			"Metro Wide"
+		],
+		"CompatibleTracks": [
+			"std_cdc-0_cat_ms",
+			"std_cdc-1_cat_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.11,
+		"canCrossRoads": true,
+		"maxSlopePercentage": 8,
+		"minTurnRadius": 10,
+		"TrainGapFillerLength": 0.1,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 9.08,
+		"trackClearance": 3.22,
+		"minStationTurnRadius": 200,
+		"stopTimeSeconds": 100,
+		"minStationLength": 40,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 6.7,
+		"minCars": 3,
+		"maxCars": 3,
+		"carsPerCarSet": 3,
+		"capacityPerCar": 86,
+		"carLength": 9.95,
+		"trainWidth": 2.65,
+		"carCost": 1200000,
+		"MinCapacity": 259,
+		"MaxCapacity": 259,
+		"baseTrackCost": 42500,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 12750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 100,
+		"carOperationalCostPerHour": 10,
+		"Multipliers": [
+			22.3,
+			9.91,
+			4.96,
+			0.3,
+			2.73
+		],
+		"desc": "The D-class is a tram built by Siemens based off of the Combino family for the Melbourne tram network that entered service in 2002. This is based on the D2 variant.",
+		"color": "#299f14",
+		"Manufacturer": [
+			"Siemens"
+		],
+		"Cities": [
+			"MEL"
+		],
+		"Nation": [
+			"AU"
+		],
+		"Cont": [
+			"Oceania"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Melbourne"
+		],
+		"Nation2": [
+			"Australia"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_cat_ms",
+		"trainType2": "LRT",
+		"lengthList": [
+			30
+		],
+		"consistList": [
+			3
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
 		"name": "DBAG 474 (HAM)",
 		"trainType": "S-Bahn",
 		"MainTrack": "DC 1.2kV (GoA1 | TRS | AAR)",
@@ -11555,7 +12096,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 30,
@@ -11564,7 +12105,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
@@ -11672,7 +12213,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 25,
@@ -11681,7 +12222,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 160,
 		"maxStationLength": 160,
 		"maxSpeedLocalStation": 13,
@@ -11790,7 +12331,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 25,
@@ -11799,7 +12340,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 160,
 		"maxStationLength": 160,
 		"maxSpeedLocalStation": 13,
@@ -11914,7 +12455,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 30,
@@ -11923,7 +12464,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 220,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
@@ -12031,7 +12572,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -12040,7 +12581,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -12184,7 +12725,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 30,
@@ -12193,7 +12734,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 15,
@@ -12292,8 +12833,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 45,
 		"TrainGapFillerLength": 0,
@@ -12301,7 +12842,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 4200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 360,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 16,
@@ -12414,7 +12955,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -12423,7 +12964,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 320,
 		"maxStationLength": 370,
 		"maxSpeedLocalStation": 15,
@@ -12539,7 +13080,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -12548,7 +13089,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 13,
@@ -12651,7 +13192,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 15,
@@ -12660,7 +13201,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 13,
@@ -12765,8 +13306,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 10,
 		"TrainGapFillerLength": 0,
@@ -12774,7 +13315,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 18,
@@ -12880,8 +13421,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 10,
 		"TrainGapFillerLength": 0,
@@ -12889,7 +13430,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 14,
@@ -12965,6 +13506,113 @@
 	},
 	{
 		"Ready": true,
+		"name": "E-Class (MEL)",
+		"trainType": "LRT",
+		"MainTrack": "DC 600V (GoA1 | CAT | MS)",
+		"maxSpeed": 19.4,
+		"maxAcceleration": 1.3,
+		"maxDeceleration": 1.5,
+		"Automation": [
+			"GoA1",
+			"GoA0"
+		],
+		"Electrification": [
+			"catenary"
+		],
+		"Voltage": [
+			"Classical DC"
+		],
+		"TrackGauge": [
+			"Standard"
+		],
+		"LoadingGauge": [
+			"Metro Standard"
+		],
+		"CompatibleTracks": [
+			"std_cdc-0_cat_ms",
+			"std_cdc-1_cat_ms"
+		],
+		"ExtraTracks": [
+			""
+		],
+		"maxLateralAcceleration": 1.11,
+		"canCrossRoads": true,
+		"maxSlopePercentage": 8,
+		"minTurnRadius": 10,
+		"TrainGapFillerLength": 0,
+		"StationGapFillerLength": 0,
+		"parallelTrackSpacing": 9.08,
+		"trackClearance": 3.22,
+		"minStationTurnRadius": 400,
+		"stopTimeSeconds": 100,
+		"minStationLength": 40,
+		"maxStationLength": 100,
+		"maxSpeedLocalStation": 6.7,
+		"minCars": 4,
+		"maxCars": 4,
+		"carsPerCarSet": 4,
+		"capacityPerCar": 71,
+		"carLength": 8.36,
+		"trainWidth": 2.65,
+		"carCost": 1302386,
+		"MinCapacity": 283,
+		"MaxCapacity": 283,
+		"baseTrackCost": 42500,
+		"baseStationCost": 63750000,
+		"scissorsCrossoverCost": 12750000,
+		"Old": false,
+		"trainOperationalCostPerHour": 100,
+		"carOperationalCostPerHour": 10,
+		"Multipliers": [
+			22.3,
+			9.91,
+			4.96,
+			0.3,
+			2.73
+		],
+		"desc": "The E-class is a tram built by Bombardier/Alstom based off of the Flexity Swift family for the Melbourne tram network that entered service in 2013.",
+		"color": "#749382",
+		"Manufacturer": [
+			"Bombardier",
+			"Alstom"
+		],
+		"Cities": [
+			"MEL"
+		],
+		"Nation": [
+			"AU"
+		],
+		"Cont": [
+			"Oceania"
+		],
+		"Generic": false,
+		"Cities2": [
+			"Melbourne"
+		],
+		"Nation2": [
+			"Australia"
+		],
+		"Tags": [
+			"Creator:DanielD1909"
+		],
+		"Alias": "",
+		"mainTrackID": "std_cdc-1_cat_ms",
+		"trainType2": "LRT",
+		"lengthList": [
+			33
+		],
+		"consistList": [
+			4
+		],
+		"minStationList": [
+			40
+		],
+		"maxStationList": [
+			40
+		]
+	},
+	{
+		"Ready": true,
 		"name": "Éole (PAR)",
 		"trainType": "S-Bahn",
 		"MainTrack": "AC 25-Grid (GoA1 | CAT | AAR)",
@@ -13001,7 +13649,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 30,
@@ -13010,7 +13658,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 240,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -13126,7 +13774,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -13135,7 +13783,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 340,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -13251,7 +13899,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -13260,7 +13908,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 6.7,
@@ -13367,7 +14015,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -13376,7 +14024,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -13506,7 +14154,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -13515,7 +14163,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 320,
 		"maxStationLength": 325,
 		"maxSpeedLocalStation": 15,
@@ -13669,8 +14317,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -13678,7 +14326,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -13782,7 +14430,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -13791,7 +14439,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 65,
 		"maxSpeedLocalStation": 6.7,
@@ -13894,7 +14542,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -13903,7 +14551,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 65,
 		"maxSpeedLocalStation": 6.7,
@@ -14000,7 +14648,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -14009,7 +14657,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 6.7,
@@ -14114,7 +14762,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -14123,7 +14771,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 140,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 6.7,
@@ -14237,7 +14885,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -14246,7 +14894,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 6.7,
@@ -14346,7 +14994,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -14355,7 +15003,7 @@
 		"parallelTrackSpacing": 8.74,
 		"trackClearance": 3.1,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 40,
 		"maxSpeedLocalStation": 6.7,
@@ -14460,7 +15108,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -14469,7 +15117,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 130,
 		"maxSpeedLocalStation": 6.7,
@@ -14593,7 +15241,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -14602,7 +15250,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -14727,7 +15375,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 15,
@@ -14736,7 +15384,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 200,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -14841,7 +15489,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 20,
@@ -14850,7 +15498,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 240,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -14954,7 +15602,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -14963,7 +15611,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -15066,7 +15714,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -15075,7 +15723,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -15178,7 +15826,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -15187,7 +15835,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 6.7,
@@ -15296,7 +15944,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -15305,7 +15953,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 130,
 		"maxSpeedLocalStation": 6.7,
@@ -15414,7 +16062,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -15423,7 +16071,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 130,
 		"maxSpeedLocalStation": 6.7,
@@ -15529,7 +16177,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -15538,7 +16186,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 140,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 6.7,
@@ -15659,7 +16307,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.5,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 6,
 		"minTurnRadius": 20,
@@ -15668,7 +16316,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 50,
 		"minStationLength": 100,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 6.7,
@@ -15791,7 +16439,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.5,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 6,
 		"minTurnRadius": 35,
@@ -15800,7 +16448,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 50,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 6.7,
@@ -15908,7 +16556,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -15917,7 +16565,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -16017,7 +16665,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -16026,7 +16674,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -16134,7 +16782,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -16143,7 +16791,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 280,
 		"maxStationLength": 300,
 		"maxSpeedLocalStation": 15,
@@ -16273,7 +16921,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -16282,7 +16930,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 220,
 		"maxSpeedLocalStation": 15,
@@ -16392,8 +17040,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -16401,7 +17049,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 160,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 14,
@@ -16505,7 +17153,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -16514,7 +17162,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 160,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -16620,8 +17268,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -16629,7 +17277,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 120,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 14,
@@ -16726,8 +17374,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -16735,7 +17383,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -16832,7 +17480,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 15,
@@ -16841,7 +17489,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 13,
@@ -16946,7 +17594,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 30,
@@ -16955,7 +17603,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 280,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -17066,7 +17714,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -17075,7 +17723,7 @@
 		"parallelTrackSpacing": 9.93,
 		"trackClearance": 3.52,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 240,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 15,
@@ -17202,7 +17850,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 30,
@@ -17211,7 +17859,7 @@
 		"parallelTrackSpacing": 9.93,
 		"trackClearance": 3.52,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 180,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 15,
@@ -17316,7 +17964,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 15,
@@ -17325,7 +17973,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 13,
@@ -17427,8 +18075,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.04,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 6,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -17436,7 +18084,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 650,
 		"minStationLength": 60,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 10,
@@ -17540,8 +18188,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.04,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 6,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -17549,8 +18197,8 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 0,
-		"minStationLength": 50,
+		"stopTimeSeconds": 650,
+		"minStationLength": 40,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 10,
 		"minCars": 2,
@@ -17645,8 +18293,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.04,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.6,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 6,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -17654,8 +18302,8 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 0,
-		"minStationLength": 50,
+		"stopTimeSeconds": 650,
+		"minStationLength": 40,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 10,
 		"minCars": 2,
@@ -17750,8 +18398,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -17759,7 +18407,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -17854,7 +18502,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 35,
@@ -17863,7 +18511,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 100,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 13,
@@ -17960,8 +18608,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 35,
 		"TrainGapFillerLength": 0,
@@ -17969,7 +18617,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -18067,8 +18715,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18076,7 +18724,7 @@
 		"parallelTrackSpacing": 9.93,
 		"trackClearance": 3.52,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -18177,8 +18825,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18186,7 +18834,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -18290,8 +18938,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18299,7 +18947,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -18405,8 +19053,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18414,7 +19062,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -18516,8 +19164,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18525,7 +19173,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -18626,8 +19274,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18635,7 +19283,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 18,
@@ -18736,8 +19384,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18745,7 +19393,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -18846,8 +19494,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -18855,7 +19503,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 18,
@@ -18955,7 +19603,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -18964,7 +19612,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -19096,7 +19744,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -19105,7 +19753,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -19205,8 +19853,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -19214,8 +19862,8 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 100,
+		"stopTimeSeconds": 390,
+		"minStationLength": 80,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 18,
 		"minCars": 3,
@@ -19315,7 +19963,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 15,
@@ -19324,7 +19972,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 13,
@@ -19431,7 +20079,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -19440,7 +20088,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -19542,7 +20190,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -19551,7 +20199,7 @@
 		"parallelTrackSpacing": 8.74,
 		"trackClearance": 3.1,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 40,
 		"maxSpeedLocalStation": 6.7,
@@ -19648,7 +20296,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -19657,7 +20305,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 6.7,
@@ -19773,7 +20421,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -19782,7 +20430,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 220,
 		"maxSpeedLocalStation": 15,
@@ -19904,8 +20552,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -19913,7 +20561,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 120,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 14,
@@ -20011,8 +20659,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.89,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 10,
 		"TrainGapFillerLength": 0,
@@ -20020,7 +20668,7 @@
 		"parallelTrackSpacing": 11.97,
 		"trackClearance": 4.24,
 		"minStationTurnRadius": 600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 440,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 14,
@@ -20131,7 +20779,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -20140,7 +20788,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -20239,7 +20887,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -20248,7 +20896,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -20352,7 +21000,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -20361,7 +21009,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 280,
 		"maxStationLength": 285,
 		"maxSpeedLocalStation": 13,
@@ -20482,8 +21130,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -20491,7 +21139,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -20595,7 +21243,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 25,
@@ -20604,7 +21252,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 6.7,
@@ -20709,8 +21357,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -20718,7 +21366,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 14,
@@ -20825,8 +21473,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -20834,7 +21482,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1900,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 120,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 18,
@@ -20932,8 +21580,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -20941,7 +21589,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 18,
@@ -21051,7 +21699,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -21060,7 +21708,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 380,
 		"maxStationLength": 400,
 		"maxSpeedLocalStation": 15,
@@ -21194,7 +21842,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 40,
@@ -21203,7 +21851,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 15,
@@ -21311,7 +21959,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -21320,7 +21968,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 380,
 		"maxStationLength": 400,
 		"maxSpeedLocalStation": 15,
@@ -21435,8 +22083,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -21444,7 +22092,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -21539,8 +22187,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -21548,7 +22196,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -21660,7 +22308,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -21669,7 +22317,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 220,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 15,
@@ -21788,8 +22436,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -21797,7 +22445,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 120,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 14,
@@ -21897,8 +22545,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -21906,7 +22554,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22004,8 +22652,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22013,7 +22661,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22112,8 +22760,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22121,7 +22769,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22218,8 +22866,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22227,7 +22875,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22324,8 +22972,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22333,7 +22981,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22432,8 +23080,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22441,7 +23089,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22539,8 +23187,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22548,7 +23196,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22646,8 +23294,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22655,7 +23303,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22755,8 +23403,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22764,7 +23412,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -22861,8 +23509,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22870,7 +23518,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 18,
@@ -22973,8 +23621,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -22982,8 +23630,8 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 150,
+		"stopTimeSeconds": 390,
+		"minStationLength": 160,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 18,
 		"minCars": 6,
@@ -23078,8 +23726,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -23087,8 +23735,8 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 75,
+		"stopTimeSeconds": 390,
+		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
 		"minCars": 3,
@@ -23186,8 +23834,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -23195,8 +23843,8 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 150,
+		"stopTimeSeconds": 390,
+		"minStationLength": 160,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 18,
 		"minCars": 3,
@@ -23297,8 +23945,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -23306,7 +23954,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -23404,8 +24052,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -23413,7 +24061,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -23515,8 +24163,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -23524,7 +24172,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -23621,8 +24269,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -23630,7 +24278,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -23726,7 +24374,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 45,
@@ -23735,7 +24383,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 4600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 100,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 13,
@@ -23839,7 +24487,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 30,
@@ -23848,7 +24496,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 2400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 240,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -23955,7 +24603,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 20,
@@ -23964,7 +24612,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -24073,7 +24721,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 40,
@@ -24082,7 +24730,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -24182,8 +24830,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -24191,8 +24839,8 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 75,
+		"stopTimeSeconds": 390,
+		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
 		"minCars": 3,
@@ -24290,8 +24938,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -24299,8 +24947,8 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 150,
+		"stopTimeSeconds": 360,
+		"minStationLength": 160,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 16,
 		"minCars": 6,
@@ -24395,8 +25043,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -24404,7 +25052,7 @@
 		"parallelTrackSpacing": 8.4,
 		"trackClearance": 2.98,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 780,
 		"minStationLength": 100,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 18,
@@ -24499,8 +25147,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -24508,7 +25156,7 @@
 		"parallelTrackSpacing": 8.4,
 		"trackClearance": 2.98,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 780,
 		"minStationLength": 140,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 18,
@@ -24609,8 +25257,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -24618,7 +25266,7 @@
 		"parallelTrackSpacing": 8.4,
 		"trackClearance": 2.98,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 660,
 		"minStationLength": 80,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 14,
@@ -24713,8 +25361,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -24722,7 +25370,7 @@
 		"parallelTrackSpacing": 8.4,
 		"trackClearance": 2.98,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 780,
 		"minStationLength": 100,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 18,
@@ -24823,8 +25471,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -24832,7 +25480,7 @@
 		"parallelTrackSpacing": 8.4,
 		"trackClearance": 2.98,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 660,
 		"minStationLength": 100,
 		"maxStationLength": 135,
 		"maxSpeedLocalStation": 14,
@@ -24951,7 +25599,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -24960,7 +25608,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -25097,7 +25745,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -25106,7 +25754,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 320,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -25283,7 +25931,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -25292,7 +25940,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -25415,8 +26063,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -25424,7 +26072,7 @@
 		"parallelTrackSpacing": 8.74,
 		"trackClearance": 3.1,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 660,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -25529,8 +26177,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -25538,7 +26186,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 18,
@@ -25638,8 +26286,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -25647,7 +26295,7 @@
 		"parallelTrackSpacing": 8.74,
 		"trackClearance": 3.1,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 18,
@@ -25756,7 +26404,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -25765,7 +26413,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 320,
 		"maxStationLength": 330,
 		"maxSpeedLocalStation": 15,
@@ -25920,7 +26568,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -25929,7 +26577,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 15,
@@ -26040,7 +26688,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -26049,7 +26697,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 6.7,
@@ -26176,7 +26824,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 15,
@@ -26185,7 +26833,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 300,
 		"maxSpeedLocalStation": 15,
@@ -26311,7 +26959,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -26320,7 +26968,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 70,
 		"maxSpeedLocalStation": 6.7,
@@ -26424,7 +27072,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -26433,7 +27081,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 60,
 		"maxSpeedLocalStation": 6.7,
@@ -26530,8 +27178,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.08,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 0.9,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 12,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -26539,7 +27187,7 @@
 		"parallelTrackSpacing": 8.74,
 		"trackClearance": 3.1,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 660,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -26637,7 +27285,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -26646,7 +27294,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -26744,7 +27392,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -26753,7 +27401,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -26855,7 +27503,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -26864,7 +27512,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 6.7,
@@ -26967,8 +27615,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.11,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -26976,7 +27624,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 110,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 7.7,
@@ -27077,7 +27725,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -27086,8 +27734,8 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
-		"minStationLength": 175,
+		"stopTimeSeconds": 300,
+		"minStationLength": 160,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
 		"minCars": 6,
@@ -27206,7 +27854,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -27215,7 +27863,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 15,
@@ -27333,7 +27981,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1.5,
 		"minTurnRadius": 35,
@@ -27342,7 +27990,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 150,
 		"minStationLength": 160,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -27444,7 +28092,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -27453,7 +28101,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 13,
@@ -27556,8 +28204,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -27565,8 +28213,8 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 150,
+		"stopTimeSeconds": 330,
+		"minStationLength": 160,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 14,
 		"minCars": 4,
@@ -27668,8 +28316,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -27677,8 +28325,8 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 150,
+		"stopTimeSeconds": 330,
+		"minStationLength": 160,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 14,
 		"minCars": 4,
@@ -27780,8 +28428,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -27789,7 +28437,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 14,
@@ -27892,8 +28540,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -27901,7 +28549,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -28003,8 +28651,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -28012,7 +28660,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 160,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -28114,8 +28762,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -28123,7 +28771,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 160,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -28225,8 +28873,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -28234,7 +28882,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 160,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -28337,8 +28985,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -28346,7 +28994,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 14,
@@ -28450,7 +29098,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -28459,7 +29107,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 300,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
@@ -28560,8 +29208,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -28569,8 +29217,8 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
-		"minStationLength": 175,
+		"stopTimeSeconds": 330,
+		"minStationLength": 160,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 14,
 		"minCars": 5,
@@ -28672,8 +29320,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -28681,7 +29329,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 14,
@@ -28785,8 +29433,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -28794,8 +29442,8 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
-		"minStationLength": 150,
+		"stopTimeSeconds": 330,
+		"minStationLength": 160,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 14,
 		"minCars": 4,
@@ -28898,8 +29546,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -28907,7 +29555,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 14,
@@ -29008,7 +29656,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -29017,8 +29665,8 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
-		"minStationLength": 175,
+		"stopTimeSeconds": 300,
+		"minStationLength": 160,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
 		"minCars": 5,
@@ -29117,7 +29765,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -29126,7 +29774,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1200,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
@@ -29227,7 +29875,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -29236,7 +29884,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
@@ -29361,7 +30009,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -29370,7 +30018,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 200,
 		"maxStationLength": 225,
 		"maxSpeedLocalStation": 13,
@@ -29479,7 +30127,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 40,
@@ -29488,7 +30136,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 4000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 240,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -29589,7 +30237,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -29598,7 +30246,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -29697,8 +30345,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -29706,7 +30354,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 80,
 		"maxStationLength": 80,
 		"maxSpeedLocalStation": 18,
@@ -29808,8 +30456,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -29817,7 +30465,7 @@
 		"parallelTrackSpacing": 9.93,
 		"trackClearance": 3.52,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 14,
@@ -29917,8 +30565,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.89,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 15,
 		"TrainGapFillerLength": 0,
@@ -29926,7 +30574,7 @@
 		"parallelTrackSpacing": 11.97,
 		"trackClearance": 4.24,
 		"minStationTurnRadius": 1000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 520,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 18,
@@ -30035,8 +30683,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -30044,7 +30692,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 120,
 		"maxStationLength": 120,
 		"maxSpeedLocalStation": 14,
@@ -30143,7 +30791,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -30152,7 +30800,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 100,
 		"maxStationLength": 110,
 		"maxSpeedLocalStation": 6.7,
@@ -30258,7 +30906,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -30267,7 +30915,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 110,
 		"maxSpeedLocalStation": 6.7,
@@ -30381,7 +31029,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -30390,7 +31038,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 40,
 		"maxSpeedLocalStation": 6.7,
@@ -30516,7 +31164,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -30525,7 +31173,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 6.7,
@@ -30673,7 +31321,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -30682,7 +31330,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 110,
 		"maxSpeedLocalStation": 6.7,
@@ -30789,8 +31437,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -30798,7 +31446,7 @@
 		"parallelTrackSpacing": 10.1,
 		"trackClearance": 3.58,
 		"minStationTurnRadius": 1800,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 80,
 		"maxStationLength": 90,
 		"maxSpeedLocalStation": 18,
@@ -30914,7 +31562,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -30923,7 +31571,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 220,
 		"maxStationLength": 300,
 		"maxSpeedLocalStation": 15,
@@ -31067,7 +31715,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -31076,7 +31724,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 280,
 		"maxStationLength": 300,
 		"maxSpeedLocalStation": 15,
@@ -31244,7 +31892,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1,
 		"minTurnRadius": 35,
@@ -31253,7 +31901,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 220,
 		"maxStationLength": 300,
 		"maxSpeedLocalStation": 15,
@@ -31377,7 +32025,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -31386,7 +32034,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 140,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 6.7,
@@ -31519,7 +32167,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -31528,7 +32176,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 120,
 		"maxStationLength": 140,
 		"maxSpeedLocalStation": 6.7,
@@ -31636,7 +32284,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -31645,7 +32293,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 13,
@@ -31755,8 +32403,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -31764,7 +32412,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 180,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -31869,8 +32517,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -31878,7 +32526,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 180,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -31982,8 +32630,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -31991,7 +32639,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 140,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -32095,8 +32743,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -32104,7 +32752,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 2000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 180,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 14,
@@ -32207,7 +32855,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -32216,7 +32864,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -32320,8 +32968,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -32329,7 +32977,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -32430,7 +33078,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
@@ -32439,7 +33087,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 120,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 13,
@@ -32546,7 +33194,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -32555,7 +33203,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 320,
 		"maxStationLength": 320,
 		"maxSpeedLocalStation": 15,
@@ -32671,7 +33319,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -32680,7 +33328,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 320,
 		"maxSpeedLocalStation": 15,
@@ -32791,7 +33439,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -32800,7 +33448,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 300,
 		"maxStationLength": 320,
 		"maxSpeedLocalStation": 15,
@@ -32910,7 +33558,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 45,
@@ -32919,7 +33567,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 1300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 300,
 		"maxStationLength": 320,
 		"maxSpeedLocalStation": 15,
@@ -33026,7 +33674,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 20,
@@ -33035,7 +33683,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 320,
 		"maxStationLength": 320,
 		"maxSpeedLocalStation": 15,
@@ -33144,7 +33792,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -33153,7 +33801,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 600,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 320,
 		"maxStationLength": 320,
 		"maxSpeedLocalStation": 15,
@@ -33302,8 +33950,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -33311,7 +33959,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 40,
 		"maxStationLength": 50,
 		"maxSpeedLocalStation": 18,
@@ -33411,8 +34059,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -33420,7 +34068,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -33521,8 +34169,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
 		"TrainGapFillerLength": 0,
@@ -33530,7 +34178,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 1400,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -33628,8 +34276,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -33637,7 +34285,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -33736,7 +34384,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -33745,7 +34393,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -33849,8 +34497,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -33858,7 +34506,7 @@
 		"parallelTrackSpacing": 10.61,
 		"trackClearance": 3.76,
 		"minStationTurnRadius": 1600,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 14,
@@ -33957,7 +34605,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -33966,7 +34614,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -34065,7 +34713,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -34074,7 +34722,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -34178,8 +34826,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 25,
 		"TrainGapFillerLength": 0,
@@ -34187,7 +34835,7 @@
 		"parallelTrackSpacing": 9.42,
 		"trackClearance": 3.34,
 		"minStationTurnRadius": 1500,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 18,
@@ -34286,7 +34934,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -34295,7 +34943,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -34395,7 +35043,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -34404,7 +35052,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -34508,7 +35156,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 35,
@@ -34517,7 +35165,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 3300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 15,
@@ -34634,7 +35282,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -34643,7 +35291,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 50,
 		"maxSpeedLocalStation": 6.7,
@@ -34772,7 +35420,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -34781,7 +35429,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 301,
 		"maxSpeedLocalStation": 15,
@@ -34905,7 +35553,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -34914,7 +35562,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 200,
 		"maxStationLength": 200,
 		"maxSpeedLocalStation": 15,
@@ -35050,7 +35698,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -35059,7 +35707,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 15,
@@ -35195,7 +35843,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -35204,7 +35852,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 320,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -35344,7 +35992,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 1.5,
 		"minTurnRadius": 25,
@@ -35353,7 +36001,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 150,
 		"minStationLength": 320,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -35494,7 +36142,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -35503,7 +36151,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 280,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -35635,7 +36283,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -35644,7 +36292,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 340,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -35757,7 +36405,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -35766,7 +36414,7 @@
 		"parallelTrackSpacing": 11.97,
 		"trackClearance": 4.24,
 		"minStationTurnRadius": 1900,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 280,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -35892,7 +36540,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -35901,7 +36549,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 320,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -36027,7 +36675,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -36036,7 +36684,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 620,
 		"maxStationLength": 620,
 		"maxSpeedLocalStation": 15,
@@ -36172,7 +36820,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -36181,7 +36829,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 280,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -36317,7 +36965,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -36326,7 +36974,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 340,
 		"maxStationLength": 350,
 		"maxSpeedLocalStation": 15,
@@ -36432,7 +37080,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
@@ -36441,7 +37089,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 2100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 180,
 		"maxStationLength": 180,
 		"maxSpeedLocalStation": 15,
@@ -36541,7 +37189,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
@@ -36550,7 +37198,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 160,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 13,
@@ -36649,8 +37297,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -36658,7 +37306,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 100,
 		"maxStationLength": 125,
 		"maxSpeedLocalStation": 18,
@@ -36757,8 +37405,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.89,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -36766,7 +37414,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2500,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 220,
 		"minStationLength": 240,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 16,
@@ -36868,7 +37516,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 20,
@@ -36877,7 +37525,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 45,
 		"maxSpeedLocalStation": 6.7,
@@ -36975,7 +37623,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -36984,7 +37632,7 @@
 		"parallelTrackSpacing": 7.89,
 		"trackClearance": 2.8,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 50,
 		"maxSpeedLocalStation": 6.7,
@@ -37083,8 +37731,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -37092,7 +37740,7 @@
 		"parallelTrackSpacing": 10.78,
 		"trackClearance": 3.82,
 		"minStationTurnRadius": 2700,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 330,
 		"minStationLength": 160,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 14,
@@ -37199,7 +37847,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -37208,7 +37856,7 @@
 		"parallelTrackSpacing": 8.74,
 		"trackClearance": 3.1,
 		"minStationTurnRadius": 400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 40,
 		"maxSpeedLocalStation": 6.7,
@@ -37303,7 +37951,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
+		"maxLateralAcceleration": 1.63,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 20,
@@ -37312,7 +37960,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 1000,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 300,
 		"minStationLength": 100,
 		"maxStationLength": 95,
 		"maxSpeedLocalStation": 13,
@@ -37417,7 +38065,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -37426,7 +38074,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 85,
 		"maxSpeedLocalStation": 6.7,
@@ -37528,7 +38176,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -37537,7 +38185,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 85,
 		"maxSpeedLocalStation": 6.7,
@@ -37638,7 +38286,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -37647,7 +38295,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 85,
 		"maxSpeedLocalStation": 6.7,
@@ -37754,7 +38402,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -37763,7 +38411,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 65,
 		"maxSpeedLocalStation": 6.7,
@@ -37870,7 +38518,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -37879,7 +38527,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 75,
 		"maxSpeedLocalStation": 6.7,
@@ -37989,7 +38637,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -37998,7 +38646,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 80,
 		"maxSpeedLocalStation": 6.7,
@@ -38108,7 +38756,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38117,7 +38765,7 @@
 		"parallelTrackSpacing": 8.23,
 		"trackClearance": 2.92,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 80,
 		"maxSpeedLocalStation": 6.7,
@@ -38218,7 +38866,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38227,7 +38875,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 60,
 		"maxSpeedLocalStation": 6.7,
@@ -38328,7 +38976,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38337,7 +38985,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 300,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 80,
 		"maxStationLength": 100,
 		"maxSpeedLocalStation": 6.7,
@@ -38443,7 +39091,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38452,7 +39100,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 60,
 		"maxStationLength": 60,
 		"maxSpeedLocalStation": 6.7,
@@ -38558,7 +39206,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38567,7 +39215,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 50,
 		"maxSpeedLocalStation": 6.7,
@@ -38664,7 +39312,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38673,7 +39321,7 @@
 		"parallelTrackSpacing": 8.4,
 		"trackClearance": 2.98,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 75,
 		"minStationLength": 40,
 		"maxStationLength": 35,
 		"maxSpeedLocalStation": 5.7,
@@ -38778,7 +39426,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38787,7 +39435,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 50,
 		"maxSpeedLocalStation": 6.7,
@@ -38892,7 +39540,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 10,
@@ -38901,7 +39549,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 200,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 40,
 		"maxStationLength": 50,
 		"maxSpeedLocalStation": 6.7,
@@ -39001,7 +39649,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.51,
+		"maxLateralAcceleration": 1.11,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 8,
 		"minTurnRadius": 15,
@@ -39010,7 +39658,7 @@
 		"parallelTrackSpacing": 9.08,
 		"trackClearance": 3.22,
 		"minStationTurnRadius": 800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 100,
 		"minStationLength": 160,
 		"maxStationLength": 175,
 		"maxSpeedLocalStation": 6.7,
@@ -39124,8 +39772,8 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.69,
-		"canCrossRoads": false,
+		"maxLateralAcceleration": 1.63,
+		"canCrossRoads": true,
 		"maxSlopePercentage": 5.5,
 		"minTurnRadius": 30,
 		"TrainGapFillerLength": 0,
@@ -39133,7 +39781,7 @@
 		"parallelTrackSpacing": 9.59,
 		"trackClearance": 3.4,
 		"minStationTurnRadius": 2300,
-		"stopTimeSeconds": 0,
+		"stopTimeSeconds": 390,
 		"minStationLength": 140,
 		"maxStationLength": 150,
 		"maxSpeedLocalStation": 18,
@@ -39231,7 +39879,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -39240,7 +39888,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 1800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 15,
@@ -39345,7 +39993,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.86,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 2,
 		"minTurnRadius": 25,
@@ -39354,7 +40002,7 @@
 		"parallelTrackSpacing": 11.12,
 		"trackClearance": 3.94,
 		"minStationTurnRadius": 1800,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 200,
 		"minStationLength": 240,
 		"maxStationLength": 250,
 		"maxSpeedLocalStation": 15,
@@ -39466,7 +40114,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 35,
@@ -39475,7 +40123,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 3100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -39587,7 +40235,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 40,
@@ -39596,7 +40244,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 3400,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -39698,7 +40346,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 35,
@@ -39707,7 +40355,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 3000,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 200,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -39817,7 +40465,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 25,
@@ -39826,7 +40474,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 240,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -39930,7 +40578,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 25,
@@ -39939,7 +40587,7 @@
 		"parallelTrackSpacing": 10.43,
 		"trackClearance": 3.7,
 		"minStationTurnRadius": 1700,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 140,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,
@@ -40042,7 +40690,7 @@
 		"ExtraTracks": [
 			""
 		],
-		"maxLateralAcceleration": 0.87,
+		"maxLateralAcceleration": 1.89,
 		"canCrossRoads": true,
 		"maxSlopePercentage": 4,
 		"minTurnRadius": 35,
@@ -40051,7 +40699,7 @@
 		"parallelTrackSpacing": 9.76,
 		"trackClearance": 3.46,
 		"minStationTurnRadius": 3100,
-		"stopTimeSeconds": 1,
+		"stopTimeSeconds": 400,
 		"minStationLength": 220,
 		"maxStationLength": 240,
 		"maxSpeedLocalStation": 13,

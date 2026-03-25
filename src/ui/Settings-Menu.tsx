@@ -2,6 +2,7 @@ import * as p from "../processing/process";
 import * as reg from "../processing/register";
 import type * as regType from "../processing/register";
 import { getColors } from "./themeHandle";
+import type * as t from "../types/trains";
 import type { colorSet } from "./themeHandle";
 
 const api = window.SubwayBuilderAPI;
@@ -45,7 +46,7 @@ export function settingsMenu() {
                         },
                         onChange: (e: any) => {
                             setSave(e.target.value),
-                                setFailsafe(false)
+                            setFailsafe(false)
                         }
                     },
                     options.map(opt =>
@@ -56,7 +57,25 @@ export function settingsMenu() {
             ]),
             h(Button, {
                 key: 'btn',
-                onClick: () => reg.registerTrainList(p.getSaveData(save)),
+                onClick: () => {
+                    const saved = p.getSaveData(save);
+                    var hold:Record<string, t.TrainTypeConfig> = {}
+                    Object.keys(saved).forEach(key => {
+                        console.log(key + "key");
+                        console.log(saved[key].id + "key id thingy")
+                        hold[key] = saved[key].config
+                    })
+                    const fixed = reg.updateTrainsIfPossible(hold)[0] as Record<string, t.TrainTypeConfig>;
+                    const touse:Record<string, reg.trainStorageData> = {}
+                    Object.keys(fixed).forEach(key => {
+                        const temp:reg.trainStorageData = {
+                            ...saved[key as keyof typeof saved],
+                            config: fixed[key as keyof typeof fixed]
+                        }
+                        touse[key] = temp;
+                    })
+                    reg.registerTrainList(touse)
+                },
                 style: {
                     backgroundColor: colors.activeButton,
                     color: colors.textColor

@@ -8,7 +8,9 @@
 		"stopTimeSeconds": 1.4,
 		"baseTrackCost": 0.75,
 		"baseStationCost": 0.6,
-		"scissorsCrossoverCost": 0.65
+		"scissorsCrossoverCost": 0.65,
+		"trackMaintenanceCostPerMeterMod": 0.75,
+		"stationMaintenanceCostPerYearMod": 0.75
 	},
 	{
 		"Name": "GoA1",
@@ -19,7 +21,9 @@
 		"stopTimeSeconds": 1.2,
 		"baseTrackCost": 1,
 		"baseStationCost": 0.85,
-		"scissorsCrossoverCost": 1
+		"scissorsCrossoverCost": 1,
+		"trackMaintenanceCostPerMeterMod": 1,
+		"stationMaintenanceCostPerYearMod": 1
 	},
 	{
 		"Name": "GoA2",
@@ -30,7 +34,9 @@
 		"stopTimeSeconds": 1,
 		"baseTrackCost": 1,
 		"baseStationCost": 1,
-		"scissorsCrossoverCost": 1
+		"scissorsCrossoverCost": 1,
+		"trackMaintenanceCostPerMeterMod": 1.05,
+		"stationMaintenanceCostPerYearMod": 1.1
 	},
 	{
 		"Name": "GoA3",
@@ -41,7 +47,9 @@
 		"stopTimeSeconds": 1,
 		"baseTrackCost": 1.1,
 		"baseStationCost": 1,
-		"scissorsCrossoverCost": 1.2
+		"scissorsCrossoverCost": 1.2,
+		"trackMaintenanceCostPerMeterMod": 1.1,
+		"stationMaintenanceCostPerYearMod": 1.2
 	},
 	{
 		"Name": "GoA4",
@@ -52,6 +60,8 @@
 		"stopTimeSeconds": 0.9,
 		"baseTrackCost": 1.15,
 		"baseStationCost": 1.1,
-		"scissorsCrossoverCost": 1.25
+		"scissorsCrossoverCost": 1.25,
+		"trackMaintenanceCostPerMeterMod": 1.1,
+		"stationMaintenanceCostPerYearMod": 1.3
 	}
 ]

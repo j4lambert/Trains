@@ -16,7 +16,7 @@ const MOD_VERSION = '1.0.0';
 const TAG = '[danTrains]';
 
 const api = window.SubwayBuilderAPI;
-var change:boolean = false;
+var change: boolean = false;
 
 if (!api) {
     console.error(`${TAG} SubwayBuilderAPI not found!`);
@@ -49,11 +49,13 @@ if (!api) {
         }
         const saveDataData: Record<string, t.TrainTypeConfig> =
             Object.keys(saveData).reduce((acc, key) => {
-                acc[key] = saveData[key].config;
+                if (saveData[key].config != undefined) {
+                    acc[key] = saveData[key].config;
+                }
                 return acc;
             }, {} as Record<string, t.TrainTypeConfig>);
-        var alltypes = api.trains.getTrainTypes(); var blist:Record<string,boolean>;
-        [alltypes,change,blist] = register.updateTrainsIfPossible(alltypes) as [Record<string, t.TrainTypeConfig>,boolean,Record<string,boolean>];
+        var alltypes = api.trains.getTrainTypes(); var blist: Record<string, boolean>;
+        [alltypes, change, blist] = register.updateTrainsIfPossible(alltypes) as [Record<string, t.TrainTypeConfig>, boolean, Record<string, boolean>];
         const legacy = p.getLegacyList(alltypes, saveDataData);
         const existing = p.getDanTrainsList(alltypes, saveData, blist);
         if (legacy.length > 0) {
@@ -69,26 +71,26 @@ if (!api) {
                     id: leg.id,
                     legacy: true
                 }
-                console.log("AAAAAAAAAAAAAA "+tempconfig.id);
-                const tempObject = { [modid]: tempconfig }
-                Object.assign(toSave, tempObject)
+                console.log("AAAAAAAAAAAAAA " + tempconfig.id);
+                toSave[modid] = tempconfig;
             })
         }
         if (existing.length > 0) {
             existing.forEach(train => {
-                console.log(Object.keys(train));
-                const tempconfig: regType.trainStorageData = {
-                    config: train.config,
-                    Manufacturer: train.Manufacturer,
-                    City: train.City,
-                    Nation: train.Nation,
-                    Region: train.Region,
-                    id: train.config.id,
-                    legacy: false
+                if (train != undefined && train.config != undefined) {
+                    console.log(Object.keys(train));
+                    const tempconfig: regType.trainStorageData = {
+                        config: train.config,
+                        Manufacturer: train.Manufacturer,
+                        City: train.City,
+                        Nation: train.Nation,
+                        Region: train.Region,
+                        id: train.config.id,
+                        legacy: false
+                    }
+                    console.log("mtr " + train.config.stats.minTurnRadius)
+                    toSave[train.config.id] = tempconfig;
                 }
-                console.log("mtr "+train.config.stats.minTurnRadius)
-                const tempObject = { [train.config.id]: tempconfig }
-                Object.assign(toSave, tempObject)
             })
         }
         setToSaveData(toSave);
@@ -100,10 +102,13 @@ if (!api) {
         console.log("saved");
         const hold = getToSaveData();
         if (hold != undefined && Object.keys(hold).length > 0) {
-            Object.assign(toSave, hold);
+            toSave = {
+                ...toSave,
+                ...hold
+            };
             setToSaveData(toSave);
         }
-        p.exportSaveData(change,saveName);
+        p.exportSaveData(change, saveName);
     })
 
 

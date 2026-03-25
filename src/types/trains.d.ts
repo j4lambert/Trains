@@ -51,6 +51,8 @@ export interface TrainTypeStats {
   maxSlopePercentage: number;
   parallelTrackSpacing: number;
   stopTimeSeconds: number;
+  trackMaintenanceCostPerMeter?: number;
+  stationMaintenanceCostPerYear?: number;
 }
 
 // =============================================================================

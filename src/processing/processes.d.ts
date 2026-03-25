@@ -119,6 +119,8 @@ export interface TrainType {
     maxSlopePercentage: number;
     maxCantDeficiency: number;
     maxCant: number;
+    trackMaintenanceCostPerMeter: number;
+    stationMaintenanceCostPerYear: number;
 }
 export interface AutomationLevel {
     Name: string;
@@ -130,6 +132,8 @@ export interface AutomationLevel {
     baseTrackCost: number;
     baseStationCost: number;
     scissorsCrossoverCost: number;
+    trackMaintenanceCostPerMeterMod: number;
+    stationMaintenanceCostPerYearMod: number;
 }
 
 export interface Region {
